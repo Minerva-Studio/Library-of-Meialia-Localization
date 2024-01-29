@@ -87,7 +87,6 @@ Amlos.Combat.MagicBooks.Suffix.Fire.ScorchedScriptures.name: "Scorched Scripture
 Amlos.Combat.MagicBooks.Suffix.Fire.FlameweaversCompendium.name: "Flameweaver's Compendium"
 Amlos.Combat.MagicBooks.Suffix.Fire.BlazebringersQuestList.name: "Blazebringer's Quest List"
 Amlos.Combat.MagicBooks.Suffix.Water.WaterMagicTricks.name: "Water Magic Tricks"
-Amlos.Combat.MagicBooks.Suffix.Water.StudyofDifferentWaters.name: "Study of Different Waters"
 Amlos.Combat.MagicBooks.Suffix.Water.AquabornGrimoire.name: "Aquaborn Grimoire"
 Amlos.Combat.MagicBooks.Suffix.Water.TidecallersCodex.name: "Tidecaller's Codex"
 Amlos.Combat.MagicBooks.Suffix.Water.PearlweaversTome.name: "Pearlweaver's Tome"
@@ -227,3 +226,4 @@ Amlos.Combat.MagicBooks.Suffix.Arcane.SpectralSentience.name: "Spectral Sentienc
 Amlos.Combat.MagicBooks.Suffix.Arcane.AstralVerses.name: "Astral Verses"
 Amlos.Combat.MagicBooks.Suffix.Arcane.ArcaneVerses.name: "Arcane Verses"
 Amlos.Combat.MagicBooks.Suffix.Light.ArtofLuminance.name: Art of Luminance
+Amlos.Combat.MagicBooks.Suffix.Water.StudyofWaters.name: Study of Different Waters
