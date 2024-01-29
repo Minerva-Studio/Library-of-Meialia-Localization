@@ -484,4 +484,11 @@ MonoBehaviour:
   - Amlos.Dialogue.TutorialStory.4.msg
   - Amlos.Book.DemoStory.name
   - Amlos.Book.DemoStory.desc
-  missingKeys: []
+  missingKeys:
+  - Amlos.Combat.ActiveSkill.SpatialCollapse.name
+  - Amlos.Combat.ActiveSkill.SpatialCollapse.desc
+  - Amlos.Object.HealingFountain.desc
+  - Amlos.Object.GreatGateRight.desc
+  - Amlos.Object.GreatGateMain.desc
+  - Amlos.Tiles.Tile_TheTowerWindow.desc
+  - Amlos.Object.GreatGateLeft.desc
