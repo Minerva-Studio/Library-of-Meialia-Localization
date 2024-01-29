@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4148159ab77bc934f93f523fe7733ab4, type: 3}
+  m_Name: Lang_ZH_CN
+  m_EditorClassIdentifier: 
+  tag: Main
+  isReadOnly: 0
+  path: 
+  isMasterFile: 1
+  masterFile: {fileID: 0}
+  childFiles:
+  - {fileID: 11400000, guid: 2bd6adb4fc8fc8b4ab21417f77d19de0, type: 2}
+  - {fileID: 11400000, guid: 0cfdb5b37d4aa7b4ab666183e38e18ad, type: 2}
+  - {fileID: 11400000, guid: 9eb8bd9341eaabc4ba26fdb89bfb4132, type: 2}
+  - {fileID: -5047112709815915446, guid: c1dd733f5e8215749b1fcded12c016fa, type: 3}
+  region: ZH_CN
+  entries:
+  - key: Amlos.Combat.SkillDuration.info
+    value: "\u751F\u6548/\u51B7\u5374: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
+  - key: Amlos.Combat.AttackDuration.info
+    value: "\u751F\u6548/\u51B7\u5374: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
+  - key: Amlos.Combat.Damage.info
+    value: "{list}{element}\u4F24\u5BB3"
+  - key: Amlos.Combat.Damage.MagicalDamage.info
+    value: "{magicalDamage} \u9B54\u6CD5"
+  - key: Amlos.Combat.Damage.PhysicalDamage.info
+    value: "{physicalDamage} \u7269\u7406"
+  - key: Amlos.Combat.Damage.TrueDamage.info
+    value: "{trueDamage} \u771F\u5B9E"
+  - key: Amlos.Combat.Effect.Burning.desc
+    value: "\u707C\u70E7"
+  - key: Amlos.Combat.Effect.Burning.name
+    value: "\u707C\u70E7"
+  - key: Amlos.Combat.Effect.CountShield.desc
+    value: 
+  - key: Amlos.Combat.Effect.CountShield.name
+    value: 
+  - key: Amlos.Combat.Effect.DarkIrradiated.desc
+    value: 
+  - key: Amlos.Combat.Effect.DarkIrradiated.name
+    value: 
+  - key: Amlos.Combat.Effect.Dusted.desc
+    value: 
+  - key: Amlos.Combat.Effect.Dusted.name
+    value: 
+  - key: Amlos.Combat.Effect.Eclipse.desc
+    value: 
+  - key: Amlos.Combat.Effect.Eclipse.name
+    value: 
+  - key: Amlos.Combat.Effect.Endure.desc
+    value: 
+  - key: Amlos.Combat.Effect.Endure.name
+    value: 
+  - key: Amlos.Combat.Effect.Frozen.desc
+    value: 
+  - key: Amlos.Combat.Effect.Frozen.name
+    value: 
+  - key: Amlos.Combat.Effect.Immobilize.desc
+    value: 
+  - key: Amlos.Combat.Effect.Immobilize.name
+    value: 
+  - key: Amlos.Combat.Effect.LightBarrierStatus.desc
+    value: 
+  - key: Amlos.Combat.Effect.LightBarrierStatus.name
+    value: 
+  - key: Amlos.Combat.Effect.Power.desc
+    value: 
+  - key: Amlos.Combat.Effect.Power.name
+    value: 
+  - key: Amlos.Combat.Effect.Resistance.desc
+    value: 
+  - key: Amlos.Combat.Effect.Resistance.name
+    value: 
+  - key: Amlos.Combat.Effect.Slowness.desc
+    value: 
+  - key: Amlos.Combat.Effect.Slowness.name
+    value: 
+  - key: Amlos.Combat.Effect.SomeForNoneBurn.desc
+    value: 
+  - key: Amlos.Combat.Effect.SomeForNoneBurn.name
+    value: 
+  - key: Amlos.Combat.Effect.SoulTrace.desc
+    value: 
+  - key: Amlos.Combat.Effect.SoulTrace.name
+    value: 
+  - key: Amlos.Combat.Effect.Sunflare.desc
+    value: 
+  - key: Amlos.Combat.Effect.Sunflare.name
+    value: 
+  - key: Amlos.Combat.Effect.Sunken.desc
+    value: 
+  - key: Amlos.Combat.Effect.Sunken.name
+    value: 
+  - key: Amlos.Combat.Effect.Superposition.desc
+    value: 
+  - key: Amlos.Combat.Effect.Superposition.name
+    value: 
+  - key: Amlos.Combat.Effect.Swiftness.desc
+    value: 
+  - key: Amlos.Combat.Effect.Swiftness.name
+    value: 
+  - key: Amlos.Combat.Effect.Voidness.desc
+    value: 
+  - key: Amlos.Combat.Effect.Voidness.name
+    value: 
+  - key: Amlos.Combat.Effect.Vulnerable.desc
+    value: 
+  - key: Amlos.Combat.Effect.Vulnerable.name
+    value: 
+  - key: Amlos.Combat.Effect.Weakness.desc
+    value: 
+  - key: Amlos.Combat.Effect.Weakness.name
+    value: 
+  - key: Amlos.Combat.Level.desc
+    value: "\u7B49\u7EA7: {level}"
+  - key: Amlos.Combat.PassiveSkill.BurningBlood.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.BurningBlood.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.EarthProtection.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.EarthProtection.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.FireTouch.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.FireTouch.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.GaleCombo.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.GaleCombo.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.GazeFromAbyss.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.GazeFromAbyss.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.None.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.None.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.TranquilLake.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.TranquilLake.name
+    value: 
+  - key: Amlos.Element.Aethiumian.name
+    value: "\xA7#E1AEA1\u8F89\u77F3\xA7"
+  - key: Amlos.Element.Arcane.name
+    value: "\xA7#8600FF\u5965\u672F\u5143\u7D20\xA7"
+  - key: Amlos.Element.Dark.name
+    value: "\xA7#231756\u6697\u5143\u7D20\xA7"
+  - key: Amlos.Element.Earth.name
+    value: "\xA7#A44000\u571F\u5143\u7D20\xA7"
+  - key: Amlos.Element.Fire.name
+    value: "\xA7R\u706B\u5143\u7D20\xA7"
+  - key: Amlos.Element.Light.name
+    value: "\xA7Y\u5149\u5143\u7D20\xA7"
+  - key: Amlos.Element.Soul.name
+    value: "\xA7#7F7F7F\u7075\u9B42\u5143\u7D20\xA7"
+  - key: Amlos.Element.Space.name
+    value: "\xA7#FF7FFF\u7A7A\u95F4\u5143\u7D20\xA7"
+  - key: Amlos.Element.Water.name
+    value: "\xA7B\u6C34\u5143\u7D20\xA7"
+  - key: Amlos.Element.Wind.name
+    value: "\xA7G\u98CE\u5143\u7D20\xA7"
+  - key: Amlos.Entity.MamaRhombear.name
+    value: Mama Rhombear
+  - key: Amlos.Object.Aethiumeters.Aethiumeter.desc
+    value: 
+  - key: Amlos.Object.Aethiumeters.Aethiumeter.name
+    value: 
+  - key: Amlos.Object.Anemos.desc
+    value: 
+  - key: Amlos.Object.Anemos.name
+    value: 
+  - key: Amlos.Object.Chest.desc
+    value: 
+  - key: Amlos.Object.Chest.name
+    value: 
+  - key: Amlos.Object.Gate.desc
+    value: 
+  - key: Amlos.Object.Gate.name
+    value: 
+  - key: Amlos.Object.LevelGate.desc
+    value: 
+  - key: Amlos.Object.LevelGate.name
+    value: 
+  - key: Amlos.Object.MagicBookObject.desc
+    value: 
+  - key: Amlos.Object.MagicBookObject.name
+    value: 
+  - key: Amlos.Object.StaircaseGate.desc
+    value: 
+  - key: Amlos.Object.StaircaseGate.name
+    value: 
+  - key: Amlos.UI.Common.Back.name
+    value: "\u8FD4\u56DE"
+  - key: Amlos.UI.Common.Confirm.name
+    value: "\u786E\u5B9A"
+  - key: Amlos.UI.PausePanel.Resume.name
+    value: "\u8FD4\u56DE"
+  - key: Amlos.UI.PausePanel.title
+    value: "\u6682\u505C"
+  - key: Amlos.UI.Setting.Control.title
+    value: "\u63A7\u5236"
+  - key: Amlos.UI.Setting.Graphics.title
+    value: "\u56FE\u50CF"
+  - key: Amlos.UI.Setting.Language.title
+    value: "\u8BED\u8A00"
+  - key: Amlos.UI.Setting.Name
+    value: "\u8BBE\u7F6E"
+  - key: Amlos.UI.Setting.Other.title
+    value: "\u5176\u4ED6"
+  - key: Amlos.UI.Setting.Sound.title
+    value: "\u58F0\u97F3"
+  - key: Amlos.Entity.TheAmir.name
+    value: "\u8001\u57C3\u7C73\u5C14"
+  - key: Amlos.Entity.TheGuardian.name
+    value: "\u5DE8\u77F3\u5B88\u536B"
+  - key: Amlos.Objectives.ConversationWith.info
+    value: Conversation With {uniqueNPCName}

@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4148159ab77bc934f93f523fe7733ab4, type: 3}
+  m_Name: Lang_EN_US
+  m_EditorClassIdentifier: 
+  tag: Main
+  isReadOnly: 0
+  path: 
+  isMasterFile: 1
+  masterFile: {fileID: 0}
+  childFiles:
+  - {fileID: 11400000, guid: 2007af6982d80204a903356f5866e636, type: 2}
+  - {fileID: 11400000, guid: 6a9d8e993fed7bd46bfd67316af6979e, type: 2}
+  - {fileID: -5047112709815915446, guid: 3ac0412b91112584ab1a1949eb22170a, type: 3}
+  - {fileID: 11400000, guid: da6a815e1541d4351b12b2081e09e345, type: 2}
+  region: EN_US
+  entries:
+  - key: Amlos.Combat.SkillDuration.info
+    value: "Activate/CD: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
+  - key: Amlos.Combat.AttackDuration.info
+    value: "Activate/CD: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
+  - key: Amlos.Combat.Damage.info
+    value: '{list} {element} Damage'
+  - key: Amlos.Combat.Damage.MagicalDamage.info
+    value: '{magicalDamage} Magical'
+  - key: Amlos.Combat.Damage.PhysicalDamage.info
+    value: '{physicalDamage} Physical'
+  - key: Amlos.Combat.Damage.TrueDamage.info
+    value: '{trueDamage} True'
+  - key: Amlos.Combat.Effect.Burning.desc
+    value: 
+  - key: Amlos.Combat.Effect.Burning.name
+    value: 
+  - key: Amlos.Combat.Effect.CountShield.desc
+    value: 
+  - key: Amlos.Combat.Effect.CountShield.name
+    value: 
+  - key: Amlos.Combat.Effect.DarkIrradiated.desc
+    value: 
+  - key: Amlos.Combat.Effect.DarkIrradiated.name
+    value: 
+  - key: Amlos.Combat.Effect.Dusted.desc
+    value: 
+  - key: Amlos.Combat.Effect.Dusted.name
+    value: 
+  - key: Amlos.Combat.Effect.Eclipse.desc
+    value: 
+  - key: Amlos.Combat.Effect.Eclipse.name
+    value: 
+  - key: Amlos.Combat.Effect.Endure.desc
+    value: 
+  - key: Amlos.Combat.Effect.Endure.name
+    value: 
+  - key: Amlos.Combat.Effect.Frozen.desc
+    value: 
+  - key: Amlos.Combat.Effect.Frozen.name
+    value: 
+  - key: Amlos.Combat.Effect.Immobilize.desc
+    value: 
+  - key: Amlos.Combat.Effect.Immobilize.name
+    value: 
+  - key: Amlos.Combat.Effect.Power.desc
+    value: 
+  - key: Amlos.Combat.Effect.Power.name
+    value: 
+  - key: Amlos.Combat.Effect.Resistance.desc
+    value: 
+  - key: Amlos.Combat.Effect.Resistance.name
+    value: 
+  - key: Amlos.Combat.Effect.Slowness.desc
+    value: 
+  - key: Amlos.Combat.Effect.Slowness.name
+    value: 
+  - key: Amlos.Combat.Effect.SomeForNoneBurn.desc
+    value: 
+  - key: Amlos.Combat.Effect.SomeForNoneBurn.name
+    value: 
+  - key: Amlos.Combat.Effect.SoulTrace.desc
+    value: 
+  - key: Amlos.Combat.Effect.SoulTrace.name
+    value: 
+  - key: Amlos.Combat.Effect.Sunflare.desc
+    value: 
+  - key: Amlos.Combat.Effect.Sunflare.name
+    value: 
+  - key: Amlos.Combat.Effect.Sunken.desc
+    value: 
+  - key: Amlos.Combat.Effect.Sunken.name
+    value: 
+  - key: Amlos.Combat.Effect.Superposition.desc
+    value: 
+  - key: Amlos.Combat.Effect.Superposition.name
+    value: 
+  - key: Amlos.Combat.Effect.Swiftness.desc
+    value: 
+  - key: Amlos.Combat.Effect.Swiftness.name
+    value: 
+  - key: Amlos.Combat.Effect.Voidness.desc
+    value: 
+  - key: Amlos.Combat.Effect.Voidness.name
+    value: 
+  - key: Amlos.Combat.Effect.Vulnerable.desc
+    value: 
+  - key: Amlos.Combat.Effect.Vulnerable.name
+    value: 
+  - key: Amlos.Combat.Effect.Weakness.desc
+    value: 
+  - key: Amlos.Combat.Effect.Weakness.name
+    value: 
+  - key: Amlos.Combat.Level.desc
+    value: 'Level: {level}'
+  - key: Amlos.Combat.PassiveSkill.BurningBlood.desc
+    value: '"Significantly increase damage based on the percentage of health lost.
+
+      Using
+      skills costs percent health and gets a shield based on percent lost health
+
+      Blood
+      skills cost more health and generate stronger shields. They last to the end
+      of a battle.
+
+      Each Melee attack adds 1 Haemo count to enemies
+
+      Each
+      Haemo count increases damage this enemy received."'
+  - key: Amlos.Combat.PassiveSkill.BurningBlood.name
+    value: Burning Blood
+  - key: Amlos.Combat.PassiveSkill.EarthProtection.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.EarthProtection.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.FireTouch.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.FireTouch.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.GaleCombo.desc
+    value: '"When enemies take damage from wind attacks, they will be vulnerable
+      to other attacks.
+
+      The vulnerable period is short.
+
+      Wind attacks
+      deal slightly more damage, attacks from other elements deal far more damage."'
+  - key: Amlos.Combat.PassiveSkill.GaleCombo.name
+    value: Gale Combo
+  - key: Amlos.Combat.PassiveSkill.GazeFromAbyss.desc
+    value: When active skills deal damage, add 1 Sunken count to target.
+  - key: Amlos.Combat.PassiveSkill.GazeFromAbyss.name
+    value: Gaze From Abyss
+  - key: Amlos.Combat.PassiveSkill.None.desc
+    value: 
+  - key: Amlos.Combat.PassiveSkill.None.name
+    value: 
+  - key: Amlos.Combat.PassiveSkill.TranquilLake.desc
+    value: 'You get a lake barrier which can take 1 attack, then it breaks and enters
+      30s CD.
+
+      The lake barrier makes you immune to negative effects, increases
+      your damage by 50%.
+
+      With the lake barrier, you recover 1% max health
+      per second in battle.
+
+      Upon breaking, the lake barrier deals 1 water
+      damage and 5s Freeze to circle r=3m.'
+  - key: Amlos.Combat.PassiveSkill.TranquilLake.name
+    value: Tranquil Lake
+  - key: Amlos.Element.Aethiumian.name
+    value: "\xA7#E1AEA1Aethiumian\xA7"
+  - key: Amlos.Element.Arcane.name
+    value: "\xA7#8600FFArcane\xA7"
+  - key: Amlos.Element.Dark.name
+    value: "\xA7#231756Dark\xA7"
+  - key: Amlos.Element.Earth.name
+    value: "\xA7#A44000Earth\xA7"
+  - key: Amlos.Element.Fire.name
+    value: "\xA7RFire\xA7"
+  - key: Amlos.Element.Light.name
+    value: "\xA7YLight\xA7"
+  - key: Amlos.Element.Soul.name
+    value: "\xA7#7F7F7FSoul\xA7"
+  - key: Amlos.Element.Space.name
+    value: "\xA7#FF7FFFSpace\xA7"
+  - key: Amlos.Element.Water.name
+    value: "\xA7BWater\xA7"
+  - key: Amlos.Element.Wind.name
+    value: "\xA7GWind\xA7"
+  - key: Amlos.Entity.MamaRhombear.name
+    value: Mama Rhombear
+  - key: Amlos.Object.Aethiumeters.Aethiumeter.desc
+    value: 
+  - key: Amlos.Object.Aethiumeters.Aethiumeter.name
+    value: 
+  - key: Amlos.Object.Anemos.desc
+    value: 
+  - key: Amlos.Object.Anemos.name
+    value: 
+  - key: Amlos.Object.Chest.desc
+    value: 
+  - key: Amlos.Object.Chest.name
+    value: 
+  - key: Amlos.Object.Gate.desc
+    value: 
+  - key: Amlos.Object.Gate.name
+    value: 
+  - key: Amlos.Object.LevelGate.desc
+    value: 
+  - key: Amlos.Object.LevelGate.name
+    value: 
+  - key: Amlos.Object.MagicBookObject.desc
+    value: 
+  - key: Amlos.Object.MagicBookObject.name
+    value: 
+  - key: Amlos.Object.StaircaseGate.desc
+    value: 
+  - key: Amlos.Object.StaircaseGate.name
+    value: 
+  - key: Amlos.UI.Common.Back.name
+    value: Back
+  - key: Amlos.UI.Common.Confirm.name
+    value: Confirm
+  - key: Amlos.UI.PausePanel.Resume.name
+    value: Resume
+  - key: Amlos.UI.PausePanel.title
+    value: Pause
+  - key: Amlos.UI.Setting.Control.title
+    value: Control
+  - key: Amlos.UI.Setting.Graphics.title
+    value: Graphic
+  - key: Amlos.UI.Setting.Language.title
+    value: Language
+  - key: Amlos.UI.Setting.Name
+    value: Setting
+  - key: Amlos.UI.Setting.Sound.title
+    value: Sound
+  - key: Amlos.UI.Setting.Other.title
+    value: Other
+  - key: Amlos.Combat.Effect.LightBarrierStatus.name
+    value: 
+  - key: Amlos.Combat.Effect.LightBarrierStatus.desc
+    value: 
+  - key: Amlos.Entity.TheAmir.name
+    value: The Amir
+  - key: Amlos.Entity.TheGuardian.name
+    value: The Guardian
+  - key: Amlos.Objectives.ConversationWith.info
+    value: Conversation With {uniqueNPCName}

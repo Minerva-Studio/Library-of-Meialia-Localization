@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4148159ab77bc934f93f523fe7733ab4, type: 3}
+  m_Name: Lang_EN_US_Story_MagicBookNames
+  m_EditorClassIdentifier: 
+  tag: BookNames
+  isMasterFile: 0
+  masterFile: {fileID: 11400000, guid: 155bace641a22aa4f8afc406a7031aa9, type: 2}
+  childFiles: []
+  region: EN_US
+  entries:
+  - key: Amlos.Combat.MagicBooks.Common.None.name
+    value: 
+  - key: Amlos.Combat.MagicBooks.Common.Someones.name
+    value: 'Someone''s '
+  - key: Amlos.Combat.MagicBooks.Common.Broken.name
+    value: 'Broken '
+  - key: Amlos.Combat.MagicBooks.Common.Worn.name
+    value: 'Worn '
+  - key: Amlos.Combat.MagicBooks.Common.Ordinary.name
+    value: 'Ordinary '
+  - key: Amlos.Combat.MagicBooks.Common.Standard.name
+    value: 'Standard '
+  - key: Amlos.Combat.MagicBooks.Common.Simple.name
+    value: 'Simple '
+  - key: Amlos.Combat.MagicBooks.Common.Regular.name
+    value: 'Regular '
+  - key: Amlos.Combat.MagicBooks.Common.Basic.name
+    value: 'Basic '
+  - key: Amlos.Combat.MagicBooks.Common.Routine.name
+    value: 'Routine '
+  - key: Amlos.Combat.MagicBooks.Common.Average.name
+    value: 'Average '
+  - key: Amlos.Combat.MagicBooks.Common.Common.name
+    value: 'Common '
+  - key: Amlos.Combat.MagicBooks.Common.Plain.name
+    value: 'Plain '
+  - key: Amlos.Combat.MagicBooks.Common.Usual.name
+    value: 'Usual '
+  - key: Amlos.Combat.MagicBooks.Common.Familiar.name
+    value: 'Familiar '
+  - key: Amlos.Combat.MagicBooks.Rare.Lost.name
+    value: 'Lost '
+  - key: Amlos.Combat.MagicBooks.Rare.OneChapterof.name
+    value: 'One Chapter of '
+  - key: Amlos.Combat.MagicBooks.Rare.Unusual.name
+    value: 'Unusual '
+  - key: Amlos.Combat.MagicBooks.Rare.Rarefied.name
+    value: 'Rarefied '
+  - key: Amlos.Combat.MagicBooks.Rare.Exceptional.name
+    value: 'Exceptional '
+  - key: Amlos.Combat.MagicBooks.Rare.Unique.name
+    value: 'Unique '
+  - key: Amlos.Combat.MagicBooks.Rare.Scarce.name
+    value: 'Scarce '
+  - key: Amlos.Combat.MagicBooks.Rare.Peculiar.name
+    value: 'Peculiar '
+  - key: Amlos.Combat.MagicBooks.Rare.Special.name
+    value: Special
+  - key: Amlos.Combat.MagicBooks.Rare.Extraordinary.name
+    value: 'Extraordinary '
+  - key: Amlos.Combat.MagicBooks.Rare.Rare.name
+    value: Rare
+  - key: Amlos.Combat.MagicBooks.Rare.Curious.name
+    value: 'Curious '
+  - key: Amlos.Combat.MagicBooks.Rare.Seldom.name
+    value: 'Seldom '
+  - key: Amlos.Combat.MagicBooks.Rare.Distinct.name
+    value: 'Distinct '
+  - key: Amlos.Combat.MagicBooks.Rare.Uncommon.name
+    value: 'Uncommon '
+  - key: Amlos.Combat.MagicBooks.Rare.Distinguished.name
+    value: 'Distinguished '
+  - key: Amlos.Combat.MagicBooks.Epic.Ancient.name
+    value: 'Ancient '
+  - key: Amlos.Combat.MagicBooks.Epic.TheApprentices.name
+    value: 'The Apprentice''s '
+  - key: Amlos.Combat.MagicBooks.Epic.Gloomscribes.name
+    value: 'Gloomscribe''s '
+  - key: Amlos.Combat.MagicBooks.Epic.LostChapterof.name
+    value: 'Lost Chapter of '
+  - key: Amlos.Combat.MagicBooks.Epic.Exclusive.name
+    value: 'Exclusive '
+  - key: Amlos.Combat.MagicBooks.Epic.Exquisite.name
+    value: 'Exquisite '
+  - key: Amlos.Combat.MagicBooks.Epic.Precious.name
+    value: 'Precious '
+  - key: Amlos.Combat.MagicBooks.Epic.Valuable.name
+    value: 'Valuable '
+  - key: Amlos.Combat.MagicBooks.Epic.Invaluable.name
+    value: 'Invaluable '
+  - key: Amlos.Combat.MagicBooks.Epic.Limited.name
+    value: 'Limited '
+  - key: Amlos.Combat.MagicBooks.Epic.Elite.name
+    value: 'Elite '
+  - key: Amlos.Combat.MagicBooks.Epic.Glorious.name
+    value: 'Glorious '
+  - key: Amlos.Combat.MagicBooks.Epic.Monumental.name
+    value: 'Monumental '
+  - key: Amlos.Combat.MagicBooks.Legendary.MasterCais.name
+    value: 'Master Cai''s '
+  - key: Amlos.Combat.MagicBooks.Legendary.GreatAcolytes.name
+    value: 'Great Acolyte''s '
+  - key: Amlos.Combat.MagicBooks.Legendary.DoctorXs.name
+    value: 'Doctor X''s '
+  - key: Amlos.Combat.MagicBooks.Legendary.Naiads.name
+    value: 'Naiad''s '
+  - key: Amlos.Combat.MagicBooks.Legendary.Golembounds.name
+    value: 'Golembound''s '
+  - key: Amlos.Combat.MagicBooks.Legendary.Legendary.name
+    value: 'Legendary '
+  - key: Amlos.Combat.MagicBooks.Legendary.Mythical.name
+    value: 'Mythical '
+  - key: Amlos.Combat.MagicBooks.Legendary.Majestic.name
+    value: 'Majestic '
+  - key: Amlos.Combat.MagicBooks.Legendary.Divine.name
+    value: 'Divine '
+  - key: Amlos.Combat.MagicBooks.Legendary.Fabled.name
+    value: 'Fabled '
+  - key: Amlos.Combat.MagicBooks.Legendary.Supreme.name
+    value: 'Supreme '
+  - key: Amlos.Combat.MagicBooks.Legendary.Transcendent.name
+    value: 'Transcendent '
+  - key: Amlos.Combat.MagicBooks.Legendary.Sovereign.name
+    value: 'Sovereign '
+  - key: Amlos.Combat.MagicBooks.Legendary.Illustrious.name
+    value: 'Illustrious '
+  - key: Amlos.Combat.MagicBooks.Legendary.Prime.name
+    value: 'Prime '
+  - key: Amlos.Combat.MagicBooks.Aethiumian.AethiumianNotes.name
+    value: Aethiumian Notes
+  - key: Amlos.Combat.MagicBooks.Aethiumian.NewMagicStudy.name
+    value: New Magic Study
+  - key: Amlos.Combat.MagicBooks.Aethiumian.RecordofUnknowns.name
+    value: Record of Unknowns
+  - key: Amlos.Combat.MagicBooks.Aethiumian.LuanMa.name
+    value: '#%@#*#%?'
+  - key: Amlos.Combat.MagicBooks.None.KungFuTextbook.name
+    value: Kung Fu Textbook
+  - key: Amlos.Combat.MagicBooks.None.FightingSkill.name
+    value: Fighting Skill
+  - key: Amlos.Combat.MagicBooks.Fire.FiresTeach.name
+    value: Fire's Teach
+  - key: Amlos.Combat.MagicBooks.Fire.EternalFlame.name
+    value: Eternal Flame
+  - key: Amlos.Combat.MagicBooks.Fire.PyroclasmicGrimoire.name
+    value: Pyroclasmic Grimoire
+  - key: Amlos.Combat.MagicBooks.Fire.BlazeboundCodex.name
+    value: Blazebound Codex
+  - key: Amlos.Combat.MagicBooks.Fire.Firespell.name
+    value: Firespell
+  - key: Amlos.Combat.MagicBooks.Fire.CrimsonConjurings.name
+    value: Crimson Conjurings
+  - key: Amlos.Combat.MagicBooks.Fire.IgnitionCodex.name
+    value: Ignition Codex
+  - key: Amlos.Combat.MagicBooks.Fire.PyretideTomes.name
+    value: Pyretide Tomes
+  - key: Amlos.Combat.MagicBooks.Fire.VolcanicVerses.name
+    value: Volcanic Verses
+  - key: Amlos.Combat.MagicBooks.Fire.SongofFire.name
+    value: Song of Fire
+  - key: Amlos.Combat.MagicBooks.Fire.CinderwhisperersCompendium.name
+    value: Cinderwhisperer's Compendium
+  - key: Amlos.Combat.MagicBooks.Fire.RitualsofPyromancy.name
+    value: Rituals of Pyromancy
+  - key: Amlos.Combat.MagicBooks.Fire.StudyofSuns.name
+    value: Study of Suns
+  - key: Amlos.Combat.MagicBooks.Fire.FireScorcery.name
+    value: Fire Sorcery
+  - key: Amlos.Combat.MagicBooks.Fire.PaintingofEternalFlame.name
+    value: Painting of Eternal Flame
+  - key: Amlos.Combat.MagicBooks.Fire.InfernalIncantations.name
+    value: Infernal Incantations
+  - key: Amlos.Combat.MagicBooks.Fire.GiftsofFireSpirit.name
+    value: Gifts of Fire Spirit
+  - key: Amlos.Combat.MagicBooks.Fire.ScorchedScriptures.name
+    value: Scorched Scriptures
+  - key: Amlos.Combat.MagicBooks.Fire.FlameweaversCompendium.name
+    value: Flameweaver's Compendium
+  - key: Amlos.Combat.MagicBooks.Fire.BlazebringersQuestList.name
+    value: Blazebringer's Quest List
+  - key: Amlos.Combat.MagicBooks.Water.WaterMagicTricks.name
+    value: Water Magic Tricks
+  - key: Amlos.Combat.MagicBooks.Water.StudyofDifferentWaters.name
+    value: Study of Different Waters
+  - key: Amlos.Combat.MagicBooks.Water.AquabornGrimoire.name
+    value: Aquaborn Grimoire
+  - key: Amlos.Combat.MagicBooks.Water.TidecallersCodex.name
+    value: Tidecaller's Codex
+  - key: Amlos.Combat.MagicBooks.Water.PearlweaversTome.name
+    value: Pearlweaver's Tome
+  - key: Amlos.Combat.MagicBooks.Water.RecordofMysticCurrents.name
+    value: Record of Mystic Currents
+  - key: Amlos.Combat.MagicBooks.Water.Marinomicon.name
+    value: Marinomicon
+  - key: Amlos.Combat.MagicBooks.Water.SecretsofWaves.name
+    value: Secrets of Waves
+  - key: Amlos.Combat.MagicBooks.Water.SecretsUndertheSea.name
+    value: Secrets Under the Sea
+  - key: Amlos.Combat.MagicBooks.Water.AzureGrimoire.name
+    value: Azure Grimoire
+  - key: Amlos.Combat.MagicBooks.Water.AquaticSpells.name
+    value: Aquatic Spells
+  - key: Amlos.Combat.MagicBooks.Water.AquaticRites.name
+    value: Aquatic Rites
+  - key: Amlos.Combat.MagicBooks.Water.LoreoftheOceanicKingdoms.name
+    value: Lore of the Oceanic Kingdoms
+  - key: Amlos.Combat.MagicBooks.Water.LiquidLore.name
+    value: Liquid Lore
+  - key: Amlos.Combat.MagicBooks.Water.NotesaboutMaelstrom.name
+    value: Notes about Maelstrom
+  - key: Amlos.Combat.MagicBooks.Water.TritonTestaments.name
+    value: Triton Testaments
+  - key: Amlos.Combat.MagicBooks.Water.TeachofPoseidon.name
+    value: Teach of Poseidon
+  - key: Amlos.Combat.MagicBooks.Water.WhisperofWater.name
+    value: Whisper of Water
+  - key: Amlos.Combat.MagicBooks.Water.CeruleanConjurings.name
+    value: Cerulean Conjurings
+  - key: Amlos.Combat.MagicBooks.Water.CascadeChronicles.name
+    value: Cascade Chronicles
+  - key: Amlos.Combat.MagicBooks.Earth.EarthBook.name
+    value: Earth Book
+  - key: Amlos.Combat.MagicBooks.Earth.GeologicalAlmanac.name
+    value: Geological Almanac
+  - key: Amlos.Combat.MagicBooks.Earth.TectonicTomes.name
+    value: Tectonic Tomes
+  - key: Amlos.Combat.MagicBooks.Earth.VerdanVerses.name
+    value: Verdant Verses
+  - key: Amlos.Combat.MagicBooks.Earth.PoemsofEarthMagic.name
+    value: Poems of Earth Magic
+  - key: Amlos.Combat.MagicBooks.Earth.EarthquakeMagic.name
+    value: Earthquake Magic
+  - key: Amlos.Combat.MagicBooks.Earth.EssayofCrystallize.name
+    value: Essay of Crystallize
+  - key: Amlos.Combat.MagicBooks.Earth.SoilGrimoire.name
+    value: Soil Grimoire
+  - key: Amlos.Combat.MagicBooks.Earth.HandbookofLithomancer.name
+    value: Handbook of Lithomancer
+  - key: Amlos.Combat.MagicBooks.Earth.CompendiumofClay.name
+    value: Compendium of Clay
+  - key: Amlos.Combat.MagicBooks.Earth.OnyxOaths.name
+    value: Onyx Oaths
+  - key: Amlos.Combat.MagicBooks.Earth.MandateofEarthElement.name
+    value: Mandate of Earth Element
+  - key: Amlos.Combat.MagicBooks.Earth.Quakebound.name
+    value: Quakebound Tomes
+  - key: Amlos.Combat.MagicBooks.Earth.TerraformaCreation.name
+    value: Terraforma Creation
+  - key: Amlos.Combat.MagicBooks.Earth.CrystalMagic.name
+    value: Crystal Magic
+  - key: Amlos.Combat.MagicBooks.Earth.ChroniclesofEarth.name
+    value: Chronicles of Earth
+  - key: Amlos.Combat.MagicBooks.Earth.EarthenEnchantments.name
+    value: Earthen Enchantments
+  - key: Amlos.Combat.MagicBooks.Earth.CodexofSandandDust.name
+    value: Codex of Sand and Dust
+  - key: Amlos.Combat.MagicBooks.Earth.Terranomicon.name
+    value: Terranomicon
+  - key: Amlos.Combat.MagicBooks.Earth.TomeStoneweaver.name
+    value: Tome Stoneweaver
+  - key: Amlos.Combat.MagicBooks.Wind.NovelaboutWind.name
+    value: Novel about Wind
+  - key: Amlos.Combat.MagicBooks.Wind.TyphoonTomes.name
+    value: Typhoon Tomes
+  - key: Amlos.Combat.MagicBooks.Wind.AerovaneVerses.name
+    value: Aerovane Verses
+  - key: Amlos.Combat.MagicBooks.Wind.SongsoftheZephyr.name
+    value: Songs of the Zephyr
+  - key: Amlos.Combat.MagicBooks.Wind.GustboundGrimoire.name
+    value: Gustbound Grimoire
+  - key: Amlos.Combat.MagicBooks.Wind.SpellsoftheBreeze.name
+    value: Spells of the Breeze
+  - key: Amlos.Combat.MagicBooks.Wind.ArcticWindMagic.name
+    value: Arctic Wind Magic
+  - key: Amlos.Combat.MagicBooks.Wind.SkydancersCompendium.name
+    value: Skydancer's Compendium
+  - key: Amlos.Combat.MagicBooks.Wind.Aeroalchemy.name
+    value: Aeroalchemy
+  - key: Amlos.Combat.MagicBooks.Wind.MistralNotes.name
+    value: Mistral Notes
+  - key: Amlos.Combat.MagicBooks.Wind.SpellsoftheSkyward.name
+    value: Spells of the Skyward
+  - key: Amlos.Combat.MagicBooks.Wind.SkyScrolls.name
+    value: Sky Scrolls
+  - key: Amlos.Combat.MagicBooks.Wind.RecordofEther.name
+    value: Record of Ether
+  - key: Amlos.Combat.MagicBooks.Wind.ChroniclesoftheClouds.name
+    value: Chronicles of the Clouds
+  - key: Amlos.Combat.MagicBooks.Wind.BookofVacuum.name
+    value: Book of Vacuum
+  - key: Amlos.Combat.MagicBooks.Wind.ZephyrianGrimoire.name
+    value: Zephyrian Grimoire
+  - key: Amlos.Combat.MagicBooks.Wind.CycloneCompendium.name
+    value: Cyclone Compendium
+  - key: Amlos.Combat.MagicBooks.Wind.UnleashingWindMagic.name
+    value: Unleashing Wind Magic
+  - key: Amlos.Combat.MagicBooks.Wind.TornadoMagicBook.name
+    value: Tornado Magic Book
+  - key: Amlos.Combat.MagicBooks.Wind.StudyofAirPollution.name
+    value: Study of Air Pollution
+  - key: Amlos.Combat.MagicBooks.Light.EssayonLight.name
+    value: Essay on Light
+  - key: Amlos.Combat.MagicBooks.Light.LuminaryGrimoire.name
+    value: Luminary Grimoire
+  - key: Amlos.Combat.MagicBooks.Light.AuroraAlmanac.name
+    value: Aurora Almanac
+  - key: Amlos.Combat.MagicBooks.Light.RadianceCodex.name
+    value: Radiance Codex
+  - key: Amlos.Combat.MagicBooks.Light.CallingofLux.name
+    value: Calling of Lux
+  - key: Amlos.Combat.MagicBooks.Light.DaybreakCompendium.name
+    value: Daybreak Compendium
+  - key: Amlos.Combat.MagicBooks.Light.GlowweaversTome.name
+    value: Glowweaver's Tome
+  - key: Amlos.Combat.MagicBooks.Light.EtherealIlluminations.name
+    value: Ethereal Illuminations
+  - key: Amlos.Combat.MagicBooks.Light.BeaconboundScrolls.name
+    value: Beaconbound Scrolls
+  - key: Amlos.Combat.MagicBooks.Light.SoleilScriptures.name
+    value: Soleil Scriptures
+  - key: Amlos.Combat.MagicBooks.Light.PrismaticProclamations.name
+    value: Prismatic Proclamations
+  - key: Amlos.Combat.MagicBooks.Light.AstralGrimoire.name
+    value: Astral Grimoire
+  - key: Amlos.Combat.MagicBooks.Light.ShimmeringSecrets.name
+    value: Shimmering Secrets
+  - key: Amlos.Combat.MagicBooks.Light.HaloedHandbook.name
+    value: Haloed Handbook
+  - key: Amlos.Combat.MagicBooks.Light.DivineDawn.name
+    value: Divine Dawn
+  - key: Amlos.Combat.MagicBooks.Light.VesperVerses.name
+    value: Vesper Verses
+  - key: Amlos.Combat.MagicBooks.Light.SongsoftheEveningLight.name
+    value: Songs of the Evening Light
+  - key: Amlos.Combat.MagicBooks.Light.PhosphorescentPhrases.name
+    value: Phosphorescent Phrases
+  - key: Amlos.Combat.MagicBooks.Light.SeraphsCompendium.name
+    value: Seraph's Compendium
+  - key: Amlos.Combat.MagicBooks.Light.TheArtofLuminance.name
+    value: The Art of Luminance
+  - key: Amlos.Combat.MagicBooks.Dark.StudyofDarkEnergy.name
+    value: Study of Dark Energy
+  - key: Amlos.Combat.MagicBooks.Dark.AbyssalAlmanac.name
+    value: Abyssal Almanac
+  - key: Amlos.Combat.MagicBooks.Dark.ShadowboundGrimoire.name
+    value: Shadowbound Grimoire
+  - key: Amlos.Combat.MagicBooks.Dark.ObsidianCodex.name
+    value: Obsidian Codex
+  - key: Amlos.Combat.MagicBooks.Dark.UmbralEnchantments.name
+    value: Umbral Enchantments
+  - key: Amlos.Combat.MagicBooks.Dark.SpellsofDarkness.name
+    value: Spells of Darkness
+  - key: Amlos.Combat.MagicBooks.Dark.MaleficManuscripts.name
+    value: Malefic Manuscripts
+  - key: Amlos.Combat.MagicBooks.Dark.CrimsonCompendium.name
+    value: Crimson Compendium
+  - key: Amlos.Combat.MagicBooks.Dark.SorceryofShadows.name
+    value: Sorcery of Shadows
+  - key: Amlos.Combat.MagicBooks.Dark.NetherlordsGrimoire.name
+    value: Netherlord's Grimoire
+  - key: Amlos.Combat.MagicBooks.Dark.EclipseChronicles.name
+    value: Eclipse Chronicles
+  - key: Amlos.Combat.MagicBooks.Dark.DarkMagicIncantations.name
+    value: Dark Magic Incantations
+  - key: Amlos.Combat.MagicBooks.Dark.SinisterSpells.name
+    value: Sinister Spells
+  - key: Amlos.Combat.MagicBooks.Dark.NightmareNexus.name
+    value: Nightmare Nexus
+  - key: Amlos.Combat.MagicBooks.Dark.InfernalIncantations.name
+    value: Infernal Incantations
+  - key: Amlos.Combat.MagicBooks.Dark.DarkRites.name
+    value: Dark Rites
+  - key: Amlos.Combat.MagicBooks.Dark.SorrowsongScroll.name
+    value: Sorrowsong Scroll
+  - key: Amlos.Combat.MagicBooks.Dark.SongsoftheShadow.name
+    value: Songs of the Shadow
+  - key: Amlos.Combat.MagicBooks.Dark.RavensCompendium.name
+    value: Raven's Compendium
+  - key: Amlos.Combat.MagicBooks.Dark.PoemofNights.name
+    value: Poem of Nights
+  - key: Amlos.Combat.MagicBooks.Space.SpaceTravelLog.name
+    value: Space Travel Log
+  - key: Amlos.Combat.MagicBooks.Space.NotesfromtheVoid.name
+    value: Notes from the Void
+  - key: Amlos.Combat.MagicBooks.Space.TheoryofRelativity.name
+    value: Theory of Relativity
+  - key: Amlos.Combat.MagicBooks.Space.VacuumExplosion.name
+    value: Vacuum Explosion
+  - key: Amlos.Combat.MagicBooks.Space.VoidweaverTome.name
+    value: Voidweaver Tome
+  - key: Amlos.Combat.MagicBooks.Space.VoyagersGrimoire.name
+    value: Voyagers Grimoire
+  - key: Amlos.Combat.MagicBooks.Space.QuantumQuell.name
+    value: Quantum Quell
+  - key: Amlos.Combat.MagicBooks.Space.StudyofSpaceStrom.name
+    value: Study of Space Strom
+  - key: Amlos.Combat.MagicBooks.Space.VoidVerses.name
+    value: Void Verses
+  - key: Amlos.Combat.MagicBooks.Space.SongofTimes.name
+    value: Song of Times
+  - key: Amlos.Combat.MagicBooks.Space.SpellofSpaceSwap.name
+    value: Spell of Space Swap
+  - key: Amlos.Combat.MagicBooks.Space.SpaceandTeleport.name
+    value: Space and Teleport
+  - key: Amlos.Combat.MagicBooks.Space.BookofSpaceFreeze.name
+    value: Book of Space Freeze
+  - key: Amlos.Combat.MagicBooks.Soul.SoulSecretDharma.name
+    value: Soul Secret Dharma
+  - key: Amlos.Combat.MagicBooks.Soul.StudyofCurses.name
+    value: Study of Curses
+  - key: Amlos.Combat.MagicBooks.Soul.NecrovoidChronicles.name
+    value: Necrovoid Chronicles
+  - key: Amlos.Combat.MagicBooks.Soul.SoulforgeGrimoire.name
+    value: Soulforge Grimoire
+  - key: Amlos.Combat.MagicBooks.Soul.VesselofSouls.name
+    value: Vessel of Souls
+  - key: Amlos.Combat.MagicBooks.Soul.EphemeralEssences.name
+    value: Ephemeral Essences
+  - key: Amlos.Combat.MagicBooks.Soul.AnimaCompendium.name
+    value: Anima Compendium
+  - key: Amlos.Combat.MagicBooks.Soul.NexusofSouls.name
+    value: Nexus of Souls
+  - key: Amlos.Combat.MagicBooks.Soul.WraithboundChronicles.name
+    value: Wraithbound Chronicles
+  - key: Amlos.Combat.MagicBooks.Soul.ElysianEchoes.name
+    value: Elysian Echoes
+  - key: Amlos.Combat.MagicBooks.Soul.SongsoftheSoul.name
+    value: Songs of the Soul
+  - key: Amlos.Combat.MagicBooks.Soul.PhantomHandbook.name
+    value: Phantom Handbook
+  - key: Amlos.Combat.MagicBooks.Soul.ResonanceRites.name
+    value: Resonance Rites
+  - key: Amlos.Combat.MagicBooks.Soul.HarmonyofSouls.name
+    value: Harmony of Souls
+  - key: Amlos.Combat.MagicBooks.Soul.EidolonEmanations.name
+    value: Eidolon Emanations
+  - key: Amlos.Combat.MagicBooks.Soul.SoulboundSecrets.name
+    value: Soulbound Secrets
+  - key: Amlos.Combat.MagicBooks.Soul.AncestralArchives.name
+    value: Ancestral Archives
+  - key: Amlos.Combat.MagicBooks.Soul.ConduitofSpiritMagic.name
+    value: Conduit of Spirit Magic
+  - key: Amlos.Combat.MagicBooks.Soul.SpirtualCall.name
+    value: Spiritual Call
+  - key: Amlos.Combat.MagicBooks.Soul.ThreadsoftheEthereal.name
+    value: Threads of the Ethereal
+  - key: Amlos.Combat.MagicBooks.Arcane.ArcaneStudyNotes.name
+    value: Arcane Study Notes
+  - key: Amlos.Combat.MagicBooks.Arcane.ArcaneGrimoire.name
+    value: Arcane Grimoire
+  - key: Amlos.Combat.MagicBooks.Arcane.StellarGrimoire.name
+    value: Stellar Grimoire
+  - key: Amlos.Combat.MagicBooks.Arcane.HexagonTechnologyProgram.name
+    value: Hexagon Technology Program
+  - key: Amlos.Combat.MagicBooks.Arcane.EctoplasmicEssence.name
+    value: Ectoplasmic Essence
+  - key: Amlos.Combat.MagicBooks.Arcane.SpectralSentience.name
+    value: Spectral Sentience
+  - key: Amlos.Combat.MagicBooks.Arcane.AstralVerses.name
+    value: Astral Verses
+  - key: Amlos.Combat.MagicBooks.Arcane.ArcaneVerses.name
+    value: Arcane Verses
