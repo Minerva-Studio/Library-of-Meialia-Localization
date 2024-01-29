@@ -7,10 +7,10 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4148159ab77bc934f93f523fe7733ab4, type: 3}
-  m_Name: Lang_EN_US
+  m_Name: Lang_ZH_CN
   m_EditorClassIdentifier: 
   tag: Main
   isReadOnly: 0
@@ -18,28 +18,28 @@ MonoBehaviour:
   isMasterFile: 1
   masterFile: {fileID: 0}
   childFiles:
-  - {fileID: 11400000, guid: 2007af6982d80204a903356f5866e636, type: 2}
-  - {fileID: 11400000, guid: 6a9d8e993fed7bd46bfd67316af6979e, type: 2}
-  - {fileID: -5047112709815915446, guid: 3ac0412b91112584ab1a1949eb22170a, type: 3}
-  - {fileID: 11400000, guid: da6a815e1541d4351b12b2081e09e345, type: 2}
-  region: EN_US
+  - {fileID: 11400000, guid: 2bd6adb4fc8fc8b4ab21417f77d19de0, type: 2}
+  - {fileID: 11400000, guid: 0cfdb5b37d4aa7b4ab666183e38e18ad, type: 2}
+  - {fileID: -5047112709815915446, guid: 3c1ec9cc09d71bd45955f854ad87fd97, type: 3}
+  - {fileID: -5047112709815915446, guid: 9c8862261a9d54e41bf85a57abc9fcec, type: 3}
+  region: ZH_CN
   entries:
   - key: Amlos.Combat.SkillDuration.info
-    value: "Activate/CD: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
+    value: "\u751F\u6548/\u51B7\u5374: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
   - key: Amlos.Combat.AttackDuration.info
-    value: "Activate/CD: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
+    value: "\u751F\u6548/\u51B7\u5374: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
   - key: Amlos.Combat.Damage.info
-    value: '{list} {element} Damage'
+    value: "{list}{element}\u4F24\u5BB3"
   - key: Amlos.Combat.Damage.MagicalDamage.info
-    value: '{magicalDamage} Magical'
+    value: "{magicalDamage} \u9B54\u6CD5"
   - key: Amlos.Combat.Damage.PhysicalDamage.info
-    value: '{physicalDamage} Physical'
+    value: "{physicalDamage} \u7269\u7406"
   - key: Amlos.Combat.Damage.TrueDamage.info
-    value: '{trueDamage} True'
+    value: "{trueDamage} \u771F\u5B9E"
   - key: Amlos.Combat.Effect.Burning.desc
-    value: 
+    value: "\u707C\u70E7"
   - key: Amlos.Combat.Effect.Burning.name
-    value: 
+    value: "\u707C\u70E7"
   - key: Amlos.Combat.Effect.CountShield.desc
     value: 
   - key: Amlos.Combat.Effect.CountShield.name
@@ -67,6 +67,10 @@ MonoBehaviour:
   - key: Amlos.Combat.Effect.Immobilize.desc
     value: 
   - key: Amlos.Combat.Effect.Immobilize.name
+    value: 
+  - key: Amlos.Combat.Effect.LightBarrierStatus.desc
+    value: 
+  - key: Amlos.Combat.Effect.LightBarrierStatus.name
     value: 
   - key: Amlos.Combat.Effect.Power.desc
     value: 
@@ -117,23 +121,11 @@ MonoBehaviour:
   - key: Amlos.Combat.Effect.Weakness.name
     value: 
   - key: Amlos.Combat.Level.desc
-    value: 'Level: {level}'
+    value: "\u7B49\u7EA7: {level}"
   - key: Amlos.Combat.PassiveSkill.BurningBlood.desc
-    value: '"Significantly increase damage based on the percentage of health lost.
-
-      Using
-      skills costs percent health and gets a shield based on percent lost health
-
-      Blood
-      skills cost more health and generate stronger shields. They last to the end
-      of a battle.
-
-      Each Melee attack adds 1 Haemo count to enemies
-
-      Each
-      Haemo count increases damage this enemy received."'
+    value: 
   - key: Amlos.Combat.PassiveSkill.BurningBlood.name
-    value: Burning Blood
+    value: 
   - key: Amlos.Combat.PassiveSkill.EarthProtection.desc
     value: 
   - key: Amlos.Combat.PassiveSkill.EarthProtection.name
@@ -143,57 +135,41 @@ MonoBehaviour:
   - key: Amlos.Combat.PassiveSkill.FireTouch.name
     value: 
   - key: Amlos.Combat.PassiveSkill.GaleCombo.desc
-    value: '"When enemies take damage from wind attacks, they will be vulnerable
-      to other attacks.
-
-      The vulnerable period is short.
-
-      Wind attacks
-      deal slightly more damage, attacks from other elements deal far more damage."'
+    value: 
   - key: Amlos.Combat.PassiveSkill.GaleCombo.name
-    value: Gale Combo
+    value: 
   - key: Amlos.Combat.PassiveSkill.GazeFromAbyss.desc
-    value: When active skills deal damage, add 1 Sunken count to target.
+    value: 
   - key: Amlos.Combat.PassiveSkill.GazeFromAbyss.name
-    value: Gaze From Abyss
+    value: 
   - key: Amlos.Combat.PassiveSkill.None.desc
     value: 
   - key: Amlos.Combat.PassiveSkill.None.name
     value: 
   - key: Amlos.Combat.PassiveSkill.TranquilLake.desc
-    value: 'You get a lake barrier which can take 1 attack, then it breaks and enters
-      30s CD.
-
-      The lake barrier makes you immune to negative effects, increases
-      your damage by 50%.
-
-      With the lake barrier, you recover 1% max health
-      per second in battle.
-
-      Upon breaking, the lake barrier deals 1 water
-      damage and 5s Freeze to circle r=3m.'
+    value: 
   - key: Amlos.Combat.PassiveSkill.TranquilLake.name
-    value: Tranquil Lake
+    value: 
   - key: Amlos.Element.Aethiumian.name
-    value: "\xA7#E1AEA1Aethiumian\xA7"
+    value: "\xA7#E1AEA1\u8F89\u77F3\xA7"
   - key: Amlos.Element.Arcane.name
-    value: "\xA7#8600FFArcane\xA7"
+    value: "\xA7#8600FF\u5965\u672F\u5143\u7D20\xA7"
   - key: Amlos.Element.Dark.name
-    value: "\xA7#231756Dark\xA7"
+    value: "\xA7#231756\u6697\u5143\u7D20\xA7"
   - key: Amlos.Element.Earth.name
-    value: "\xA7#A44000Earth\xA7"
+    value: "\xA7#A44000\u571F\u5143\u7D20\xA7"
   - key: Amlos.Element.Fire.name
-    value: "\xA7RFire\xA7"
+    value: "\xA7R\u706B\u5143\u7D20\xA7"
   - key: Amlos.Element.Light.name
-    value: "\xA7YLight\xA7"
+    value: "\xA7Y\u5149\u5143\u7D20\xA7"
   - key: Amlos.Element.Soul.name
-    value: "\xA7#7F7F7FSoul\xA7"
+    value: "\xA7#7F7F7F\u7075\u9B42\u5143\u7D20\xA7"
   - key: Amlos.Element.Space.name
-    value: "\xA7#FF7FFFSpace\xA7"
+    value: "\xA7#FF7FFF\u7A7A\u95F4\u5143\u7D20\xA7"
   - key: Amlos.Element.Water.name
-    value: "\xA7BWater\xA7"
+    value: "\xA7B\u6C34\u5143\u7D20\xA7"
   - key: Amlos.Element.Wind.name
-    value: "\xA7GWind\xA7"
+    value: "\xA7G\u98CE\u5143\u7D20\xA7"
   - key: Amlos.Entity.MamaRhombear.name
     value: Mama Rhombear
   - key: Amlos.Object.Aethiumeters.Aethiumeter.desc
@@ -225,32 +201,28 @@ MonoBehaviour:
   - key: Amlos.Object.StaircaseGate.name
     value: 
   - key: Amlos.UI.Common.Back.name
-    value: Back
+    value: "\u8FD4\u56DE"
   - key: Amlos.UI.Common.Confirm.name
-    value: Confirm
+    value: "\u786E\u5B9A"
   - key: Amlos.UI.PausePanel.Resume.name
-    value: Resume
+    value: "\u8FD4\u56DE"
   - key: Amlos.UI.PausePanel.title
-    value: Pause
+    value: "\u6682\u505C"
   - key: Amlos.UI.Setting.Control.title
-    value: Control
+    value: "\u63A7\u5236"
   - key: Amlos.UI.Setting.Graphics.title
-    value: Graphic
+    value: "\u56FE\u50CF"
   - key: Amlos.UI.Setting.Language.title
-    value: Language
+    value: "\u8BED\u8A00"
   - key: Amlos.UI.Setting.Name
-    value: Setting
-  - key: Amlos.UI.Setting.Sound.title
-    value: Sound
+    value: "\u8BBE\u7F6E"
   - key: Amlos.UI.Setting.Other.title
-    value: Other
-  - key: Amlos.Combat.Effect.LightBarrierStatus.name
-    value: 
-  - key: Amlos.Combat.Effect.LightBarrierStatus.desc
-    value: 
+    value: "\u5176\u4ED6"
+  - key: Amlos.UI.Setting.Sound.title
+    value: "\u58F0\u97F3"
   - key: Amlos.Entity.TheAmir.name
-    value: The Amir
+    value: "\u8001\u57C3\u7C73\u5C14"
   - key: Amlos.Entity.TheGuardian.name
-    value: The Guardian
+    value: "\u5DE8\u77F3\u5B88\u536B"
   - key: Amlos.Objectives.ConversationWith.info
     value: Conversation With {uniqueNPCName}
