@@ -19,8 +19,8 @@ MonoBehaviour:
   masterFile: {fileID: 0}
   childFiles:
   - {fileID: 11400000, guid: 2007af6982d80204a903356f5866e636, type: 2}
-  - {fileID: 11400000, guid: 6a9d8e993fed7bd46bfd67316af6979e, type: 2}
-  - {fileID: -5047112709815915446, guid: 3ac0412b91112584ab1a1949eb22170a, type: 3}
+  - {fileID: -5047112709815915446, guid: 77e597758b419ea4ea79e1d3cca7159c, type: 3}
+  - {fileID: -5047112709815915446, guid: d6454a52db5d60f4db96b1be551be1cd, type: 3}
   - {fileID: 11400000, guid: da6a815e1541d4351b12b2081e09e345, type: 2}
   region: EN_US
   entries:

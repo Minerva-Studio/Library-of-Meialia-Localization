@@ -20,8 +20,8 @@ MonoBehaviour:
   childFiles:
   - {fileID: 11400000, guid: 2bd6adb4fc8fc8b4ab21417f77d19de0, type: 2}
   - {fileID: 11400000, guid: 0cfdb5b37d4aa7b4ab666183e38e18ad, type: 2}
-  - {fileID: 11400000, guid: 9eb8bd9341eaabc4ba26fdb89bfb4132, type: 2}
-  - {fileID: -5047112709815915446, guid: c1dd733f5e8215749b1fcded12c016fa, type: 3}
+  - {fileID: -5047112709815915446, guid: 3c1ec9cc09d71bd45955f854ad87fd97, type: 3}
+  - {fileID: -5047112709815915446, guid: 9c8862261a9d54e41bf85a57abc9fcec, type: 3}
   region: ZH_CN
   entries:
   - key: Amlos.Combat.SkillDuration.info
