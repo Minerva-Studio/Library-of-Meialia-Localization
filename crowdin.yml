@@ -1,3 +1,3 @@
 files:
-  - source: BaseYml/*.yml
+  - source: Base/*.yml
     translation: '%file_name%_%locale%.lang'
