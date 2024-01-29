@@ -165,7 +165,6 @@ Amlos.Combat.MagicBooks.Suffix.Light.VesperVerses.name: "Vesper Verses"
 Amlos.Combat.MagicBooks.Suffix.Light.SongsoftheEveningLight.name: "Songs of the Evening Light"
 Amlos.Combat.MagicBooks.Suffix.Light.PhosphorescentPhrases.name: "Phosphorescent Phrases"
 Amlos.Combat.MagicBooks.Suffix.Light.SeraphsCompendium.name: "Seraph's Compendium"
-Amlos.Combat.MagicBooks.Suffix.Light.ArtofLuminance.name: "Art of Luminance"
 Amlos.Combat.MagicBooks.Suffix.Dark.StudyofDarkEnergy.name: "Study of Dark Energy"
 Amlos.Combat.MagicBooks.Suffix.Dark.AbyssalAlmanac.name: "Abyssal Almanac"
 Amlos.Combat.MagicBooks.Suffix.Dark.ShadowboundGrimoire.name: "Shadowbound Grimoire"
@@ -227,3 +226,4 @@ Amlos.Combat.MagicBooks.Suffix.Arcane.EctoplasmicEssence.name: "Ectoplasmic Esse
 Amlos.Combat.MagicBooks.Suffix.Arcane.SpectralSentience.name: "Spectral Sentience"
 Amlos.Combat.MagicBooks.Suffix.Arcane.AstralVerses.name: "Astral Verses"
 Amlos.Combat.MagicBooks.Suffix.Arcane.ArcaneVerses.name: "Arcane Verses"
+Amlos.Combat.MagicBooks.Suffix.Light.ArtofLuminance.name: Art of Luminance
