@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d6454a52db5d60f4db96b1be551be1cd
+guid: 2ea8a2e9b0abfa441be222abbbe0e4fe
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,6 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 32780e495878f3d4f8d4d89c3a9a2b9b, type: 3}
-  region: EN_US
-  tag: Skill
-  masterFile: {fileID: 11400000, guid: 155bace641a22aa4f8afc406a7031aa9, type: 2}
+  region: 
+  tag: 
+  masterFile: {instanceID: 0}

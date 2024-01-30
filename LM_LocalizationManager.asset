@@ -21,18 +21,4 @@ MonoBehaviour:
   regions:
   - EN_US
   - ZH_CN
-  missingKeys:
-  - Amlos.Combat.ActiveSkill.SpatialCollapse.name
-  - Amlos.Combat.ActiveSkill.SpatialCollapse.desc
-  - Amlos.Object.HealingFountain.desc
-  - Amlos.Object.GreatGateRight.desc
-  - Amlos.Object.GreatGateMain.desc
-  - Amlos.Tiles.Tile_TheTowerWindow.desc
-  - Amlos.Object.GreatGateLeft.desc
-  - Amlos.Combat.ActiveSkill.LightSalvation.name
-  - Amlos.Combat.ActiveSkill.LightSalvation.desc
-  - Amlos.Object.Cannon.desc
-  - Amlos.Combat.ActiveSkill.WaterWall.name
-  - Amlos.Combat.ActiveSkill.WaterWall.desc
-  - Amlos.Combat.ActiveSkill.LakeOfFire.name
-  - Amlos.Combat.ActiveSkill.LakeOfFire.desc
+  missingKeys: []
