@@ -134,7 +134,7 @@ Amlos.Combat.ActiveSkill.WindBlade.desc: "将爪击替换为横向飞行的风�
 Amlos.Combat.ActiveSkill.WindBlade.name: "风刃"
 Amlos.Combat.ActiveSkill.WindCutter.desc: "射击一连串的风刃。风刃速度非常快，回弹力强，但不能穿透敌方。每个风刃持续时间很短。每个风刃都造成{prefab}。"
 Amlos.Combat.ActiveSkill.WindCutter.name: "急袭风刃"
-Amlos.Combat.ActiveSkill.WindRide.desc: "将风压向下发射的同时快速向上移动，对下方的敌人造成{prefab}。\n使用此技能可以在一段时间内增加移速。"
+Amlos.Combat.ActiveSkill.WindRide.desc: "快速向上移动，同时向下发射{windParticles}个风压，每个风压对敌人造成{prefab}。\n使用此技能可以在一段时间内增加移速。"
 Amlos.Combat.ActiveSkill.WindRide.name: "凭风驭"
 Amlos.Combat.ActiveSkill.WindStorm.desc: "向水平方向发射风刃，每个小型风刃造成{windStorm_Small}，大型风刃造成{windStorm_Large}。"
 Amlos.Combat.ActiveSkill.WindStorm.name: "风暴"
