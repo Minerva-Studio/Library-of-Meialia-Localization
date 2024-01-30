@@ -1,0 +1,21 @@
+#Elements
+Amlos.Element.Aethiumian.name: "§#E1AEA1辉石§"
+Amlos.Element.Arcane.name: "§#8600FF奥术元素§"
+Amlos.Element.Dark.name: "§#231756暗元素§"
+Amlos.Element.Earth.name: "§#A44000土元素§"
+Amlos.Element.Fire.name: "§R火元素§"
+Amlos.Element.Light.name: "§Y光元素§"
+Amlos.Element.Soul.name: "§#7F7F7F灵魂元素§"
+Amlos.Element.Space.name: "§#FF7FFF空间元素§"
+Amlos.Element.Water.name: "§B水元素§"
+Amlos.Element.Wind.name: "§G风元素§"
+#Combat
+Amlos.Combat.AttackDuration.info: "生效/冷却: §G{activation}s§/§R{cooldown}s§"
+Amlos.Combat.Damage.info: "{list}{element}伤害"
+Amlos.Combat.Damage.MagicalDamage.info: "{magicalDamage} 魔法"
+Amlos.Combat.Damage.PhysicalDamage.info: "{physicalDamage} 物理"
+Amlos.Combat.Damage.TrueDamage.info: "{trueDamage} 真实"
+Amlos.Combat.Level.desc: "等级: {level}"
+Amlos.Combat.SkillDuration.info: "生效/冷却: §G{activation}s§/§R{cooldown}s§"
+#Objectives
+Amlos.Objectives.ConversationWith.info: "与 {uniqueNPCName} 对话"
