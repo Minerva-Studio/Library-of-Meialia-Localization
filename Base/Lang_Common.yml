@@ -1,0 +1,21 @@
+# Elements
+Amlos.Element.Aethiumian.name: "§#E1AEA1Aethiumian§"
+Amlos.Element.Arcane.name: "§#8600FFArcane§"
+Amlos.Element.Dark.name: "§#231756Dark§"
+Amlos.Element.Earth.name: "§#A44000Earth§"
+Amlos.Element.Fire.name: "§RFire§"
+Amlos.Element.Light.name: "§YLight§"
+Amlos.Element.Soul.name: "§#7F7F7FSoul§"
+Amlos.Element.Space.name: "§#FF7FFFSpace§"
+Amlos.Element.Water.name: "§BWater§"
+Amlos.Element.Wind.name: "§GWind§"
+# Combat
+Amlos.Combat.AttackDuration.info: "Activate/CD: §G{activation}s§/§R{cooldown}s§"
+Amlos.Combat.Damage.info: "{list} {element} Damage"
+Amlos.Combat.Damage.MagicalDamage.info: "{magicalDamage} Magical"
+Amlos.Combat.Damage.PhysicalDamage.info: "{physicalDamage} Physical"
+Amlos.Combat.Damage.TrueDamage.info: "{trueDamage} True"
+Amlos.Combat.Level.desc: "Level: {level}"
+Amlos.Combat.SkillDuration.info: "Activate/CD: §G{activation}s§/§R{cooldown}s§"
+# Objectives
+Amlos.Objectives.ConversationWith.info: "Conversation With {uniqueNPCName}"

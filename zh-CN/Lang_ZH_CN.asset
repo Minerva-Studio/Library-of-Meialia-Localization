@@ -225,4 +225,4 @@ MonoBehaviour:
   - key: Amlos.Entity.TheGuardian.name
     value: "\u5DE8\u77F3\u5B88\u536B"
   - key: Amlos.Objectives.ConversationWith.info
-    value: Conversation With {uniqueNPCName}
+    value: "\u4E0E {uniqueNPCName} \u5BF9\u8BDD"
