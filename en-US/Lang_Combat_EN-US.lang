@@ -92,7 +92,7 @@ Amlos.Combat.ActiveSkill.RazorTempest.desc: "Unleash Large Razors that homes on 
 Amlos.Combat.ActiveSkill.RazorTempest.name: "Razor Tempest"
 Amlos.Combat.ActiveSkill.ReleaseThePlague.desc: "ReleaseThePlagueDesc."
 Amlos.Combat.ActiveSkill.ReleaseThePlague.name: "ReleaseThePlague"
-Amlos.Combat.ActiveSkill.ShadowDomain.desc: "Creates a zone centered around the player that grows over {maximumChargeTime} seconds. If the player moves too quickly, or enough time has passed, the zone explodes and deals {ShadowDomainExplosion} to all enemies in the area."
+Amlos.Combat.ActiveSkill.ShadowDomain.desc: "Creates a zone centered around the player that grows over {maximumChargeTime} seconds. If the player moves too quickly, or passed {activation}, the zone explodes and deals {ShadowDomainExplosion} to all enemies in the area."
 Amlos.Combat.ActiveSkill.ShadowDomain.name: "Shadow Domain"
 Amlos.Combat.ActiveSkill.ShimmeringBlessing.desc: "Grants the Shimmer Blessing effect, gives the user max {MaxShield} * ({level}+1) shield based on outgoing damage."
 Amlos.Combat.ActiveSkill.ShimmeringBlessing.name: "Shimmering Blessing"
