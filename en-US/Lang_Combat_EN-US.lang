@@ -110,7 +110,7 @@ Amlos.Combat.ActiveSkill.SpaceDistortion.desc: "Create a zone for {lifetime}s th
 Amlos.Combat.ActiveSkill.SpaceDistortion.name: "Space Distortion"
 Amlos.Combat.ActiveSkill.SpatialCollapse.desc: "SpatialCollapseDesc."
 Amlos.Combat.ActiveSkill.SpatialCollapse.name: "SpatialCollapse"
-Amlos.Combat.ActiveSkill.SpiritLink.desc: "Drops a chain that will attach to a nearby enemy for 10s, attacking the Spirit Link deals reduced soul damage to the target.\n"
+Amlos.Combat.ActiveSkill.SpiritLink.desc: "Drops a chain that will attach to a nearby enemy for 10s, attacking the Spirit Link deals {damageMultiplier:f_p1} original damage of soul damage to the target."
 Amlos.Combat.ActiveSkill.SpiritLink.name: "Spirit Link"
 Amlos.Combat.ActiveSkill.SpiritWarrior.desc: "SpiritWarriorDesc."
 Amlos.Combat.ActiveSkill.SpiritWarrior.name: "SpiritWarrior"
