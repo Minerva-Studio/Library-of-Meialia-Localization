@@ -18,24 +18,16 @@ MonoBehaviour:
   isMasterFile: 1
   masterFile: {fileID: 0}
   childFiles:
-  - {fileID: 11400000, guid: 2007af6982d80204a903356f5866e636, type: 2}
+  - {fileID: -5047112709815915446, guid: 05436fbc591b6af40853b739debb6133, type: 3}
+  - {fileID: -5047112709815915446, guid: 3ac34ca870ad8284a9f9b5e57d6b6393, type: 3}
   - {fileID: -5047112709815915446, guid: 77e597758b419ea4ea79e1d3cca7159c, type: 3}
+  - {fileID: -5047112709815915446, guid: cab082479b2406b46820bd100c53fd0c, type: 3}
   - {fileID: -5047112709815915446, guid: d6454a52db5d60f4db96b1be551be1cd, type: 3}
+  - {fileID: -5047112709815915446, guid: 7612c59fbcddc2d4899afc9af2cb5126, type: 3}
+  - {fileID: 11400000, guid: 2007af6982d80204a903356f5866e636, type: 2}
   - {fileID: 11400000, guid: da6a815e1541d4351b12b2081e09e345, type: 2}
   region: EN_US
   entries:
-  - key: Amlos.Combat.SkillDuration.info
-    value: "Activate/CD: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
-  - key: Amlos.Combat.AttackDuration.info
-    value: "Activate/CD: \xA7G{activation}s\xA7/\xA7R{cooldown}s\xA7"
-  - key: Amlos.Combat.Damage.info
-    value: '{list} {element} Damage'
-  - key: Amlos.Combat.Damage.MagicalDamage.info
-    value: '{magicalDamage} Magical'
-  - key: Amlos.Combat.Damage.PhysicalDamage.info
-    value: '{physicalDamage} Physical'
-  - key: Amlos.Combat.Damage.TrueDamage.info
-    value: '{trueDamage} True'
   - key: Amlos.Combat.Effect.Burning.desc
     value: 
   - key: Amlos.Combat.Effect.Burning.name
@@ -116,30 +108,6 @@ MonoBehaviour:
     value: 
   - key: Amlos.Combat.Effect.Weakness.name
     value: 
-  - key: Amlos.Combat.Level.desc
-    value: 'Level: {level}'
-  - key: Amlos.Element.Aethiumian.name
-    value: "\xA7#E1AEA1Aethiumian\xA7"
-  - key: Amlos.Element.Arcane.name
-    value: "\xA7#8600FFArcane\xA7"
-  - key: Amlos.Element.Dark.name
-    value: "\xA7#231756Dark\xA7"
-  - key: Amlos.Element.Earth.name
-    value: "\xA7#A44000Earth\xA7"
-  - key: Amlos.Element.Fire.name
-    value: "\xA7RFire\xA7"
-  - key: Amlos.Element.Light.name
-    value: "\xA7YLight\xA7"
-  - key: Amlos.Element.Soul.name
-    value: "\xA7#7F7F7FSoul\xA7"
-  - key: Amlos.Element.Space.name
-    value: "\xA7#FF7FFFSpace\xA7"
-  - key: Amlos.Element.Water.name
-    value: "\xA7BWater\xA7"
-  - key: Amlos.Element.Wind.name
-    value: "\xA7GWind\xA7"
-  - key: Amlos.Entity.MamaRhombear.name
-    value: Mama Rhombear
   - key: Amlos.Object.Aethiumeters.Aethiumeter.desc
     value: 
   - key: Amlos.Object.Aethiumeters.Aethiumeter.name
@@ -168,33 +136,7 @@ MonoBehaviour:
     value: 
   - key: Amlos.Object.StaircaseGate.name
     value: 
-  - key: Amlos.UI.Common.Back.name
-    value: Back
-  - key: Amlos.UI.Common.Confirm.name
-    value: Confirm
-  - key: Amlos.UI.PausePanel.Resume.name
-    value: Resume
-  - key: Amlos.UI.PausePanel.title
-    value: Pause
-  - key: Amlos.UI.Setting.Control.title
-    value: Control
-  - key: Amlos.UI.Setting.Graphics.title
-    value: Graphic
-  - key: Amlos.UI.Setting.Language.title
-    value: Language
-  - key: Amlos.UI.Setting.Name
-    value: Setting
-  - key: Amlos.UI.Setting.Sound.title
-    value: Sound
-  - key: Amlos.UI.Setting.Other.title
-    value: Other
   - key: Amlos.Combat.Effect.LightBarrierStatus.name
     value: 
   - key: Amlos.Combat.Effect.LightBarrierStatus.desc
     value: 
-  - key: Amlos.Entity.TheAmir.name
-    value: The Amir
-  - key: Amlos.Entity.TheGuardian.name
-    value: The Guardian
-  - key: Amlos.Objectives.ConversationWith.info
-    value: Conversation With {uniqueNPCName}
