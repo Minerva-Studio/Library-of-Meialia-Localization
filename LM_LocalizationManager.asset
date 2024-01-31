@@ -18,6 +18,7 @@ MonoBehaviour:
   files:
   - {fileID: 11400000, guid: 155bace641a22aa4f8afc406a7031aa9, type: 2}
   - {fileID: 11400000, guid: 03b4c10783cd4714eb3ed50aa12081df, type: 2}
+  sources: []
   regions:
   - EN_US
   - ZH_CN
