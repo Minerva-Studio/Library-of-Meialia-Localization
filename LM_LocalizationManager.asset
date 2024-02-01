@@ -18,8 +18,13 @@ MonoBehaviour:
   files:
   - {fileID: 11400000, guid: 155bace641a22aa4f8afc406a7031aa9, type: 2}
   - {fileID: 11400000, guid: 03b4c10783cd4714eb3ed50aa12081df, type: 2}
-  sources: []
+  sources:
+  - {fileID: -5047112709815915446, guid: a9a54295ff7a86f41be88b2b22628984, type: 3}
+  - {fileID: -5047112709815915446, guid: 727e60fff392b1a4390816b9a3e2091f, type: 3}
+  - {fileID: -5047112709815915446, guid: 822ef8d77ac628b4d861781a2c16d545, type: 3}
+  - {fileID: -5047112709815915446, guid: 1b1c7459c520b4d2eaeceb0b33844c45, type: 3}
+  - {fileID: -5047112709815915446, guid: 3af1d04e1b3e444e0b7efac9897ac194, type: 3}
+  - {fileID: -5047112709815915446, guid: 489e1be1d125dee43a9788ebc89f631f, type: 3}
   regions:
   - EN_US
   - ZH_CN
-  missingKeys: []
