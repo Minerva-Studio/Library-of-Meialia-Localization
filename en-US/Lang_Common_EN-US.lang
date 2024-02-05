@@ -16,6 +16,6 @@ Amlos.Combat.Damage.MagicalDamage.info: "{magicalDamage} Magical"
 Amlos.Combat.Damage.PhysicalDamage.info: "{physicalDamage} Physical"
 Amlos.Combat.Damage.TrueDamage.info: "{trueDamage} True"
 Amlos.Combat.Level.desc: "Level: {level}"
-Amlos.Combat.SkillDuration.info: "Activate/CD: §G{activation}s§/§R{cooldown}s§"
+Amlos.Combat.SkillDuration.info: "Activate/CD: §G{activation:f_f1}s§/§R{cooldown:f_f1}s§"
 #Objectives
 Amlos.Objectives.ConversationWith.info: "Conversation With {uniqueNPCName}"
