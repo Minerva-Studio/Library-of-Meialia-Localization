@@ -78,7 +78,7 @@ Amlos.Combat.ActiveSkill.LightSalvation.desc: "Charge skill {chargeToExecute}. G
 Amlos.Combat.ActiveSkill.LightSalvation.name: "Light Salvation"
 Amlos.Combat.ActiveSkill.LunarSlash.desc: "Replaces Claw attack with Lunar Slash for a duration, launching lunar projectiles that deals {attack}\nand shrink if touching light. "
 Amlos.Combat.ActiveSkill.LunarSlash.name: "Lunar Slash"
-Amlos.Combat.ActiveSkill.MagicChessPiece.desc: "MagicChessPieceDesc."
+Amlos.Combat.ActiveSkill.MagicChessPiece.desc: "Spawn a rook chess piece slamming the ground then accelerates in random direction, deal {prefab} to anything in its path."
 Amlos.Combat.ActiveSkill.MagicChessPiece.name: "Magic Chess Piece"
 Amlos.Combat.ActiveSkill.Meteor.desc: "Rain down meteors from the heavens.\nVery strong, but the meteors cannot be aimed."
 Amlos.Combat.ActiveSkill.Meteor.name: "Meteor"
