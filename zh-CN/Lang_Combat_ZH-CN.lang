@@ -154,7 +154,7 @@ Amlos.Combat.Effect.Crack.desc: "使得实体受到的物理伤害提升{Level}*
 Amlos.Combat.Effect.Crack.name: "龟裂"
 Amlos.Combat.Effect.DarkIrradiated.desc: "使实体每{Interval:f_f2}秒受到{baseDamage}$Amlos.Element.Dark.name$伤害。\n实体受到的伤害会随着时间增加，每次结算伤害增加{Level}×{BASE_DAMAGE}的伤害。"
 Amlos.Combat.Effect.DarkIrradiated.name: "暗辐"
-Amlos.Combat.Effect.Diffusion.desc: "当实体拥有超过1级的$Amlos.Combat.Effect.Burning.name$效果后，半径{Radius}格的实体将被赋予{AddingLevel}级的$Amlos.Combat.Effect.Burning.name$，持续50%当前$Amlos.Combat.Effect.Burning.name$效果的时间。"
+Amlos.Combat.Effect.Diffusion.desc: "当实体拥有超过1级的$Amlos.Combat.Effect.Burning.name$效果后，半径{Radius} 格的实体将被赋予（原等级-1）级的$Amlos.Combat.Effect.Burning.name$，持续50%当前$Amlos.Combat.Effect.Burning.name$效果的时间。"
 Amlos.Combat.Effect.Diffusion.name: "扩散"
 Amlos.Combat.Effect.Dusted.desc: "当实体受到非基础元素（$Amlos.Element.Fire.name$, $Amlos.Element.Water.name$, $Amlos.Element.Earth.name$, $Amlos.Element.Wind.name$）伤害时，\n对实体追加原伤害{Level}×{DUST_DAMAGE:f_p0}的$Amlos.Combat.Damage.PhysicalDamage.info:physicalDamage=$$Amlos.Element.Earth.name$伤害"
 Amlos.Combat.Effect.Dusted.name: "尘缚"
