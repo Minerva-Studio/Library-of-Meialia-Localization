@@ -30,7 +30,7 @@ Amlos.Combat.ActiveSkill.DarkRadiation.desc: "Generates a dark area that moves s
 Amlos.Combat.ActiveSkill.DarkRadiation.name: "Dark Radiation"
 Amlos.Combat.ActiveSkill.DustCloud.desc: "Summons a cloud of dust. Enemies inside simultaneously receive {prefab} and the Dusted effect for {effectDuration}s, which deals additional {effectBaseDamage}% Earth Damage via basic element attacks. "
 Amlos.Combat.ActiveSkill.DustCloud.name: "Dust Cloud"
-Amlos.Combat.ActiveSkill.DustStorm.desc: "DustStormDesc."
+Amlos.Combat.ActiveSkill.DustStorm.desc: "Gives 1 §YCharge§ level unless at {chargeToExecute} §YCharge§. Creates a Dust Storm areal that deals {attack} and gains {damageLevelScaling} extra damage scaling and {speedLevelScaling} extra speed scaling per additional §YCharge§."
 Amlos.Combat.ActiveSkill.DustStorm.name: "Dust Storm"
 Amlos.Combat.ActiveSkill.Earthball.desc: "Summon an orbiting Earthen sphere that does {prefab} damage when contacting enemies."
 Amlos.Combat.ActiveSkill.Earthball.name: "Earth Ball"
