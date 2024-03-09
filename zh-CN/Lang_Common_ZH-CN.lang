@@ -15,7 +15,7 @@ Amlos.Combat.Damage.info: "{list}{element}伤害"
 Amlos.Combat.Damage.MagicalDamage.info: "{magicalDamage} 魔法"
 Amlos.Combat.Damage.PhysicalDamage.info: "{physicalDamage} 物理"
 Amlos.Combat.Damage.TrueDamage.info: "{trueDamage} 真实"
-Amlos.Combat.Shield.name: Shield
+Amlos.Combat.Shield.name: 能量盾
 Amlos.Combat.Shield.desc: "{selfDesc}\n{totalDesc}"
 Amlos.Combat.Shield.None.desc: A shield gives you a cool effect!
 Amlos.Combat.Shield.Physical.desc: A shield can absorb {amount} of physical damage
