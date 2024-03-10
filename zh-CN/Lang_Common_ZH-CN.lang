@@ -15,10 +15,10 @@ Amlos.Combat.Damage.info: "{list}{element}伤害"
 Amlos.Combat.Damage.MagicalDamage.info: "{magicalDamage} 魔法"
 Amlos.Combat.Damage.PhysicalDamage.info: "{physicalDamage} 物理"
 Amlos.Combat.Damage.TrueDamage.info: "{trueDamage} 真实"
-Amlos.Combat.Shield.name: 能量盾
+Amlos.Combat.Shield.name: 护盾
 Amlos.Combat.Shield.desc: "{selfDesc}\n{totalDesc}"
-Amlos.Combat.Shield.None.desc: 能量盾给你一个酷酷的效果！
-Amlos.Combat.Shield.Physical.desc: 能量盾可以吸收 {amount} 的物理伤害。
+Amlos.Combat.Shield.None.desc: 护盾给你一个酷酷的效果！
+Amlos.Combat.Shield.Physical.desc: 护盾可以吸收 {amount} 的物理伤害。
 Amlos.Combat.Shield.Magical.desc: 能量盾可以吸收 {amount} 的魔法伤害。
 Amlos.Combat.Shield.All.desc: 能量盾可以吸收 {amount} 的物理和魔法伤害。
 Amlos.Combat.Shield.True.desc: 能量盾可以吸收 {amount} 的真实伤害。
