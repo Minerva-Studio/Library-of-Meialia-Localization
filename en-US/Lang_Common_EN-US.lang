@@ -15,17 +15,17 @@ Amlos.Combat.Damage.info: "{list} {element} Damage"
 Amlos.Combat.Damage.MagicalDamage.info: "{magicalDamage} Magical"
 Amlos.Combat.Damage.PhysicalDamage.info: "{physicalDamage} Physical"
 Amlos.Combat.Damage.TrueDamage.info: "{trueDamage} True"
-Amlos.Combat.Shield.name: 能量盾
+Amlos.Combat.Shield.name: Shield
 Amlos.Combat.Shield.desc: "{selfDesc}\n{totalDesc}"
-Amlos.Combat.Shield.None.desc: 这能量盾感觉真不错！
-Amlos.Combat.Shield.Physical.desc: 能量盾可以吸收 {amount} 的物理伤害。
-Amlos.Combat.Shield.Magical.desc: 能量盾可以吸收 {amount} 的魔法伤害。
-Amlos.Combat.Shield.All.desc: 能量盾可以吸收 {amount} 的物理或者魔法伤害伤害。
-Amlos.Combat.Shield.True.desc: 能量盾可以吸收 {amount} 的真实伤害。
-Amlos.Combat.Shield.AnyType.desc: 能量盾可以吸收 {amount} 的万能伤害。
-Amlos.Combat.Shield.Total.desc: "总共: {total}\n物理: {total_physical}\n魔法: {total_magical}\n真实: {total_true}"
-Amlos.Combat.Suffocation.name: 窒息
-Amlos.Combat.Suffocation.desc: 窒息中，每 {DAMAGE DEAL INTERVAL} 秒会受到 {DAMAGE} 点真实伤害。
+Amlos.Combat.Shield.None.desc: A shield gives you a cool effect!
+Amlos.Combat.Shield.Physical.desc: A shield can absorb {amount} of physical damage
+Amlos.Combat.Shield.Magical.desc: A shield can absorb {amount} of magical damage
+Amlos.Combat.Shield.All.desc: A shield can absorb {amount} of physical or magical damage
+Amlos.Combat.Shield.True.desc: A shield can absorb {amount} of true damage
+Amlos.Combat.Shield.AnyType.desc: A shield can absorb {amount} of any damage
+Amlos.Combat.Shield.Total.desc: "Total: {total}\nPhysical: {total_physical}\nMagical: {total_magical}\nTrue: {total_true}"
+Amlos.Combat.Suffocation.name: Suffocate
+Amlos.Combat.Suffocation.desc: Soffocating, taking {DAMAGE} of true damage every {DAMAGE_DEAL_INTERVAL}s
 Amlos.Combat.Level.desc: "Level: {level}"
 Amlos.Combat.SkillDuration.info: "Activate/CD: §G{activation:f_f1}s§/§R{cooldown:f_f1}s§"
 #Objectives
