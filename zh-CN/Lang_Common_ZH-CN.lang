@@ -19,10 +19,10 @@ Amlos.Combat.Shield.name: 护盾
 Amlos.Combat.Shield.desc: "{selfDesc}\n{totalDesc}"
 Amlos.Combat.Shield.None.desc: 护盾给你一个酷酷的效果！
 Amlos.Combat.Shield.Physical.desc: 护盾可以吸收 {amount} 的物理伤害。
-Amlos.Combat.Shield.Magical.desc: 能量盾可以吸收 {amount} 的魔法伤害。
-Amlos.Combat.Shield.All.desc: 能量盾可以吸收 {amount} 的物理和魔法伤害。
-Amlos.Combat.Shield.True.desc: 能量盾可以吸收 {amount} 的真实伤害。
-Amlos.Combat.Shield.AnyType.desc: 能量盾可以吸收 {amount} 的万能伤害。
+Amlos.Combat.Shield.Magical.desc: 护盾可以吸收 {amount} 的魔法伤害。
+Amlos.Combat.Shield.All.desc: 护盾可以吸收 {amount} 的物理和魔法伤害。
+Amlos.Combat.Shield.True.desc: 护盾可以吸收 {amount} 的真实伤害。
+Amlos.Combat.Shield.AnyType.desc: 护盾可以吸收 {amount} 的任意伤害。
 Amlos.Combat.Shield.Total.desc: "总共: {total}\n物理: {total_physical}\n魔法: {total_magical}\n真实: {total_true}"
 Amlos.Combat.Suffocation.name: 窒息
 Amlos.Combat.Suffocation.desc: 窒息中，每 {DAMAGE DEAL INTERVAL} 秒会受到 {DAMAGE} 点真实伤害。
