@@ -1,3 +1,4 @@
+# localization for common entities (not the NPCs)
 Amlos.Entity.BookWorm.desc: "BookWormDesc."
 Amlos.Entity.BookWorm.info: "BookWormInfo."
 Amlos.Entity.BookWorm.name: "BookWorm"
