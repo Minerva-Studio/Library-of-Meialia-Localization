@@ -1,3 +1,4 @@
+#relate to combat, like active/passive skills, effect, etc.
 Amlos.Combat.ActiveSkill.AbsoluteZero.desc: "Create a zone that instantly removes heat, periodically dealing AOE damage when in the zone."
 Amlos.Combat.ActiveSkill.AbsoluteZero.name: "Absolute Zero"
 Amlos.Combat.ActiveSkill.AbyssalDevour.desc: "Summons an abyssal hole. Selects the closest target to devour. \nDeals {attack} to the enemy closest to mouse position.\nAdds {baseIncrement}+{levelBonus}*{level} additional Sunken counts to this target."
