@@ -1,13 +1,16 @@
-﻿Amlos.Character.Cham.Daily.0.msg: While many human and Pomttacine call me a Sahamusi, I am not.
-Amlos.Character.Cham.Daily.1.msg: You are neither that red dragon nor that pink dragon, a newcomer?
-Amlos.Character.Cham.Daily.2.msg: I already gave you at least a 50% discount.
-Amlos.Character.Cham.Daily.3.msg: I guarantee that the things I sell here are at least half cheaper than the gang of Kitsuru profiteers outside.
-Amlos.Character.Cham.Daily.4.msg: I can get human technology, but I don't offer a warranty.
-Amlos.Character.Cham.Daily.5.msg: Do you, young dragon, study the nine-element theory or the aethion theory? I have all the books you want.
-Amlos.Character.Cham.Daily.6.msg: The librarian did not noticed when you came in, right?
-Amlos.Character.Cham.Daily.7.msg: I have been a serious Meialian traveling merchant for more than 50 years.
-Amlos.Character.Cham.Daily.8.msg: I guarantee that every page here was not ripped from the outside by me.
-Amlos.Character.Cham.Daily.9.msg: Don't worry about why these things have the Sciences Academy seal on them.
-Amlos.Character.Cham.Daily.10.msg: Why don't you come and see us again tomorrow?
-Amlos.Character.Cham.Daily.11.msg: If you don't have money, I don't mind if you pull out a few scales and give them to me.
-Amlos.Character.Cham.Daily.12.msg: Recycle old books and props.
+﻿#File storing basic Character localization (not the story)
+#Cham
+Amlos.Character.Cham.name: Cham
+Amlos.Character.Cham.Daily.0.msg: 很多人类和彭大鹦总是叫我萨哈姆蜥，但我不是……
+Amlos.Character.Cham.Daily.1.msg: 你不是那只红龙，也不是那只粉龙。新来的?
+Amlos.Character.Cham.Daily.2.msg: 我已经给你至少五折优惠了。
+Amlos.Character.Cham.Daily.3.msg: 我保证我这里的东西卖的比外面那帮鹤狐奸商便宜至少一半。
+Amlos.Character.Cham.Daily.4.msg: 人类科技我也能搞到,但是我不提供保修。
+Amlos.Character.Cham.Daily.5.msg: 小龙是学辉石素理论的还是九元素理论的?你要的书我都有。
+Amlos.Character.Cham.Daily.6.msg: 进来的时候没被图书管理员们发现吧?
+Amlos.Character.Cham.Daily.7.msg: 我做正经的米埃里亚游商50多年了。
+Amlos.Character.Cham.Daily.8.msg: 我保证这里的每一页书页都不是我从外面撕下来的。
+Amlos.Character.Cham.Daily.9.msg: 不要担心为什么这些东西上面有科学院的章。
+Amlos.Character.Cham.Daily.10.msg: 要不明天再来看看?
+Amlos.Character.Cham.Daily.11.msg: 没钱的话我不介意你拔几块鳞片给我。
+Amlos.Character.Cham.Daily.12.msg: 回收旧书籍，道具。
