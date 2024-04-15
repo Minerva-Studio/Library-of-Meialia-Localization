@@ -1,3 +1,4 @@
+#relate to combat, like active/passive skills, effect, etc.
 Amlos.Combat.ActiveSkill.AbsoluteZero.desc: "召唤一个领域，在其中的敌人收到持续伤害，呆得越久伤害越高。"
 Amlos.Combat.ActiveSkill.AbsoluteZero.name: "绝对零度"
 Amlos.Combat.ActiveSkill.AbyssalDevour.desc: "召唤深渊巨口，对最近目标发起吞噬，造成 {attack}。\n对该目标额外叠加{baseIncrement}+{levelBonus}*{level}层沉渊效果。"
