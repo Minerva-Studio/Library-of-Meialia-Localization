@@ -1,4 +1,7 @@
 # Common entries
+# Regions
+Amlos.Region.EN_US.name: "English (United States)"
+Amlos.Region.ZH_CN.name: "简体中文"
 # Elements
 Amlos.Element.Aethiumian.name: "§#E1AEA1Aethiumian§"
 Amlos.Element.Arcane.name: "§#8600FFArcane§"
@@ -10,6 +13,23 @@ Amlos.Element.Soul.name: "§#7F7F7FSoul§"
 Amlos.Element.Space.name: "§#FF7FFFSpace§"
 Amlos.Element.Water.name: "§BWater§"
 Amlos.Element.Wind.name: "§GWind§"
+# Keybinds
+Amlos.Control.Input.Key.MoveLeft.name: Move Left
+Amlos.Control.Input.Key.MoveRight.name: Move Right
+Amlos.Control.Input.Key.MoveUp.name: Move Up
+Amlos.Control.Input.Key.MoveDown.name: Move Down
+Amlos.Control.Input.Key.Jump.name: Jump
+Amlos.Control.Input.Key.Sprint.name: Sprint
+Amlos.Control.Input.Key.MeleeAttack.name: Melee Attack
+Amlos.Control.Input.Key.Defend.name: Defend
+Amlos.Control.Input.Key.Skill1.name: Skill 1
+Amlos.Control.Input.Key.Skill2.name: Skill 2
+Amlos.Control.Input.Key.SkillSwitch.name: Skill Switch
+Amlos.Control.Input.Key.Interact.name: Interact
+Amlos.Control.Input.Key.Map.name: Map
+Amlos.Control.Input.Key.Bag.name: Bag
+Amlos.Control.Input.Key.ESC.name: ESC
+Amlos.Control.Input.Key.Debug.name: Debug
 # Combat
 Amlos.Combat.AttackDuration.info: "Activate/CD: §G{activation}s§/§R{cooldown}s§"
 Amlos.Combat.Damage.info: "{list} {element} Damage"

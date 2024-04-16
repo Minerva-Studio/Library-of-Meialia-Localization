@@ -1,13 +1,26 @@
+#Common
 Amlos.UI.Common.Back.name: "返回"
+Amlos.UI.Common.Cancel.name: "取消"
 Amlos.UI.Common.Confirm.name: "确定"
+Amlos.UI.Common.Reset.name: "重置"
 Amlos.UI.Common.Off.name: "关"
 Amlos.UI.Common.On.name: "开"
+#Main Menu
+Amlos.UI.MainMenu.Continue.name: 继续
+Amlos.UI.MainMenu.NewGame.name: 新游戏
+Amlos.UI.MainMenu.Settings.name: 设置
+Amlos.UI.MainMenu.Quit.name: 退出
+#Pause Panel
 Amlos.UI.PausePanel.Resume.name: "返回"
 Amlos.UI.PausePanel.Restart.name: "重新开始"
+Amlos.UI.PausePanel.Restart.msg: "重新开始当前关卡？\n你当前的进度<b>不会</b>被保存"
 Amlos.UI.PausePanel.Quit.name: "退出"
+Amlos.UI.PausePanel.Quit.msg: "回到主界面？\n你当前的进度会被保存"
 Amlos.UI.PausePanel.Settings.name: "设置"
 Amlos.UI.PausePanel.title: "暂停"
+#Settings
 Amlos.UI.Setting.Control.title: "控制"
+Amlos.UI.Setting.Control.ResetKeybind.name: "重置键位设置"
 Amlos.UI.Setting.Credit.title: "鸣谢"
 Amlos.UI.Setting.Graphics.title: "图像"
 Amlos.UI.Setting.Graphics.UIScale.name: "界面缩放"
@@ -21,6 +34,7 @@ Amlos.UI.Setting.Graphics.Light.BrightnessChange.name: "亮度变化"
 Amlos.UI.Setting.Graphics.Light.ColorChange.name: "颜色变化"
 Amlos.UI.Setting.Language.title: "语言"
 Amlos.UI.Setting.title: "设置"
+Amlos.UI.Setting.Reset.msg: "重置所有设置？"
 Amlos.UI.Setting.Other.title: "其他"
 Amlos.UI.Setting.Other.Reset.name: "重置设置"
 Amlos.UI.Setting.Other.OpenSaveFolder.name: "打开存档文件夹"
