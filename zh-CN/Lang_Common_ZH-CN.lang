@@ -1,5 +1,5 @@
 #Common entries
-# Regions
+#Regions
 Amlos.Region.EN_US.name: "English (United States)"
 Amlos.Region.ZH_CN.name: "简体中文"
 #Elements
@@ -13,7 +13,7 @@ Amlos.Element.Soul.name: "§#7F7F7F灵魂元素§"
 Amlos.Element.Space.name: "§#FF7FFF空间元素§"
 Amlos.Element.Water.name: "§B水元素§"
 Amlos.Element.Wind.name: "§G风元素§"
-# Keybinds
+#Keybinds
 Amlos.Control.Input.Key.MoveLeft.name: 左移动
 Amlos.Control.Input.Key.MoveRight.name: 右移动
 Amlos.Control.Input.Key.MoveUp.name: 上移动
