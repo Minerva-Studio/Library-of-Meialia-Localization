@@ -14,22 +14,22 @@ Amlos.Element.Space.name: "§#FF7FFF空间元素§"
 Amlos.Element.Water.name: "§B水元素§"
 Amlos.Element.Wind.name: "§G风元素§"
 #Keybinds
-Amlos.Control.Input.Key.MoveLeft.name: Move Left
-Amlos.Control.Input.Key.MoveRight.name: Move Right
-Amlos.Control.Input.Key.MoveUp.name: Move Up
-Amlos.Control.Input.Key.MoveDown.name: Move Down
-Amlos.Control.Input.Key.Jump.name: Jump
-Amlos.Control.Input.Key.Sprint.name: Sprint
-Amlos.Control.Input.Key.MeleeAttack.name: Melee Attack
-Amlos.Control.Input.Key.Defend.name: Defend
-Amlos.Control.Input.Key.Skill1.name: Skill 1
-Amlos.Control.Input.Key.Skill2.name: Skill 2
-Amlos.Control.Input.Key.SkillSwitch.name: Skill Switch
-Amlos.Control.Input.Key.Interact.name: Interact
-Amlos.Control.Input.Key.Map.name: Map
-Amlos.Control.Input.Key.Bag.name: Bag
-Amlos.Control.Input.Key.ESC.name: ESC
-Amlos.Control.Input.Key.Debug.name: Debug
+Amlos.Control.Input.Key.MoveLeft.name: 左移动
+Amlos.Control.Input.Key.MoveRight.name: 右移动
+Amlos.Control.Input.Key.MoveUp.name: 上移动
+Amlos.Control.Input.Key.MoveDown.name: 下移动
+Amlos.Control.Input.Key.Jump.name: 跳跃
+Amlos.Control.Input.Key.Sprint.name: 冲刺
+Amlos.Control.Input.Key.MeleeAttack.name: 近战
+Amlos.Control.Input.Key.Defend.name: 防御
+Amlos.Control.Input.Key.Skill1.name: 技能 1
+Amlos.Control.Input.Key.Skill2.name: 技能 2
+Amlos.Control.Input.Key.SkillSwitch.name: 切换书
+Amlos.Control.Input.Key.Interact.name: 交互
+Amlos.Control.Input.Key.Map.name: 地图
+Amlos.Control.Input.Key.Bag.name: 背包
+Amlos.Control.Input.Key.ESC.name: 退出
+Amlos.Control.Input.Key.Debug.name: 调试
 #Combat
 Amlos.Combat.AttackDuration.info: "生效/冷却: §G{activation}s§/§R{cooldown}s§"
 Amlos.Combat.Damage.info: "{list}{element}伤害"
