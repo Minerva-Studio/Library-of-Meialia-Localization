@@ -3,7 +3,7 @@
 Amlos.Region.EN_US.name: "English (United States)"
 Amlos.Region.ZH_CN.name: "简体中文"
 #Elements
-Amlos.Element.Aethion.name: "§#E1AEA1Aethion§"
+Amlos.Element.Aethion.name: "§#E1AEA1辉石素§"
 Amlos.Element.Arcane.name: "§#8600FF奥术元素§"
 Amlos.Element.Dark.name: "§#231756暗元素§"
 Amlos.Element.Earth.name: "§#A44000土元素§"
@@ -14,10 +14,10 @@ Amlos.Element.Space.name: "§#FF7FFF空间元素§"
 Amlos.Element.Water.name: "§B水元素§"
 Amlos.Element.Wind.name: "§G风元素§"
 #Rarity
-Amlos.Rarity.Common.name: Common
-Amlos.Rarity.Rare.name: Rare
-Amlos.Rarity.Epic.name: Epic
-Amlos.Rarity.Legendary.name: Legendary
+Amlos.Rarity.Common.name: 常见
+Amlos.Rarity.Rare.name: 稀有
+Amlos.Rarity.Epic.name: 史诗
+Amlos.Rarity.Legendary.name: 传奇
 #Keybinds
 Amlos.Control.Input.Key.MoveLeft.name: 左移动
 Amlos.Control.Input.Key.MoveRight.name: 右移动
@@ -54,17 +54,17 @@ Amlos.Combat.Suffocation.name: 窒息
 Amlos.Combat.Suffocation.desc: 窒息中，每 {DAMAGE DEAL INTERVAL} 秒会受到 {DAMAGE} 点真实伤害。
 Amlos.Combat.Level.desc: "等级: {level}"
 Amlos.Combat.SkillDuration.info: "生效/冷却: §G{activation:f_f1}s§/§R{cooldown:f_f1}s§"
-Amlos.Combat.BookPage.BrokenPage.name: "Broken Page"
-Amlos.Combat.BookPage.BrokenPage.desc: "A broken magic pages, are now unreadable due to years of weathering or destructive uses."
-Amlos.Combat.BookPage.name: "{handPrefix} Page of {Skill}"
-Amlos.Combat.BookPage.Hand.First.name: First
-Amlos.Combat.BookPage.Hand.Second.name: Second
-Amlos.Combat.BookPage.Hand.Last.name: Last
-Amlos.Combat.BookPage.Unidentified.name: "Unidentified {prefix} Book Page"
-Amlos.Combat.BookPage.Unidentified.desc: "Element: {isElementDefined}\nRarity: {isRarityDefined}\nPosition: {prefixList}"
-Amlos.Combat.BookPage.Hand.Passive.name: Passive
-Amlos.Combat.BookPage.Hand.Active.name: Active
-Amlos.Combat.BookPage.Hand.FirstActive.name: Major Skill
-Amlos.Combat.BookPage.Hand.SecondActive.name: Secondary Skill
+Amlos.Combat.BookPage.BrokenPage.name: "损坏的书页"
+Amlos.Combat.BookPage.BrokenPage.desc: "残缺不全的魔法书页，由于多年风化或破坏性使用，现已无法阅读。"
+Amlos.Combat.BookPage.name: "{handPrefix}页的{Skill}"
+Amlos.Combat.BookPage.Hand.First.name: 首
+Amlos.Combat.BookPage.Hand.Second.name: 第二
+Amlos.Combat.BookPage.Hand.Last.name: 尾
+Amlos.Combat.BookPage.Unidentified.name: "未鉴定的{prefix}书页"
+Amlos.Combat.BookPage.Unidentified.desc: "元素：{isElementDefined}\n稀有度：{isRarityDefined}\n位置：{positionList}"
+Amlos.Combat.BookPage.Hand.Passive.name: 被动
+Amlos.Combat.BookPage.Hand.Active.name: 主动
+Amlos.Combat.BookPage.Hand.FirstActive.name: 主技能
+Amlos.Combat.BookPage.Hand.SecondActive.name: 副技能
 #Objectives
 Amlos.Objectives.ConversationWith.info: "与 {uniqueNPCName} 对话"
