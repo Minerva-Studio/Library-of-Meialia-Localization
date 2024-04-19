@@ -29,3 +29,5 @@ MonoBehaviour:
   - {fileID: -5047112709815915446, guid: c30dccc8bcfc5434286a8e8d39eb9f6a, type: 3}
   region: EN_US
   entries: []
+  listDelimiter: ', '
+  wordSpace: ' '

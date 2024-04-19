@@ -29,3 +29,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0cfdb5b37d4aa7b4ab666183e38e18ad, type: 2}
   region: ZH_CN
   entries: []
+  listDelimiter: "\uFF0C"
+  wordSpace: 
