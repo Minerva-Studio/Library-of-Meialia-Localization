@@ -59,7 +59,7 @@ Amlos.Combat.ActiveSkill.FlowofWater.desc: "替换爪击为3段水属性连击�
 Amlos.Combat.ActiveSkill.FlowofWater.name: "水之道"
 Amlos.Combat.ActiveSkill.GravBomb.desc: "GravBombDesc."
 Amlos.Combat.ActiveSkill.GravBomb.name: "GravBomb"
-Amlos.Combat.ActiveSkill.GustMissile.desc: "从玩家向鼠标方向发射风弹，风弹开始时速度很慢，但会逐渐增加，速度越快造成的伤害就越大，风弹最少造 {prefab}。"
+Amlos.Combat.ActiveSkill.GustMissile.desc: "向鼠标方向发射低速风弹，但速度会逐渐增加，速度越快造成的伤害越大。\n风弹最低伤害：{prefab}。"
 Amlos.Combat.ActiveSkill.GustMissile.name: "蓄势疾风"
 Amlos.Combat.ActiveSkill.HeatWave.desc: "释放持续扩散的热浪，10秒内每秒对范围内所有目标造成 {prefab} 。\n初始范围为半径5米，最大扩散至半径10米。"
 Amlos.Combat.ActiveSkill.HeatWave.name: "焰光轮"
