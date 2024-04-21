@@ -11,7 +11,7 @@ Amlos.Combat.ActiveSkill.AzureAsleep.desc: "Releases Azure clouds that hit all v
 Amlos.Combat.ActiveSkill.AzureAsleep.name: "Azure Sleep"
 Amlos.Combat.ActiveSkill.BarrierOfGaia.desc: "Grants Gaia's barrier. When damaged, the barrier shatters into many projectiles \nthat home in on enemies. The shards do {earthShardPrefab} or {plantyShardPrefab}"
 Amlos.Combat.ActiveSkill.BarrierOfGaia.name: "Barrier Of Gaia"
-Amlos.Combat.ActiveSkill.Brick.desc: "Drops a large brick from the ceiling onto an area, dealing {prefab}.\nPowerful, but moves slowly and may miss enemies."
+Amlos.Combat.ActiveSkill.Brick.desc: "Drops a large brick from the ceiling onto an area, dealing {prefab}."
 Amlos.Combat.ActiveSkill.Brick.name: "Brick"
 Amlos.Combat.ActiveSkill.Bubbles.desc: "Shoots a spread of bubbles that deal {attack1} to enemies and can go through walls.\n"
 Amlos.Combat.ActiveSkill.Bubbles.name: "Bubbles"
