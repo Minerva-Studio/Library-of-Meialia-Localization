@@ -11,7 +11,7 @@ Amlos.Combat.ActiveSkill.AzureAsleep.desc: "释放阿祖尔云朵攻击所有视
 Amlos.Combat.ActiveSkill.AzureAsleep.name: "阿祖尔鼻息"
 Amlos.Combat.ActiveSkill.BarrierOfGaia.desc: "授予盖亚屏障，当受到伤害时，屏障会分裂成许多向敌人发射的发射物。 每个碎片可以造成 {earthShardPrefab} 或 {plantyShardPrefab} 。"
 Amlos.Combat.ActiveSkill.BarrierOfGaia.name: "地母的呵护"
-Amlos.Combat.ActiveSkill.Brick.desc: "从天花板召唤一块砖石砸向指定区域，造成{prefab}。\n伤害很高，但速度较慢，不易命中。"
+Amlos.Combat.ActiveSkill.Brick.desc: "从天花板召唤一块砖石砸向指定区域，造成{prefab}。"
 Amlos.Combat.ActiveSkill.Brick.name: "碎石陨"
 Amlos.Combat.ActiveSkill.Bubbles.desc: "向指定方向发射一片静止的泡沫。\n泡沫存在一段时间，对接触的敌人造成{attack1}，墙体不会阻挡泡沫。"
 Amlos.Combat.ActiveSkill.Bubbles.name: "泡球"
