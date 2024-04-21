@@ -227,3 +227,5 @@ Amlos.Combat.PassiveSkill.TranquilLake.desc: "TranquilLakeDesc."
 Amlos.Combat.PassiveSkill.TranquilLake.name: "TranquilLake"
 Amlos.Combat.PassiveSkill.Windblower.desc: "WindblowerDesc."
 Amlos.Combat.PassiveSkill.Windblower.name: "Windblower"
+Amlos.Combat.Equipment.AbnormalRuler.name: 奇异尺
+Amlos.Combat.Equipment.AbnormalRuler.desc: 施放技能时，副手魔法书的技能冷却时间减少{sec}秒
