@@ -1,7 +1,6 @@
 ﻿Amlos.Category.name: Name
 Amlos:
-  Category:
-    desc: Testing for new model
+  Category.desc: Testing for new model
   Category2:
     name: 'ASDASD AS D#####'
     name2: "ASDASD AS D##### #"
