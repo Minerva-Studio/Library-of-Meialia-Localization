@@ -1,5 +1,3 @@
-Amlos.Combat.MagicBooks.Prefix.Common.None.name: ""
-Amlos.Combat.MagicBooks.Prefix.Common.Someones.name: "某人的 "
 Amlos.Combat.MagicBooks.Prefix.Common.Broken.name: "破损的 "
 Amlos.Combat.MagicBooks.Prefix.Common.Worn.name: "疯狂的 "
 Amlos.Combat.MagicBooks.Prefix.Common.Ordinary.name: "正常的 "
@@ -226,3 +224,12 @@ Amlos.Combat.MagicBooks.Suffix.Arcane.SpectralSentience.name: "光谱感知"
 Amlos.Combat.MagicBooks.Suffix.Arcane.AstralVerses.name: "星之诗"
 Amlos.Combat.MagicBooks.Suffix.Arcane.ArcaneVerses.name: "奥术诗句"
 Amlos.Combat.MagicBooks.Suffix.Arcane.Ixiims.name: "Arcane Notes from Ixiim"
+Amlos:
+  Combat:
+    MagicBooks:
+      Prefix:
+        Common:
+          None:
+            name:
+          Someones:
+            name: 某人的 
