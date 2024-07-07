@@ -1,70 +1,86 @@
 #Common entries
-#Regions
-Amlos.Region.EN_US.name: "English (United States)"
-Amlos.Region.ZH_CN.name: "简体中文"
-#Elements
-Amlos.Element.Aethion.name: "§#E1AEA1Aethion§"
-Amlos.Element.Arcane.name: "§#8600FFArcane§"
-Amlos.Element.Dark.name: "§#231756Dark§"
-Amlos.Element.Earth.name: "§#A44000Earth§"
-Amlos.Element.Fire.name: "§RFire§"
-Amlos.Element.Light.name: "§YLight§"
-Amlos.Element.Soul.name: "§#7F7F7FSoul§"
-Amlos.Element.Space.name: "§#FF7FFFSpace§"
-Amlos.Element.Water.name: "§BWater§"
-Amlos.Element.Wind.name: "§GWind§"
-#Rarity
-Amlos.Rarity.Common.name: Common
-Amlos.Rarity.Rare.name: Rare
-Amlos.Rarity.Epic.name: Epic
-Amlos.Rarity.Legendary.name: Legendary
-#Keybinds
-Amlos.Control.Input.Key.MoveLeft.name: Move Left
-Amlos.Control.Input.Key.MoveRight.name: Move Right
-Amlos.Control.Input.Key.MoveUp.name: Move Up
-Amlos.Control.Input.Key.MoveDown.name: Move Down
-Amlos.Control.Input.Key.Jump.name: Jump
-Amlos.Control.Input.Key.Sprint.name: Sprint
-Amlos.Control.Input.Key.MeleeAttack.name: Melee Attack
-Amlos.Control.Input.Key.Defend.name: Defend
-Amlos.Control.Input.Key.Skill1.name: Skill 1
-Amlos.Control.Input.Key.Skill2.name: Skill 2
-Amlos.Control.Input.Key.SkillSwitch.name: Skill Switch
-Amlos.Control.Input.Key.Interact.name: Interact
-Amlos.Control.Input.Key.Map.name: Map
-Amlos.Control.Input.Key.Bag.name: Bag
-Amlos.Control.Input.Key.ESC.name: ESC
-Amlos.Control.Input.Key.Debug.name: Debug
-#Combat
-Amlos.Combat.AttackDuration.info: "Activate/CD: §G{activation}s§/§R{cooldown}s§"
-Amlos.Combat.Damage.info: "{list} {element} Damage"
-Amlos.Combat.Damage.MagicalDamage.info: "{magicalDamage} Magical"
-Amlos.Combat.Damage.PhysicalDamage.info: "{physicalDamage} Physical"
-Amlos.Combat.Damage.TrueDamage.info: "{trueDamage} True"
-Amlos.Combat.Shield.name: Shield
-Amlos.Combat.Shield.desc: "{selfDesc}\n{totalDesc}"
-Amlos.Combat.Shield.None.desc: A shield gives you a cool effect!
-Amlos.Combat.Shield.Physical.desc: A shield can absorb {amount} of physical damage
-Amlos.Combat.Shield.Magical.desc: A shield can absorb {amount} of magical damage
-Amlos.Combat.Shield.All.desc: A shield can absorb {amount} of physical or magical damage
-Amlos.Combat.Shield.True.desc: A shield can absorb {amount} of true damage
-Amlos.Combat.Shield.AnyType.desc: A shield can absorb {amount} of any damage
-Amlos.Combat.Shield.Total.desc: "Total: {total}\nPhysical: {total_physical}\nMagical: {total_magical}\nTrue: {total_true}"
-Amlos.Combat.Suffocation.name: Suffocate
-Amlos.Combat.Suffocation.desc: Soffocating, taking {DAMAGE} of true damage every {DAMAGE_DEAL_INTERVAL}s
-Amlos.Combat.Level.desc: "Level: {level}"
-Amlos.Combat.SkillDuration.info: "Activate/CD: §G{activation:f_f1}s§/§R{cooldown:f_f1}s§"
-Amlos.Combat.BookPage.BrokenPage.name: "Broken Page"
-Amlos.Combat.BookPage.BrokenPage.desc: "A broken magic pages, are now unreadable due to years of weathering or destructive uses."
-Amlos.Combat.BookPage.name: "{handPrefix} Page of {Skill}"
-Amlos.Combat.BookPage.Hand.First.name: First
-Amlos.Combat.BookPage.Hand.Second.name: Second
-Amlos.Combat.BookPage.Hand.Last.name: Last
-Amlos.Combat.BookPage.Unidentified.name: "Unidentified {prefix} Book Page"
-Amlos.Combat.BookPage.Unidentified.desc: "Element: {isElementDefined}\nRarity: {isRarityDefined}\nPosition: {prefixList}"
-Amlos.Combat.BookPage.Hand.Passive.name: Passive
-Amlos.Combat.BookPage.Hand.Active.name: Active
-Amlos.Combat.BookPage.Hand.FirstActive.name: Major Skill
-Amlos.Combat.BookPage.Hand.SecondActive.name: Secondary Skill
-#Objectives
-Amlos.Objectives.ConversationWith.info: "Conversation With {uniqueNPCName}"
+Amlos:
+  #Regions
+  Region:
+    EN_US.name: ""
+    ZH_CN.name: ""
+  #Elements
+  Element:
+    Aethion.name: ""
+    Arcane.name: ""
+    Dark.name: ""
+    Earth.name: ""
+    Fire.name: ""
+    Light.name: ""
+    Soul.name: ""
+    Space.name: ""
+    Water.name: ""
+    Wind.name: ""
+  #Rarity
+  Rarity:
+    Common.name:
+    Rare.name:
+    Epic.name:
+    Legendary.name:
+  #Keybinds
+  Control:
+    Input:
+      Key:
+        MoveLeft.name:
+        MoveRight.name:
+        MoveUp.name:
+        MoveDown.name:
+        Jump.name:
+        Sprint.name:
+        MeleeAttack.name:
+        Defend.name:
+        Skill1.name:
+        Skill2.name:
+        SkillSwitch.name:
+        Interact.name:
+        Map.name:
+        Bag.name:
+        ESC.name:
+        Debug.name:
+  #Combat
+  Combat:
+    AttackDuration.info: ""
+    Damage.info: ""
+    Damage.MagicalDamage.info: ""
+    Damage.PhysicalDamage.info: ""
+    Damage.TrueDamage.info: ""
+    Shield:
+      name:
+      desc: ""
+      None.desc:
+      Physical.desc:
+      Magical.desc:
+      All.desc:
+      True.desc:
+      AnyType.desc:
+      Total.desc: ""
+    Suffocation:
+      name:
+      desc:
+    Level.desc: ""
+    SkillDuration.info: ""
+    BookPage:
+      name: ""
+      BrokenPage:
+        name: ""
+        desc: ""
+      Unidentified:
+        name: ""
+        desc: ""
+      Hand:
+        First.name:
+        Second.name:
+        Last.name:
+        Passive.name:
+        Active.name:
+        FirstActive.name:
+        SecondActive.name:
+  #Objectives
+  Objectives:
+    ConversationWith:
+      info: ""
