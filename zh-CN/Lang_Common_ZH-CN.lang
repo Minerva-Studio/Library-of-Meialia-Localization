@@ -1,70 +1,86 @@
 #Common entries
-#Regions
-Amlos.Region.EN_US.name: "English (United States)"
-Amlos.Region.ZH_CN.name: "简体中文"
-#Elements
-Amlos.Element.Aethion.name: "§#E1AEA1辉石素§"
-Amlos.Element.Arcane.name: "§#8600FF奥术元素§"
-Amlos.Element.Dark.name: "§#231756暗元素§"
-Amlos.Element.Earth.name: "§#A44000土元素§"
-Amlos.Element.Fire.name: "§R火元素§"
-Amlos.Element.Light.name: "§Y光元素§"
-Amlos.Element.Soul.name: "§#7F7F7F灵魂元素§"
-Amlos.Element.Space.name: "§#FF7FFF空间元素§"
-Amlos.Element.Water.name: "§B水元素§"
-Amlos.Element.Wind.name: "§G风元素§"
-#Rarity
-Amlos.Rarity.Common.name: 常见
-Amlos.Rarity.Rare.name: 稀有
-Amlos.Rarity.Epic.name: 史诗
-Amlos.Rarity.Legendary.name: 传奇
-#Keybinds
-Amlos.Control.Input.Key.MoveLeft.name: 左移动
-Amlos.Control.Input.Key.MoveRight.name: 右移动
-Amlos.Control.Input.Key.MoveUp.name: 上移动
-Amlos.Control.Input.Key.MoveDown.name: 下移动
-Amlos.Control.Input.Key.Jump.name: 跳跃
-Amlos.Control.Input.Key.Sprint.name: 冲刺
-Amlos.Control.Input.Key.MeleeAttack.name: 近战
-Amlos.Control.Input.Key.Defend.name: 防御
-Amlos.Control.Input.Key.Skill1.name: 技能 1
-Amlos.Control.Input.Key.Skill2.name: 技能 2
-Amlos.Control.Input.Key.SkillSwitch.name: 切换书
-Amlos.Control.Input.Key.Interact.name: 交互
-Amlos.Control.Input.Key.Map.name: 地图
-Amlos.Control.Input.Key.Bag.name: 背包
-Amlos.Control.Input.Key.ESC.name: 退出
-Amlos.Control.Input.Key.Debug.name: 调试
-#Combat
-Amlos.Combat.AttackDuration.info: "生效/冷却: §G{activation}s§/§R{cooldown}s§"
-Amlos.Combat.Damage.info: "{list}{element}伤害"
-Amlos.Combat.Damage.MagicalDamage.info: "{magicalDamage} 魔法"
-Amlos.Combat.Damage.PhysicalDamage.info: "{physicalDamage} 物理"
-Amlos.Combat.Damage.TrueDamage.info: "{trueDamage} 真实"
-Amlos.Combat.Shield.name: 护盾
-Amlos.Combat.Shield.desc: "{selfDesc}\n{totalDesc}"
-Amlos.Combat.Shield.None.desc: 护盾给你一个酷酷的效果！
-Amlos.Combat.Shield.Physical.desc: 护盾可以吸收 {amount} 的物理伤害。
-Amlos.Combat.Shield.Magical.desc: 护盾可以吸收 {amount} 的魔法伤害。
-Amlos.Combat.Shield.All.desc: 护盾可以吸收 {amount} 的物理和魔法伤害。
-Amlos.Combat.Shield.True.desc: 护盾可以吸收 {amount} 的真实伤害。
-Amlos.Combat.Shield.AnyType.desc: 护盾可以吸收 {amount} 的任意伤害。
-Amlos.Combat.Shield.Total.desc: "总共: {total}\n物理: {total_physical}\n魔法: {total_magical}\n真实: {total_true}"
-Amlos.Combat.Suffocation.name: 窒息
-Amlos.Combat.Suffocation.desc: 窒息中，每 {DAMAGE DEAL INTERVAL} 秒会受到 {DAMAGE} 点真实伤害。
-Amlos.Combat.Level.desc: "等级: {level}"
-Amlos.Combat.SkillDuration.info: "生效/冷却: §G{activation:f_f1}s§/§R{cooldown:f_f1}s§"
-Amlos.Combat.BookPage.BrokenPage.name: "损坏的书页"
-Amlos.Combat.BookPage.BrokenPage.desc: "残缺不全的魔法书页，由于多年风化或破坏性使用，现已无法阅读。"
-Amlos.Combat.BookPage.name: "{handPrefix}页的{Skill}"
-Amlos.Combat.BookPage.Hand.First.name: 首
-Amlos.Combat.BookPage.Hand.Second.name: 第二
-Amlos.Combat.BookPage.Hand.Last.name: 尾
-Amlos.Combat.BookPage.Unidentified.name: "未鉴定的{prefix}书页"
-Amlos.Combat.BookPage.Unidentified.desc: "元素：{isElementDefined}\n稀有度：{isRarityDefined}\n位置：{positionList}"
-Amlos.Combat.BookPage.Hand.Passive.name: 被动
-Amlos.Combat.BookPage.Hand.Active.name: 主动
-Amlos.Combat.BookPage.Hand.FirstActive.name: 主技能
-Amlos.Combat.BookPage.Hand.SecondActive.name: 副技能
-#Objectives
-Amlos.Objectives.ConversationWith.info: "与 {uniqueNPCName} 对话"
+Amlos:
+  #Regions
+  Region:
+    EN_US.name: ""
+    ZH_CN.name: ""
+  #Elements
+  Element:
+    Aethion.name: ""
+    Arcane.name: ""
+    Dark.name: ""
+    Earth.name: ""
+    Fire.name: ""
+    Light.name: ""
+    Soul.name: ""
+    Space.name: ""
+    Water.name: ""
+    Wind.name: ""
+  #Rarity
+  Rarity:
+    Common.name:
+    Rare.name:
+    Epic.name:
+    Legendary.name:
+  #Keybinds
+  Control:
+    Input:
+      Key:
+        MoveLeft.name:
+        MoveRight.name:
+        MoveUp.name:
+        MoveDown.name:
+        Jump.name:
+        Sprint.name:
+        MeleeAttack.name:
+        Defend.name:
+        Skill1.name:
+        Skill2.name:
+        SkillSwitch.name:
+        Interact.name:
+        Map.name:
+        Bag.name:
+        ESC.name:
+        Debug.name:
+  #Combat
+  Combat:
+    AttackDuration.info: ""
+    Damage.info: ""
+    Damage.MagicalDamage.info: ""
+    Damage.PhysicalDamage.info: ""
+    Damage.TrueDamage.info: ""
+    Shield:
+      name:
+      desc: ""
+      None.desc:
+      Physical.desc:
+      Magical.desc:
+      All.desc:
+      True.desc:
+      AnyType.desc:
+      Total.desc: ""
+    Suffocation:
+      name:
+      desc:
+    Level.desc: ""
+    SkillDuration.info: ""
+    BookPage:
+      name: ""
+      BrokenPage:
+        name: ""
+        desc: ""
+      Unidentified:
+        name: ""
+        desc: ""
+      Hand:
+        First.name:
+        Second.name:
+        Last.name:
+        Passive.name:
+        Active.name:
+        FirstActive.name:
+        SecondActive.name:
+  #Objectives
+  Objectives:
+    ConversationWith:
+      info: ""
