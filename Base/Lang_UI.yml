@@ -5,7 +5,7 @@ Amlos:
       Back.name: "Back"
       Cancel.name: "Cancel"
       Confirm.name: "Confirm"
-      Reset.name: " Reset"
+      Reset.name: "Reset"
       Off.name: "Some switch is off"
       On.name: "Some switch is on"
     # Main Menu
