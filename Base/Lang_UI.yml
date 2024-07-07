@@ -1,46 +1,60 @@
-# Common
-Amlos.UI.Common.Back.name: "Back"
-Amlos.UI.Common.Cancel.name: "Cancel"
-Amlos.UI.Common.Confirm.name: "Confirm"
-Amlos.UI.Common.Reset.name: " Reset"
-Amlos.UI.Common.Off.name: "Some switch is off"
-Amlos.UI.Common.On.name: "Some switch is on"
-# Main Menu
-Amlos.UI.MainMenu.Continue.name: Continue
-Amlos.UI.MainMenu.NewGame.name: New Game
-Amlos.UI.MainMenu.Settings.name: Settings
-Amlos.UI.MainMenu.Quit.name: Quit
-# Pause Panel
-Amlos.UI.PausePanel.Resume.name: "Resume"
-Amlos.UI.PausePanel.Restart.name: "Restart"
-Amlos.UI.PausePanel.Restart.msg: "Restart the level?\nYour current progress will NOT be saved"
-Amlos.UI.PausePanel.Quit.name: "Quit"
-Amlos.UI.PausePanel.Quit.msg: "Back to the main menu?\nYour current progress will be saved"
-Amlos.UI.PausePanel.Settings.name: "Settings"
-Amlos.UI.PausePanel.title: "Pause"
-# Settings
-Amlos.UI.Setting.Control.title: "Control"
-Amlos.UI.Setting.Control.ResetKeybind.name: "Reset keybinds"
-Amlos.UI.Setting.Credit.title: "Credit"
-Amlos.UI.Setting.Graphics.title: "Graphic"
-Amlos.UI.Setting.Graphics.UIScale.name: "UI Scale"
-Amlos.UI.Setting.Graphics.FPS.name: FPS
-Amlos.UI.Setting.Graphics.Particle.name: Particle
-Amlos.UI.Setting.Graphics.Resolution.name: "Resolution"
-Amlos.UI.Setting.Graphics.VSync.name: "Vertical Sync"
-Amlos.UI.Setting.Graphics.FullScreen.name: "Full Screen"
-Amlos.UI.Setting.Graphics.Light.name: "Light"
-Amlos.UI.Setting.Graphics.Light.BrightnessChange.name: "Brightness Change"
-Amlos.UI.Setting.Graphics.Light.ColorChange.name: "Color Change"
-Amlos.UI.Setting.Language.title: "Language"
-Amlos.UI.Setting.title: "Setting"
-Amlos.UI.Setting.Reset.msg: "Do you want to reset all settings?"
-Amlos.UI.Setting.Other.title: "Other"
-Amlos.UI.Setting.Other.Reset.name: "Reset Settings"
-Amlos.UI.Setting.Other.OpenSaveFolder.name: "Open Save Folder"
-Amlos.UI.Setting.Sound.title: "Sound"
-Amlos.UI.Setting.Sound.Global.name: "Global Sound"
-Amlos.UI.Setting.Sound.Effect.name: "Effect Sound"
-Amlos.UI.Setting.Sound.Background.name: "Background Sound"
-Amlos.UI.Setting.Sound.Ambient.name: "Ambient Sound"
-Amlos.UI.Setting.Sound.UI.name: "UI Sound"
+Amlos:
+  # Common
+  UI:
+    Common:
+      Back.name: "Back"
+      Cancel.name: "Cancel"
+      Confirm.name: "Confirm"
+      Reset.name: " Reset"
+      Off.name: "Some switch is off"
+      On.name: "Some switch is on"
+    # Main Menu
+    MainMenu:
+      Continue.name: Continue
+      NewGame.name: New Game
+      Settings.name: Settings
+      Quit.name: Quit
+    # Pause Panel
+    PausePanel:
+      Resume.name: "Resume"
+      Settings.name: "Settings"
+      title: "Pause"
+      Restart:
+        name: "Restart"
+        msg: "Restart the level?\nYour current progress will NOT be saved"
+      Quit:
+        name: "Quit"
+        msg: "Back to the main menu?\nYour current progress will be saved"
+    # Settings
+    Setting:
+      title: "Setting"
+      Control:
+        title: "Control"
+        ResetKeybind.name: "Reset keybinds"
+      Credit:
+        title: "Credit"
+      Graphics:
+        title: "Graphic"
+        UIScale.name: "UI Scale"
+        FPS.name: FPS
+        Particle.name: Particle
+        Resolution.name: "Resolution"
+        VSync.name: "Vertical Sync"
+        FullScreen.name: "Full Screen"
+        Light:
+          name: "Light"
+          BrightnessChange.name: "Brightness Change"
+          ColorChange.name: "Color Change"
+      Language.title: "Language"
+      Reset.msg: "Do you want to reset all settings?"
+      Other:
+        title: "Other"
+        Reset.name: "Reset Settings"
+        OpenSaveFolder.name: "Open Save Folder"
+      Sound:
+        title: "Sound"
+        Global.name: "Global Sound"
+        Effect.name: "Effect Sound"
+        Background.name: "Background Sound"
+        Ambient.name: "Ambient Sound"
+        UI.name: "UI Sound"

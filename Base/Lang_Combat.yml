@@ -1,243 +1,369 @@
-# relate to combat, like active/passive skills, effect, etc.
-Amlos.Combat.ActiveSkill.AbsoluteZero.desc: "AbsoluteZeroDesc."
-Amlos.Combat.ActiveSkill.AbsoluteZero.name: "AbsoluteZero"
-Amlos.Combat.ActiveSkill.AbyssalDevour.desc: "AbyssalDevourDesc."
-Amlos.Combat.ActiveSkill.AbyssalDevour.name: "AbyssalDevour"
-Amlos.Combat.ActiveSkill.AbyssalRain.desc: "AbyssalRainDesc."
-Amlos.Combat.ActiveSkill.AbyssalRain.name: "AbyssalRain"
-Amlos.Combat.ActiveSkill.AncientWish.desc: "AncientWishDesc."
-Amlos.Combat.ActiveSkill.AncientWish.name: "AncientWish"
-Amlos.Combat.ActiveSkill.AzureAsleep.desc: "AzureAsleepDesc."
-Amlos.Combat.ActiveSkill.AzureAsleep.name: "AzureAsleep"
-Amlos.Combat.ActiveSkill.BarrierOfGaia.desc: "BarrierOfGaiaDesc."
-Amlos.Combat.ActiveSkill.BarrierOfGaia.name: "BarrierOfGaia"
-Amlos.Combat.ActiveSkill.Brick.desc: "BrickDesc."
-Amlos.Combat.ActiveSkill.Brick.name: "Brick"
-Amlos.Combat.ActiveSkill.Bubbles.desc: "BubblesDesc."
-Amlos.Combat.ActiveSkill.Bubbles.name: "Bubbles"
-Amlos.Combat.ActiveSkill.BurningBlade.desc: "BurningBladeDesc."
-Amlos.Combat.ActiveSkill.BurningBlade.name: "BurningBlade"
-Amlos.Combat.ActiveSkill.ChargeTest.desc: "ChargeTestDesc."
-Amlos.Combat.ActiveSkill.ChargeTest.name: "ChargeTest"
-Amlos.Combat.ActiveSkill.CrushingClaw.desc: "CrushingClawDesc."
-Amlos.Combat.ActiveSkill.CrushingClaw.name: "CrushingClaw"
-Amlos.Combat.ActiveSkill.DarkBeam.desc: "DarkBeamDesc."
-Amlos.Combat.ActiveSkill.DarkBeam.name: "DarkBeam"
-Amlos.Combat.ActiveSkill.DarkChain.desc: "DarkChainDesc."
-Amlos.Combat.ActiveSkill.DarkChain.name: "DarkChain"
-Amlos.Combat.ActiveSkill.DarkFlare.desc: "DarkFlareDesc."
-Amlos.Combat.ActiveSkill.DarkFlare.name: "DarkFlare"
-Amlos.Combat.ActiveSkill.DarkRadiation.desc: "DarkRadiationDesc."
-Amlos.Combat.ActiveSkill.DarkRadiation.name: "DarkRadiation"
-Amlos.Combat.ActiveSkill.DustCloud.desc: "DustCloudDesc."
-Amlos.Combat.ActiveSkill.DustCloud.name: "DustCloud"
-Amlos.Combat.ActiveSkill.DustStorm.desc: "DustStormDesc."
-Amlos.Combat.ActiveSkill.DustStorm.name: "DustStorm"
-Amlos.Combat.ActiveSkill.Earthball.desc: "EarthballDesc."
-Amlos.Combat.ActiveSkill.Earthball.name: "Earthball"
-Amlos.Combat.ActiveSkill.EarthenClaymore.desc: "EarthenClaymoreDesc."
-Amlos.Combat.ActiveSkill.EarthenClaymore.name: "EarthenClaymore"
-Amlos.Combat.ActiveSkill.EarthSpike.desc: "EarthSpikeDesc."
-Amlos.Combat.ActiveSkill.EarthSpike.name: "EarthSpike"
-Amlos.Combat.ActiveSkill.EraserBall.desc: "EraserBallDesc."
-Amlos.Combat.ActiveSkill.EraserBall.name: "EraserBall"
-Amlos.Combat.ActiveSkill.Eruption.desc: "EruptionDesc."
-Amlos.Combat.ActiveSkill.Eruption.name: "Eruption"
-Amlos.Combat.ActiveSkill.Fireball.desc: "FireballDesc."
-Amlos.Combat.ActiveSkill.Fireball.name: "Fireball"
-Amlos.Combat.ActiveSkill.FireBreath.desc: "FireBreathDesc."
-Amlos.Combat.ActiveSkill.FireBreath.name: "FireBreath"
-Amlos.Combat.ActiveSkill.FirePillars.desc: "FirePillarsDesc."
-Amlos.Combat.ActiveSkill.FirePillars.name: "FirePillars"
-Amlos.Combat.ActiveSkill.FlameMine.desc: "FlameMineDesc."
-Amlos.Combat.ActiveSkill.FlameMine.name: "FlameMine"
-Amlos.Combat.ActiveSkill.FlareDetonator.desc: "FlareDetonatorDesc."
-Amlos.Combat.ActiveSkill.FlareDetonator.name: "FlareDetonator"
-Amlos.Combat.ActiveSkill.FlowerPower.desc: "FlowerPowerDesc."
-Amlos.Combat.ActiveSkill.FlowerPower.name: "FlowerPower"
-Amlos.Combat.ActiveSkill.FlowofWater.desc: "FlowofWaterDesc."
-Amlos.Combat.ActiveSkill.FlowofWater.name: "FlowofWater"
-Amlos.Combat.ActiveSkill.GravBomb.desc: "GravBombDesc."
-Amlos.Combat.ActiveSkill.GravBomb.name: "GravBomb"
-Amlos.Combat.ActiveSkill.GustMissile.desc: "GustMissileDesc."
-Amlos.Combat.ActiveSkill.GustMissile.name: "GustMissile"
-Amlos.Combat.ActiveSkill.HeatWave.desc: "HeatWaveDesc."
-Amlos.Combat.ActiveSkill.HeatWave.name: "HeatWave"
-Amlos.Combat.ActiveSkill.HellfireCrash.desc: "HellfireCrashDesc."
-Amlos.Combat.ActiveSkill.HellfireCrash.name: "HellfireCrash"
-Amlos.Combat.ActiveSkill.HolyLight.desc: "HolyLightDesc."
-Amlos.Combat.ActiveSkill.HolyLight.name: "HolyLight"
-Amlos.Combat.ActiveSkill.IcicleBoulder.desc: "IcicleBoulderDesc."
-Amlos.Combat.ActiveSkill.IcicleBoulder.name: "IcicleBoulder"
-Amlos.Combat.ActiveSkill.LakeOfFire.desc: "LakeOfFireDesc."
-Amlos.Combat.ActiveSkill.LakeOfFire.name: "LakeOfFire"
-Amlos.Combat.ActiveSkill.LibrarysDraft.desc: "LibrarysDraftDesc."
-Amlos.Combat.ActiveSkill.LibrarysDraft.name: "LibrarysDraft"
-Amlos.Combat.ActiveSkill.LightBarrier.desc: "LightBarrierDesc."
-Amlos.Combat.ActiveSkill.LightBarrier.name: "LightBarrier"
-Amlos.Combat.ActiveSkill.LightGuardian.desc: "LightGuardianDesc."
-Amlos.Combat.ActiveSkill.LightGuardian.name: "LightGuardian"
-Amlos.Combat.ActiveSkill.LightSalvation.desc: "LightSalvationDesc."
-Amlos.Combat.ActiveSkill.LightSalvation.name: "LightSalvation"
-Amlos.Combat.ActiveSkill.LunarSlash.desc: "LunarSlashDesc."
-Amlos.Combat.ActiveSkill.LunarSlash.name: "LunarSlash"
-Amlos.Combat.ActiveSkill.MagicChessPiece.desc: "MagicChessPieceDesc."
-Amlos.Combat.ActiveSkill.MagicChessPiece.name: "MagicChessPiece"
-Amlos.Combat.ActiveSkill.Meteor.desc: "MeteorDesc."
-Amlos.Combat.ActiveSkill.Meteor.name: "Meteor"
-Amlos.Combat.ActiveSkill.MultiGust.desc: "MultiGustDesc."
-Amlos.Combat.ActiveSkill.MultiGust.name: "MultiGust"
-Amlos.Combat.ActiveSkill.None.desc: "NoneDesc."
-Amlos.Combat.ActiveSkill.None.name: "None"
-Amlos.Combat.ActiveSkill.PurifyHeart.desc: "PurifyHeartDesc."
-Amlos.Combat.ActiveSkill.PurifyHeart.name: "PurifyHeart"
-Amlos.Combat.ActiveSkill.RazorTempest.desc: "RazorTempestDesc."
-Amlos.Combat.ActiveSkill.RazorTempest.name: "RazorTempest"
-Amlos.Combat.ActiveSkill.ReleaseThePlague.desc: "ReleaseThePlagueDesc."
-Amlos.Combat.ActiveSkill.ReleaseThePlague.name: "ReleaseThePlague"
-Amlos.Combat.ActiveSkill.ShadowDomain.desc: "ShadowDomainDesc."
-Amlos.Combat.ActiveSkill.ShadowDomain.name: "ShadowDomain"
-Amlos.Combat.ActiveSkill.ShimmeringBlessing.desc: "ShimmeringBlessingDesc."
-Amlos.Combat.ActiveSkill.ShimmeringBlessing.name: "ShimmeringBlessing"
-Amlos.Combat.ActiveSkill.SnowStorm.desc: "SnowStormDesc."
-Amlos.Combat.ActiveSkill.SnowStorm.name: "SnowStorm"
-Amlos.Combat.ActiveSkill.SomethingForNothing.desc: "SomethingForNothingDesc."
-Amlos.Combat.ActiveSkill.SomethingForNothing.name: "SomethingForNothing"
-Amlos.Combat.ActiveSkill.SoulBank.desc: "SoulBankDesc."
-Amlos.Combat.ActiveSkill.SoulBank.name: "SoulBank"
-Amlos.Combat.ActiveSkill.SoulCharge.desc: "SoulChargeDesc."
-Amlos.Combat.ActiveSkill.SoulCharge.name: "SoulCharge"
-Amlos.Combat.ActiveSkill.SoulTrap.desc: "SoulTrapDesc."
-Amlos.Combat.ActiveSkill.SoulTrap.name: "SoulTrap"
-Amlos.Combat.ActiveSkill.SpaceDistortion.desc: "SpaceDistortionDesc."
-Amlos.Combat.ActiveSkill.SpaceDistortion.name: "SpaceDistortion"
-Amlos.Combat.ActiveSkill.SpatialCollapse.desc: "SpatialCollapseDesc."
-Amlos.Combat.ActiveSkill.SpatialCollapse.name: "SpatialCollapse"
-Amlos.Combat.ActiveSkill.SpiritLink.desc: "SpiritLinkDesc."
-Amlos.Combat.ActiveSkill.SpiritLink.name: "SpiritLink"
-Amlos.Combat.ActiveSkill.SpiritWarrior.desc: "SpiritWarriorDesc."
-Amlos.Combat.ActiveSkill.SpiritWarrior.name: "SpiritWarrior"
-Amlos.Combat.ActiveSkill.SuperNova.desc: "SuperNovaDesc."
-Amlos.Combat.ActiveSkill.SuperNova.name: "SuperNova"
-Amlos.Combat.ActiveSkill.Superposition.desc: "SuperpositionDesc."
-Amlos.Combat.ActiveSkill.Superposition.name: "Superposition"
-Amlos.Combat.ActiveSkill.Tornado.desc: "TornadoDesc."
-Amlos.Combat.ActiveSkill.Tornado.name: "Tornado"
-Amlos.Combat.ActiveSkill.VaccumOrb.desc: "VaccumOrbDesc."
-Amlos.Combat.ActiveSkill.VaccumOrb.name: "VaccumOrb"
-Amlos.Combat.ActiveSkill.Waterball.desc: "WaterballDesc."
-Amlos.Combat.ActiveSkill.Waterball.name: "Waterball"
-Amlos.Combat.ActiveSkill.WaterGun.desc: "WaterGunDesc."
-Amlos.Combat.ActiveSkill.WaterGun.name: "WaterGun"
-Amlos.Combat.ActiveSkill.WaterWall.desc: "WaterWallDesc."
-Amlos.Combat.ActiveSkill.WaterWall.name: "WaterWall"
-Amlos.Combat.ActiveSkill.WindBarrage.desc: "WindBarrageDesc."
-Amlos.Combat.ActiveSkill.WindBarrage.name: "WindBarrage"
-Amlos.Combat.ActiveSkill.WindBlade.desc: "WindBladeDesc."
-Amlos.Combat.ActiveSkill.WindBlade.name: "WindBlade"
-Amlos.Combat.ActiveSkill.WindCutter.desc: "WindCutterDesc."
-Amlos.Combat.ActiveSkill.WindCutter.name: "WindCutter"
-Amlos.Combat.ActiveSkill.WindRide.desc: "WindRideDesc."
-Amlos.Combat.ActiveSkill.WindRide.name: "WindRide"
-Amlos.Combat.ActiveSkill.WindStorm.desc: "WindStormDesc."
-Amlos.Combat.ActiveSkill.WindStorm.name: "WindStorm"
-Amlos.Combat.ActiveSkill.WindWall.desc: "WindWallDesc."
-Amlos.Combat.ActiveSkill.WindWall.name: "WindWall"
-Amlos.Combat.ActiveSkill.ZeroRay.desc: "ZeroRayDesc."
-Amlos.Combat.ActiveSkill.ZeroRay.name: "ZeroRay"
-Amlos.Combat.Effect.Burning.desc: "BurningDesc."
-Amlos.Combat.Effect.Burning.name: "Burning"
-Amlos.Combat.Effect.Charge.desc: "ChargeDesc."
-Amlos.Combat.Effect.Charge.name: "Charge"
-Amlos.Combat.Effect.CountShield.desc: "CountShieldDesc."
-Amlos.Combat.Effect.CountShield.name: "CountShield"
-Amlos.Combat.Effect.Crack.desc: "CrackDesc."
-Amlos.Combat.Effect.Crack.name: "Crack"
-Amlos.Combat.Effect.DarkIrradiated.desc: "DarkIrradiatedDesc."
-Amlos.Combat.Effect.DarkIrradiated.name: "DarkIrradiated"
-Amlos.Combat.Effect.Diffusion.desc: "DiffusionDesc."
-Amlos.Combat.Effect.Diffusion.name: "Diffusion"
-Amlos.Combat.Effect.Dusted.desc: "DustedDesc."
-Amlos.Combat.Effect.Dusted.name: "Dusted"
-Amlos.Combat.Effect.Eclipse.desc: "EclipseDesc."
-Amlos.Combat.Effect.Eclipse.name: "Eclipse"
-Amlos.Combat.Effect.Evaporate.desc: "EvaporateDesc."
-Amlos.Combat.Effect.Evaporate.name: "Evaporate"
-Amlos.Combat.Effect.Frozen.desc: "FrozenDesc."
-Amlos.Combat.Effect.Frozen.name: "Frozen"
-Amlos.Combat.Effect.Immobilize.desc: "ImmobilizeDesc."
-Amlos.Combat.Effect.Immobilize.name: "Immobilize"
-Amlos.Combat.Effect.LavaBurning.desc: "LavaBurningDesc."
-Amlos.Combat.Effect.LavaBurning.name: "LavaBurning"
-Amlos.Combat.Effect.Poison.desc: "PoisonDesc."
-Amlos.Combat.Effect.Poison.name: "Poison"
-Amlos.Combat.Effect.Power.desc: "PowerDesc."
-Amlos.Combat.Effect.Power.name: "Power"
-Amlos.Combat.Effect.Resistance.desc: "ResistanceDesc."
-Amlos.Combat.Effect.Resistance.name: "Resistance"
-Amlos.Combat.Effect.Salvation.desc: "SalvationDesc."
-Amlos.Combat.Effect.Salvation.name: "Salvation"
-Amlos.Combat.Effect.ShimmeringBlessingStatus.desc: "ShimmeringBlessingStatusDesc."
-Amlos.Combat.Effect.ShimmeringBlessingStatus.name: "ShimmeringBlessingStatus"
-Amlos.Combat.Effect.Slowness.desc: "SlownessDesc."
-Amlos.Combat.Effect.Slowness.name: "Slowness"
-Amlos.Combat.Effect.SomeForNoneBurn.desc: "SomeForNoneBurnDesc."
-Amlos.Combat.Effect.SomeForNoneBurn.name: "SomeForNoneBurn"
-Amlos.Combat.Effect.SoulTrace.desc: "SoulTraceDesc."
-Amlos.Combat.Effect.SoulTrace.name: "SoulTrace"
-Amlos.Combat.Effect.Sunflare.desc: "SunflareDesc."
-Amlos.Combat.Effect.Sunflare.name: "Sunflare"
-Amlos.Combat.Effect.Sunken.desc: "SunkenDesc."
-Amlos.Combat.Effect.Sunken.name: "Sunken"
-Amlos.Combat.Effect.Superposition.desc: "SuperpositionDesc."
-Amlos.Combat.Effect.Superposition.name: "Superposition"
-Amlos.Combat.Effect.Swamp.desc: "SwampDesc."
-Amlos.Combat.Effect.Swamp.name: "Swamp"
-Amlos.Combat.Effect.Swiftness.desc: "SwiftnessDesc."
-Amlos.Combat.Effect.Swiftness.name: "Swiftness"
-Amlos.Combat.Effect.Voidness.desc: "VoidnessDesc."
-Amlos.Combat.Effect.Voidness.name: "Voidness"
-Amlos.Combat.Effect.Vulnerable.desc: "VulnerableDesc."
-Amlos.Combat.Effect.Vulnerable.name: "Vulnerable"
-Amlos.Combat.Effect.Weakness.desc: "WeaknessDesc."
-Amlos.Combat.Effect.Weakness.name: "Weakness"
-Amlos.Combat.Equipment.AbnormalRuler.desc: "AbnormalRulerDesc."
-Amlos.Combat.Equipment.AbnormalRuler.name: "AbnormalRuler"
-Amlos.Combat.Equipment.DangerSign.desc: "DangerSignDesc."
-Amlos.Combat.Equipment.DangerSign.name: "DangerSign"
-Amlos.Combat.Equipment.HydrogenBottle.desc: "HydrogenBottleDesc."
-Amlos.Combat.Equipment.HydrogenBottle.name: "HydrogenBottle"
-Amlos.Combat.Equipment.LIbrarySkater.desc: "LIbrarySkaterDesc."
-Amlos.Combat.Equipment.LIbrarySkater.name: "LIbrarySkater"
-Amlos.Combat.Equipment.MISSING.desc: "MISSINGDesc."
-Amlos.Combat.Equipment.MISSING.name: "MISSING"
-Amlos.Combat.Equipment.StrengthenMelee.desc: "StrengthenMeleeDesc."
-Amlos.Combat.Equipment.StrengthenMelee.name: "StrengthenMelee"
-Amlos.Combat.Equipment.WarningSign.desc: "WarningSignDesc."
-Amlos.Combat.Equipment.WarningSign.name: "WarningSign"
-Amlos.Combat.PassiveSkill.BurningBlood.desc: "BurningBloodDesc."
-Amlos.Combat.PassiveSkill.BurningBlood.name: "BurningBlood"
-Amlos.Combat.PassiveSkill.EarthProtection.desc: "EarthProtectionDesc."
-Amlos.Combat.PassiveSkill.EarthProtection.name: "EarthProtection"
-Amlos.Combat.PassiveSkill.EnergyConfluence.desc: "EnergyConfluenceDesc."
-Amlos.Combat.PassiveSkill.EnergyConfluence.name: "EnergyConfluence"
-Amlos.Combat.PassiveSkill.FireTouch.desc: "FireTouchDesc."
-Amlos.Combat.PassiveSkill.FireTouch.name: "FireTouch"
-Amlos.Combat.PassiveSkill.GaleCombo.desc: "GaleComboDesc."
-Amlos.Combat.PassiveSkill.GaleCombo.name: "GaleCombo"
-Amlos.Combat.PassiveSkill.GazeFromAbyss.desc: "GazeFromAbyssDesc."
-Amlos.Combat.PassiveSkill.GazeFromAbyss.name: "GazeFromAbyss"
-Amlos.Combat.PassiveSkill.KarisArmor.desc: "KarisArmorDesc."
-Amlos.Combat.PassiveSkill.KarisArmor.name: "KarisArmor"
-Amlos.Combat.PassiveSkill.LightShield.desc: "LightShieldDesc."
-Amlos.Combat.PassiveSkill.LightShield.name: "LightShield"
-Amlos.Combat.PassiveSkill.None.desc: "NoneDesc."
-Amlos.Combat.PassiveSkill.None.name: "None"
-Amlos.Combat.PassiveSkill.SolarBless.desc: "SolarBlessDesc."
-Amlos.Combat.PassiveSkill.SolarBless.name: "SolarBless"
-Amlos.Combat.PassiveSkill.Starcrack.desc: "StarcrackDesc."
-Amlos.Combat.PassiveSkill.Starcrack.name: "Starcrack"
-Amlos.Combat.PassiveSkill.TranquilLake.desc: "TranquilLakeDesc."
-Amlos.Combat.PassiveSkill.TranquilLake.name: "TranquilLake"
-Amlos.Combat.PassiveSkill.Windblower.desc: "WindblowerDesc."
-Amlos.Combat.PassiveSkill.Windblower.name: "Windblower"
+Amlos:
+  Combat:
+    ActiveSkill:
+      AbsoluteZero:
+        desc: "AbsoluteZeroDesc."
+        name: "AbsoluteZero"
+      AbyssalDevour:
+        desc: "AbyssalDevourDesc."
+        name: "AbyssalDevour"
+      AbyssalRain:
+        desc: "AbyssalRainDesc."
+        name: "AbyssalRain"
+      AncientWish:
+        desc: "AncientWishDesc."
+        name: "AncientWish"
+      AzureAsleep:
+        desc: "AzureAsleepDesc."
+        name: "AzureAsleep"
+      BarrierOfGaia:
+        desc: "BarrierOfGaiaDesc."
+        name: "BarrierOfGaia"
+      Brick:
+        desc: "BrickDesc."
+        name: "Brick"
+      Bubbles:
+        desc: "BubblesDesc."
+        name: "Bubbles"
+      BurningBlade:
+        desc: "BurningBladeDesc."
+        name: "BurningBlade"
+      ChargeTest:
+        desc: "ChargeTestDesc."
+        name: "ChargeTest"
+      CrushingClaw:
+        desc: "CrushingClawDesc."
+        name: "CrushingClaw"
+      DarkBeam:
+        desc: "DarkBeamDesc."
+        name: "DarkBeam"
+      DarkChain:
+        desc: "DarkChainDesc."
+        name: "DarkChain"
+      DarkFlare:
+        desc: "DarkFlareDesc."
+        name: "DarkFlare"
+      DarkRadiation:
+        desc: "DarkRadiationDesc."
+        name: "DarkRadiation"
+      DustCloud:
+        desc: "DustCloudDesc."
+        name: "DustCloud"
+      DustStorm:
+        desc: "DustStormDesc."
+        name: "DustStorm"
+      Earthball:
+        desc: "EarthballDesc."
+        name: "Earthball"
+      EarthenClaymore:
+        desc: "EarthenClaymoreDesc."
+        name: "EarthenClaymore"
+      EarthSpike:
+        desc: "EarthSpikeDesc."
+        name: "EarthSpike"
+      EraserBall:
+        desc: "EraserBallDesc."
+        name: "EraserBall"
+      Eruption:
+        desc: "EruptionDesc."
+        name: "Eruption"
+      Fireball:
+        desc: "FireballDesc."
+        name: "Fireball"
+      FireBreath:
+        desc: "FireBreathDesc."
+        name: "FireBreath"
+      FirePillars:
+        desc: "FirePillarsDesc."
+        name: "FirePillars"
+      FlameMine:
+        desc: "FlameMineDesc."
+        name: "FlameMine"
+      FlareDetonator:
+        desc: "FlareDetonatorDesc."
+        name: "FlareDetonator"
+      FlowerPower:
+        desc: "FlowerPowerDesc."
+        name: "FlowerPower"
+      FlowofWater:
+        desc: "FlowofWaterDesc."
+        name: "FlowofWater"
+      GravBomb:
+        desc: "GravBombDesc."
+        name: "GravBomb"
+      GustMissile:
+        desc: "GustMissileDesc."
+        name: "GustMissile"
+      HeatWave:
+        desc: "HeatWaveDesc."
+        name: "HeatWave"
+      HellfireCrash:
+        desc: "HellfireCrashDesc."
+        name: "HellfireCrash"
+      HolyLight:
+        desc: "HolyLightDesc."
+        name: "HolyLight"
+      IcicleBoulder:
+        desc: "IcicleBoulderDesc."
+        name: "IcicleBoulder"
+      LakeOfFire:
+        desc: "LakeOfFireDesc."
+        name: "LakeOfFire"
+      LibrarysDraft:
+        desc: "LibrarysDraftDesc."
+        name: "LibrarysDraft"
+      LightBarrier:
+        desc: "LightBarrierDesc."
+        name: "LightBarrier"
+      LightGuardian:
+        desc: "LightGuardianDesc."
+        name: "LightGuardian"
+      LightSalvation:
+        desc: "LightSalvationDesc."
+        name: "LightSalvation"
+      LunarSlash:
+        desc: "LunarSlashDesc."
+        name: "LunarSlash"
+      MagicChessPiece:
+        desc: "MagicChessPieceDesc."
+        name: "MagicChessPiece"
+      Meteor:
+        desc: "MeteorDesc."
+        name: "Meteor"
+      MultiGust:
+        desc: "MultiGustDesc."
+        name: "MultiGust"
+      None:
+        desc: "NoneDesc."
+        name: "None"
+      PurifyHeart:
+        desc: "PurifyHeartDesc."
+        name: "PurifyHeart"
+      RazorTempest:
+        desc: "RazorTempestDesc."
+        name: "RazorTempest"
+      ReleaseThePlague:
+        desc: "ReleaseThePlagueDesc."
+        name: "ReleaseThePlague"
+      ShadowDomain:
+        desc: "ShadowDomainDesc."
+        name: "ShadowDomain"
+      ShimmeringBlessing:
+        desc: "ShimmeringBlessingDesc."
+        name: "ShimmeringBlessing"
+      SnowStorm:
+        desc: "SnowStormDesc."
+        name: "SnowStorm"
+      SomethingForNothing:
+        desc: "SomethingForNothingDesc."
+        name: "SomethingForNothing"
+      SoulBank:
+        desc: "SoulBankDesc."
+        name: "SoulBank"
+      SoulCharge:
+        desc: "SoulChargeDesc."
+        name: "SoulCharge"
+      SoulTrap:
+        desc: "SoulTrapDesc."
+        name: "SoulTrap"
+      SpaceDistortion:
+        desc: "SpaceDistortionDesc."
+        name: "SpaceDistortion"
+      SpatialCollapse:
+        desc: "SpatialCollapseDesc."
+        name: "SpatialCollapse"
+      SpiritLink:
+        desc: "SpiritLinkDesc."
+        name: "SpiritLink"
+      SpiritWarrior:
+        desc: "SpiritWarriorDesc."
+        name: "SpiritWarrior"
+      SuperNova:
+        desc: "SuperNovaDesc."
+        name: "SuperNova"
+      Superposition:
+        desc: "SuperpositionDesc."
+        name: "Superposition"
+      Tornado:
+        desc: "TornadoDesc."
+        name: "Tornado"
+      VaccumOrb:
+        desc: "VaccumOrbDesc."
+        name: "VaccumOrb"
+      Waterball:
+        desc: "WaterballDesc."
+        name: "Waterball"
+      WaterGun:
+        desc: "WaterGunDesc."
+        name: "WaterGun"
+      WaterWall:
+        desc: "WaterWallDesc."
+        name: "WaterWall"
+      WindBarrage:
+        desc: "WindBarrageDesc."
+        name: "WindBarrage"
+      WindBlade:
+        desc: "WindBladeDesc."
+        name: "WindBlade"
+      WindCutter:
+        desc: "WindCutterDesc."
+        name: "WindCutter"
+      WindRide:
+        desc: "WindRideDesc."
+        name: "WindRide"
+      WindStorm:
+        desc: "WindStormDesc."
+        name: "WindStorm"
+      WindWall:
+        desc: "WindWallDesc."
+        name: "WindWall"
+      ZeroRay:
+        desc: "ZeroRayDesc."
+        name: "ZeroRay"
+    Effect:
+      Burning:
+        desc: "BurningDesc."
+        name: "Burning"
+      Charge:
+        desc: "ChargeDesc."
+        name: "Charge"
+      CountShield:
+        desc: "CountShieldDesc."
+        name: "CountShield"
+      Crack:
+        desc: "CrackDesc."
+        name: "Crack"
+      DarkIrradiated:
+        desc: "DarkIrradiatedDesc."
+        name: "DarkIrradiated"
+      Diffusion:
+        desc: "DiffusionDesc."
+        name: "Diffusion"
+      Dusted:
+        desc: "DustedDesc."
+        name: "Dusted"
+      Eclipse:
+        desc: "EclipseDesc."
+        name: "Eclipse"
+      Evaporate:
+        desc: "EvaporateDesc."
+        name: "Evaporate"
+      Frozen:
+        desc: "FrozenDesc."
+        name: "Frozen"
+      Immobilize:
+        desc: "ImmobilizeDesc."
+        name: "Immobilize"
+      LavaBurning:
+        desc: "LavaBurningDesc."
+        name: "LavaBurning"
+      Poison:
+        desc: "PoisonDesc."
+        name: "Poison"
+      Power:
+        desc: "PowerDesc."
+        name: "Power"
+      Resistance:
+        desc: "ResistanceDesc."
+        name: "Resistance"
+      Salvation:
+        desc: "SalvationDesc."
+        name: "Salvation"
+      ShimmeringBlessingStatus:
+        desc: "ShimmeringBlessingStatusDesc."
+        name: "ShimmeringBlessingStatus"
+      Slowness:
+        desc: "SlownessDesc."
+        name: "Slowness"
+      SomeForNoneBurn:
+        desc: "SomeForNoneBurnDesc."
+        name: "SomeForNoneBurn"
+      SoulTrace:
+        desc: "SoulTraceDesc."
+        name: "SoulTrace"
+      Sunflare:
+        desc: "SunflareDesc."
+        name: "Sunflare"
+      Sunken:
+        desc: "SunkenDesc."
+        name: "Sunken"
+      Superposition:
+        desc: "SuperpositionDesc."
+        name: "Superposition"
+      Swamp:
+        desc: "SwampDesc."
+        name: "Swamp"
+      Swiftness:
+        desc: "SwiftnessDesc."
+        name: "Swiftness"
+      Voidness:
+        desc: "VoidnessDesc."
+        name: "Voidness"
+      Vulnerable:
+        desc: "VulnerableDesc."
+        name: "Vulnerable"
+      Weakness:
+        desc: "WeaknessDesc."
+        name: "Weakness"
+    Equipment:
+      AbnormalRuler:
+        desc: "AbnormalRulerDesc."
+        name: "AbnormalRuler"
+      DangerSign:
+        desc: "DangerSignDesc."
+        name: "DangerSign"
+      HydrogenBottle:
+        desc: "HydrogenBottleDesc."
+        name: "HydrogenBottle"
+      LIbrarySkater:
+        desc: "LIbrarySkaterDesc."
+        name: "LIbrarySkater"
+      MISSING:
+        desc: "MISSINGDesc."
+        name: "MISSING"
+      StrengthenMelee:
+        desc: "StrengthenMeleeDesc."
+        name: "StrengthenMelee"
+      WarningSign:
+        desc: "WarningSignDesc."
+        name: "WarningSign"
+    PassiveSkill:
+      BurningBlood:
+        desc: "BurningBloodDesc."
+        name: "BurningBlood"
+      EarthProtection:
+        desc: "EarthProtectionDesc."
+        name: "EarthProtection"
+      EnergyConfluence:
+        desc: "EnergyConfluenceDesc."
+        name: "EnergyConfluence"
+      FireTouch:
+        desc: "FireTouchDesc."
+        name: "FireTouch"
+      GaleCombo:
+        desc: "GaleComboDesc."
+        name: "GaleCombo"
+      GazeFromAbyss:
+        desc: "GazeFromAbyssDesc."
+        name: "GazeFromAbyss"
+      KarisArmor:
+        desc: "KarisArmorDesc."
+        name: "KarisArmor"
+      LightShield:
+        desc: "LightShieldDesc."
+        name: "LightShield"
+      None:
+        desc: "NoneDesc."
+        name: "None"
+      SolarBless:
+        desc: "SolarBlessDesc."
+        name: "SolarBless"
+      Starcrack:
+        desc: "StarcrackDesc."
+        name: "Starcrack"
+      TranquilLake:
+        desc: "TranquilLakeDesc."
+        name: "TranquilLake"
+      Windblower:
+        desc: "WindblowerDesc."
+        name: "Windblower"

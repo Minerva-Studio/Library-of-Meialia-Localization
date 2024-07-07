@@ -1,0 +1,180 @@
+﻿# Death message of the game
+Amlos:
+  # Causation
+  Cause:
+    Destined:
+      name: fate
+    None:
+      name: nothing
+    Missing:
+      name: indescribable
+
+  # Death Message
+  ### Source: somebody did this
+  ### Indirect: someone participate in the death event, but not the final causation
+  ## special circumstances
+  Death:
+    Unity:
+      msg: "{victim} realized this world is simulated by Unity Engine"
+      Source:
+        msg: "{victim} was told that this world is simulated by Unity Engine by {source}"
+    Destined:
+      msg: "{victim} is destined to be caught"
+      Source:
+        msg: "{victim} is destined to be caught by {source}"
+    ## normal attacks
+    ### no damage source specified
+    Generic:
+      msg: "{victim} was fooled by his destiny"
+      Indirect:
+        msg: "{victim} was fooled by his destiny while running away from {indirect}"
+      Source:
+        msg: "{victim} was caught by {source}"
+        Indirect:
+          msg: "{victim} was caught by {source} while running away from {indirect}"
+    ### happened when source attack victim directly
+    Attack:
+      msg: "{victim} is caught"
+      Indirect:
+        msg: "{victim} is caught by {source}"
+      Source:
+        msg: "{victim} is caught by {source}"
+        Indirect:
+          msg: "{victim} is caught by {source}"
+    ### with attacker
+    Projectile:
+      msg: "{victim} is fainted because {victim} was hit by {cause}"
+      Indirect:
+        msg: "{victim} is fainted when {indirect} is tracing and {cause} hit on {victim}"
+      Source:
+        msg: "{victim} is fainted because {source} throw a {cause} and hit on {victim}"
+        Indirect:
+          msg: "{victim} is fainted when {indirect} is tracing and {source} throw a {cause} hitting on {victim}"
+    Areal:
+      msg: "{victim} is unconscioused in {cause}"
+      Indirect:
+        msg: "{victim} is unconscioused in {cause} while running away from {indirect}"
+      Source:
+        msg: "{victim} is unconscioused in {cause} spawned by {cause}"
+        Indirect:
+          msg: "{victim} is unconscioused in {cause} spawned by {cause} while running away from {indirect}"
+    Explosion:
+      msg: "{victim} is severnly injured by an explosion"
+      Indirect:
+        msg: "{victim} is severnly injured by {source}'s explosion"
+      Source:
+        msg: "{victim} is severnly injured by an explosion while running away from {indirect}"
+        Indirect:
+          msg: "{victim} is severnly injured by {source}'s explosion while running away from {indirect}"
+    MeleeAttack:
+      msg: "{victim} is defeated by {cause}"
+      Indirect:
+        msg: "{victim} is defeated by {cause} while running away from {indirect}"
+      Source:
+        msg: "{victim} is defeated by {source}'s {cause}"
+        Indirect:
+          msg: "{victim} is defeated by {source}'s {cause} while running away from {indirect}"
+    Ray:
+      msg: "{victim} is penetrated by {cause}"
+      Indirect:
+        msg: "{victim} is penetrated by {cause} while running away from {indirect}"
+      Source:
+        msg: "{victim} is penetrated by {source}'s {cause}"
+        Indirect:
+          msg: "{victim} is penetrated by {source}'s {cause} while running away from {indirect}"
+    Magic:
+      msg: "{victim} is caught by ancient magic {cause}"
+      Indirect:
+        msg: "{victim} is caught by ancient magic {cause} while running away from {indirect}"
+      Source:
+        msg: "{victim} is caught by ancient magic {cause} casted by {source}"
+        Indirect:
+          msg: "{victim} is caught by ancient magic {cause} casted by {source} while running away from {indirect}"
+    ### Suffocation
+    Suffocation:
+      msg: "{victim} suffocated"
+      Indirect:
+        msg: "{victim} suffocated while running away from {indirect}"
+    ### Effects
+    #### Burning
+    Burning:
+      msg: "{victim} is so hot!"
+      Indirect:
+        msg: "{victim} is so hot after fighting with {indirect}"
+      Source:
+        msg: "{victim} is so hot thanks to {source}!"
+        Indirect:
+          msg: "{victim} is so hot after fighting with {indirect}! Thanks to {source}"
+    BurningHurt:
+      msg: "{victim} is too vulnerable after burned"
+      Indirect:
+        msg: "{victim} is too vulnerable after burned and running away from {indirect}"
+      Source:
+        msg: "{victim} is caught by {source} when {victim} is too vulnerable after burned"
+        Indirect:
+          msg: "{victim} is caught by {source} when {victim} is too vulnerable after burned and running away from {indirect}"
+    LavaBurning:
+      msg: "{victim} was probably swimming in lava, yet {victim} is not a dragon"
+      Indirect:
+        msg: "{victim} tried to hide inside lava while running away from {indirect}"
+      Source:
+        msg: "{victim} was ignited by lava by {source}"
+        Indirect:
+          msg: "{victim} was told by {indirect} that {victim} is not a dragon, yet {vicim} did not listen and {source} ingite {victim} with lava"
+    #### Poison
+    Poison:
+      msg: "{victim} was poisoned"
+      Indirect:
+        msg: "{victim} smell something poisonous while running away from {indirect}"
+      Source:
+        msg: "{victim} was poisoned by {source}"
+        Indirect:
+          msg: "{victim} was poisoned by {source} while running away from {indirect}"
+    #### Dusted
+    Dusted:
+      msg: "{victim} was covered by dust"
+      Indirect:
+        msg: "{vicim} was covered by dust while running away from {indirect}"
+      Source:
+        msg: "{victim} was covered by dust by {source}"
+        Indirect:
+          msg: "{vicim} was covered by dust by {source} while running away from {indirect}"
+    #### Dark Irradiated
+    DarkIrradiated:
+      msg: "{victim} is burned by dark irradiation"
+      Indirect:
+        msg: "{victim} is burned by dark irradiation while running away from {indirect}"
+      Source:
+        msg: "{victim} is burned by {source}'s' dark irradiation"
+        Indirect:
+          msg: "{victim} is burned by {source}'s' dark irradiation while running away from {indirect}"
+    #### Sunken
+    Sunken:
+      msg: "{victim} has sunken"
+      Indirect:
+        msg: "{victim} has sunken while running away from {indirect}"
+      Source:
+        msg: "{victim} has sunken by {source}"
+        Indirect:
+          msg: "{victim} has sunken by {source} while running away from {indirect}"
+    #### SoulTrace
+    SoulTrace:
+      msg: "{victim}'s soul was expelled"
+      Indirect:
+        msg: "{victim}'s soul was expelled while running away from {indirect}"
+      Source:
+        msg: "{victim}'s soul was expelled by {source}"
+        Indirect:
+          msg: "{victim}'s soul was expelled by {source} while running away from {indirect}"
+    #### Voidness
+    Voidness:
+      msg: "{victim} find out what real vacuum is"
+      Indirect:
+        msg: "{victim} escape to the real vacuum from {indirect}"
+      Source:
+        msg: "{victim} was exiled to the higher dimension by {source}"
+        Indirect:
+          msg: "{victim} was exiled to the real vacuum by {source} while running away {indirect}"
+    ### Debug purpose, will not actually show in the game
+    Timeout:
+      msg: "{victim} time out!"
