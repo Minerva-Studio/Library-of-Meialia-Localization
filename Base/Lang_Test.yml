@@ -1,9 +1,28 @@
-﻿Amlos:
+﻿Amlos.Category.name: Name
+Amlos:
   Category:
-    name: Name
     desc: Testing for new model
   Category2:
-    name: Another name key
+    name: ASDASD AS D##### #
+    name2: "ASDASD AS D##### #"
     desc:
       $self: Testing entry with child
-      sub: a
+      sub: |
+        this is a raw string
+        we can continue working on this and write "yeah"
+  Category3:
+    var: 1
+    js: aaaa
+  Death:
+    Areal:
+      msg: ""
+      Indirect.msg: ""
+      Source:
+        msg: ""
+        Indirect.msg: ""
+    Projectile:
+      msg: "{victim} is fainted because {victim} was hit by {cause}"
+      Indirect.msg: "{victim} is fainted when {indirect} is tracing and {cause} hit on {victim}"
+      Source:
+        msg: "{victim} is fainted because {source} throw a {cause} and hit on {victim}"
+        Indirect.msg: "{victim} is fainted when {indirect} is tracing and {source} throw a {cause} hitting on {victim}"
