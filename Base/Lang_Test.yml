@@ -1,0 +1,9 @@
+﻿Amlos:
+  Category:
+    name: Name
+    desc: Testing for new model
+  Category2:
+    name: Another name key
+    desc:
+      : Testing entry with child
+      sub: a
