@@ -1,0 +1,179 @@
+﻿#Death message of the game
+Amlos:
+  #Causation
+  Cause:
+    Destined:
+      name:
+    None:
+      name:
+    Missing:
+      name:
+  #Death Message
+  ### Source: somebody did this
+  ### Indirect: someone participate in the death event, but not the final causation
+  ## special circumstances
+  Death:
+    Unity:
+      msg: ""
+      Source:
+        msg: ""
+    Destined:
+      msg: ""
+      Source:
+        msg: ""
+    ## normal attacks
+    ### no damage source specified
+    Generic:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    ### happened when source attack victim directly
+    Attack:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    ### with attacker
+    Projectile:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    Areal:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    Explosion:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    MeleeAttack:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    Ray:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    Magic:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    ### Suffocation
+    Suffocation:
+      msg: ""
+      Indirect:
+        msg: ""
+    ### Effects
+    #### Burning
+    Burning:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    BurningHurt:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    LavaBurning:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    #### Poison
+    Poison:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    #### Dusted
+    Dusted:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    #### Dark Irradiated
+    DarkIrradiated:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    #### Sunken
+    Sunken:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    #### SoulTrace
+    SoulTrace:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    #### Voidness
+    Voidness:
+      msg: ""
+      Indirect:
+        msg: ""
+      Source:
+        msg: ""
+        Indirect:
+          msg: ""
+    ### Debug purpose, will not actually show in the game
+    Timeout:
+      msg: ""
