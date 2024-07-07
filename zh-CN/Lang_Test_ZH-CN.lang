@@ -5,5 +5,5 @@
   Category2:
     name: Another name key
     desc:
-      0: ': Testing entry with child'
+      $self: Testing entry with child
       sub: a
