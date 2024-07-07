@@ -1,73 +1,307 @@
 #localization for common entities (not the NPCs)
-Amlos.Entity.BookWorm.desc: "BookWormDesc."
-Amlos.Entity.BookWorm.info: "BookWormInfo."
-Amlos.Entity.BookWorm.name: "书虫"
-Amlos.Entity.Dustevil.desc: "DustevilDesc."
-Amlos.Entity.Dustevil.info: "DustevilInfo."
-Amlos.Entity.Dustevil.name: "Dustevil"
-Amlos.Entity.Hemisphrog.desc: "HemisphrogDesc."
-Amlos.Entity.Hemisphrog.info: "HemisphrogInfo."
-Amlos.Entity.Hemisphrog.name: "Hemisphrog"
-Amlos.Entity.Laveel.desc: "LaveelDesc."
-Amlos.Entity.Laveel.info: "LaveelInfo."
-Amlos.Entity.Laveel.name: "Laveel"
-Amlos.Entity.Lightball.desc: "LightballDesc."
-Amlos.Entity.Lightball.info: "LightballInfo."
-Amlos.Entity.Lightball.name: "Lightball"
-Amlos.Entity.MamaRhombear.desc: "MamaRhombearDesc."
-Amlos.Entity.MamaRhombear.info: "MamaRhombearInfo."
-Amlos.Entity.MamaRhombear.name: "棱熊之母"
-Amlos.Entity.MamasRhombear.desc: "MamasRhombearDesc."
-Amlos.Entity.MamasRhombear.info: "MamasRhombearInfo."
-Amlos.Entity.MamasRhombear.name: "MamasRhombear"
-Amlos.Entity.PatrolTest.desc: "PatrolTestDesc."
-Amlos.Entity.PatrolTest.info: "PatrolTestInfo."
-Amlos.Entity.PatrolTest.name: "PatrolTest"
-Amlos.Entity.Pulengs_Dark.desc: "Pulengs_DarkDesc."
-Amlos.Entity.Pulengs_Dark.info: "Pulengs_DarkInfo."
-Amlos.Entity.Pulengs_Dark.name: "Pulengs_Dark"
-Amlos.Entity.Pulengs_Earth.desc: "Pulengs_EarthDesc."
-Amlos.Entity.Pulengs_Earth.info: "Pulengs_EarthInfo."
-Amlos.Entity.Pulengs_Earth.name: "Pulengs_Earth"
-Amlos.Entity.Pulengs_Fire.desc: "Pulengs_FireDesc."
-Amlos.Entity.Pulengs_Fire.info: "Pulengs_FireInfo."
-Amlos.Entity.Pulengs_Fire.name: "Pulengs_Fire"
-Amlos.Entity.Pulengs_Physical.desc: "Pulengs_PhysicalDesc."
-Amlos.Entity.Pulengs_Physical.info: "Pulengs_PhysicalInfo."
-Amlos.Entity.Pulengs_Physical.name: "Pulengs_Physical"
-Amlos.Entity.Pulengs_Water.desc: "Pulengs_WaterDesc."
-Amlos.Entity.Pulengs_Water.info: "Pulengs_WaterInfo."
-Amlos.Entity.Pulengs_Water.name: "Pulengs_Water"
-Amlos.Entity.Pulengs_Wind.desc: "Pulengs_WindDesc."
-Amlos.Entity.Pulengs_Wind.info: "Pulengs_WindInfo."
-Amlos.Entity.Pulengs_Wind.name: "Pulengs_Wind"
-Amlos.Entity.Rhombear.desc: "RhombearDesc."
-Amlos.Entity.Rhombear.info: "RhombearInfo."
-Amlos.Entity.Rhombear.name: "棱熊"
-Amlos.Entity.Sahamusi_SpearSoldier.desc: "Sahamusi_SpearSoldierDesc."
-Amlos.Entity.Sahamusi_SpearSoldier.info: "Sahamusi_SpearSoldierInfo."
-Amlos.Entity.Sahamusi_SpearSoldier.name: "Sahamusi_SpearSoldier"
-Amlos.Entity.StoneEye.desc: "StoneEyeDesc."
-Amlos.Entity.StoneEye.info: "StoneEyeInfo."
-Amlos.Entity.StoneEye.name: "StoneEye"
-Amlos.Entity.TeenageRhombear.desc: "TeenageRhombearDesc."
-Amlos.Entity.TeenageRhombear.info: "TeenageRhombearInfo."
-Amlos.Entity.TeenageRhombear.name: "TeenageRhombear"
-Amlos.Entity.TestingEnemy.desc: "TestingEnemyDesc."
-Amlos.Entity.TestingEnemy.info: "TestingEnemyInfo."
-Amlos.Entity.TestingEnemy.name: "TestingEnemy"
-Amlos.Entity.TheAmir.desc: "TheAmirDesc."
-Amlos.Entity.TheAmir.info: "TheAmirInfo."
-Amlos.Entity.TheAmir.name: "老埃米尔"
-Amlos.Entity.TheAmir_MajorClaw.desc: "TheAmir_MajorClawDesc."
-Amlos.Entity.TheAmir_MajorClaw.info: "TheAmir_MajorClawInfo."
-Amlos.Entity.TheAmir_MajorClaw.name: "TheAmir_MajorClaw"
-Amlos.Entity.TheAmir_PatternClaw.desc: "TheAmir_PatternClawDesc."
-Amlos.Entity.TheAmir_PatternClaw.info: "TheAmir_PatternClawInfo."
-Amlos.Entity.TheAmir_PatternClaw.name: "TheAmir_PatternClaw"
-Amlos.Entity.TheGuardian.desc: "TheGuardianDesc."
-Amlos.Entity.TheGuardian.info: "TheGuardianInfo."
-Amlos.Entity.TheGuardian.name: "巨石守卫"
-Amlos.Entity.Walk_Test.desc: "Walk_TestDesc."
-Amlos.Entity.Walk_Test.info: "Walk_TestInfo."
-Amlos.Entity.Walk_Test.name: "Walk_Test"
+Amlos:
+  Entity:
+    AbsoluteZeroExplode:
+      name: ""
+    AbyssalDevour:
+      name: ""
+    AbyssalRain:
+      name: ""
+    AmirSpike:
+      name: ""
+    AmlosClaw:
+      name: ""
+    AmlosTail:
+      name: ""
+    Ball:
+      name: ""
+    BarrierExplosion:
+      name: ""
+    BlueLight:
+      name: ""
+    BookWorm:
+      desc: ""
+      info: ""
+      name: ""
+    Brick:
+      name: ""
+    Bubble:
+      name: ""
+    BurningBlade:
+      name: ""
+    CannonRay:
+      name: ""
+    ContactAttack:
+      name: ""
+    DarkBeam:
+      name: ""
+    Darkchain:
+      name: ""
+    DarkFlareBigExplode:
+      name: ""
+    DarkFlareProjectile:
+      name: ""
+    DarkFlareSmallExplode:
+      name: ""
+    DarkRadiation:
+      name: ""
+    DesertFlower:
+      desc: ""
+      info: ""
+      name: ""
+    DustCloud:
+      name: ""
+    Dustevil:
+      desc: ""
+      info: ""
+      name: ""
+    DustStorm:
+      name: ""
+    Earthball:
+      name: ""
+    Earthball_Pulengs:
+      name: ""
+    EarthenClaymore:
+      name: ""
+    EarthShard:
+      name: ""
+    EarthSpike:
+      name: ""
+    EraserBallPrefab:
+      name: ""
+    Eruption:
+      name: ""
+    Fireball:
+      name: ""
+    FireBreath:
+      name: ""
+    FirePillars:
+      name: ""
+    FirePillarSeed:
+      name: ""
+    FlameMineExplosion:
+      name: ""
+    FlareDetonation:
+      name: ""
+    FlowerPower:
+      name: ""
+    FlowOfWater:
+      name: ""
+    GaiaGuardian:
+      desc: ""
+      info: ""
+      name: ""
+    Gasoleaf:
+      desc: ""
+      info: ""
+      name: ""
+    Generic:
+      name: ""
+    GravBomb:
+      name: ""
+    GravBombProj:
+      name: ""
+    Ground_Spike:
+      name: ""
+    GustMissile:
+      name: ""
+    HeatWave:
+      name: ""
+    HellfireCrashBodyHit:
+      name: ""
+    HellfireCrashExplosion:
+      name: ""
+    Hemisphrog:
+      desc: ""
+      info: ""
+      name: ""
+    HolyLight:
+      name: ""
+    IceWave:
+      name: ""
+    IcicleBoulder:
+      name: ""
+    LavaLake:
+      name: ""
+    Laveel:
+      desc: ""
+      info: ""
+      name: ""
+    LibraryDraft:
+      name: ""
+    Light_Guardian:
+      name: ""
+    Lightball:
+      desc: ""
+      info: ""
+      name: ""
+    LunarSlash:
+      name: ""
+    LunarSlashCombo:
+      name: ""
+    MamaRhombear:
+      desc: ""
+      info: ""
+      name: ""
+    MamasRhombear:
+      desc: ""
+      info: ""
+      name: ""
+    Meteor:
+      name: ""
+    Meteor_Landing:
+      name: ""
+    MultiGust:
+      name: ""
+    Plague:
+      name: ""
+    PlantyShard:
+      name: ""
+    Player:
+      name: ""
+    Pulengs_Dark:
+      desc: ""
+      info: ""
+      name: ""
+    Pulengs_Earth:
+      desc: ""
+      info: ""
+      name: ""
+    Pulengs_Fire:
+      desc: ""
+      info: ""
+      name: ""
+    Pulengs_Physical:
+      desc: ""
+      info: ""
+      name: ""
+    Pulengs_Water:
+      desc: ""
+      info: ""
+      name: ""
+    Pulengs_Wind:
+      desc: ""
+      info: ""
+      name: ""
+    PurifyHeartWave:
+      name: ""
+    Ray:
+      name: ""
+    RazorTempestMain:
+      name: ""
+    RazorTempestMini:
+      name: ""
+    RedBeam:
+      name: ""
+    RedLight:
+      name: ""
+    Rhombear:
+      desc: ""
+      info: ""
+      name: ""
+    Rook:
+      name: ""
+    Sahamusi_SpearSoldier:
+      desc: ""
+      info: ""
+      name: ""
+    ShadowDomainExplosion:
+      name: ""
+    SmallEarthball:
+      name: ""
+    SnowStorm:
+      name: ""
+    SomeForNoneExplosion:
+      name: ""
+    SoulBankEntity:
+      desc: ""
+      info: ""
+      name: ""
+    SoulCharge:
+      name: ""
+    SoulChargeEntity:
+      desc: ""
+      info: ""
+      name: ""
+    SoulTrapActivator:
+      desc: ""
+      info: ""
+      name: ""
+    SoulTrapExplosion:
+      name: ""
+    SpaceDistortion:
+      name: ""
+    SpatialCollapseExplosion:
+      name: ""
+    SpiritLinkEntity:
+      desc: ""
+      info: ""
+      name: ""
+    SpiritWarriorProjectile:
+      name: ""
+    StoneBurst:
+      name: ""
+    StoneEye:
+      desc: ""
+      info: ""
+      name: ""
+    Supernova_Areal:
+      name: ""
+    Supernova_Heavy:
+      name: ""
+    Supernova_Helium:
+      name: ""
+    Supernova_Hydrogen:
+      name: ""
+    TeenageRhombear:
+      desc: ""
+      info: ""
+      name: ""
+    TheAmir:
+      desc: ""
+      info: ""
+      name: ""
+    TheAmir_MajorClaw:
+      desc: ""
+      info: ""
+      name: ""
+    TheAmir_PatternClaw:
+      desc: ""
+      info: ""
+      name: ""
+    TheGuardian:
+      desc: ""
+      info: ""
+      name: ""
+    TheGuardianContactAttack:
+      name: ""
+    TheGuardianStoneball:
+      name: ""
+    TheGuardianStoneball_Summoning:
+      name: ""
+    Tornado:
+      name: ""
+    VaccumOrb:
+      name: ""
+    Waterball:
+      name: ""
+    WaterGunShot:
+      name: ""
+    WaterWall:
+      name: ""
+    Wind_Ride:
+      name: ""
+    WindBarrage:
+      name: ""
+    WindBlade_Large:
+      name: ""
+    WindBlade_Small:
+      name: ""
+    WindCutter:
+      name: ""
+    WindWall:
+      name: ""
+    ZeroRay:
+      name: ""
+    ZeroRayProjectile:
+      name: ""
