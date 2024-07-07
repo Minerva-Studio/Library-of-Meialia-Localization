@@ -1,243 +1,369 @@
-#relate to combat, like active/passive skills, effect, etc.
-Amlos.Combat.ActiveSkill.AbsoluteZero.desc: "召唤一个领域，在其中的敌人收到持续伤害，呆得越久伤害越高。"
-Amlos.Combat.ActiveSkill.AbsoluteZero.name: "绝对零度"
-Amlos.Combat.ActiveSkill.AbyssalDevour.desc: "召唤深渊巨口，对最近目标发起吞噬，造成 {attack}。\n对该目标额外叠加{baseIncrement}+{levelBonus}*{level}层沉渊效果。"
-Amlos.Combat.ActiveSkill.AbyssalDevour.name: "深渊噬"
-Amlos.Combat.ActiveSkill.AbyssalRain.desc: "在指定区域持续降雨，以鼠标横坐标为中心展开宽3米的雨云。\n雨云高度位于玩家上方5米，持续5秒。\n雨滴造成 {attack}，并加上 {attack.sunkenLevel} 层沉渊效果，并且在雨中每多呆1秒就会多增加1层沉渊效果。"
-Amlos.Combat.ActiveSkill.AbyssalRain.name: "深渊惠泽"
-Amlos.Combat.ActiveSkill.AncientWish.desc: "法师们千百年来探索$Amlos.Element.Arcane.name$留下所有的答案"
-Amlos.Combat.ActiveSkill.AncientWish.name: "千古之愿"
-Amlos.Combat.ActiveSkill.AzureAsleep.desc: "释放阿祖尔云朵攻击所有视野内的敌人。使每个敌人已有的沉渊层数翻倍并给每个敌人多添加 {effectLevel} 层的沉渊效果。"
-Amlos.Combat.ActiveSkill.AzureAsleep.name: "阿祖尔鼻息"
-Amlos.Combat.ActiveSkill.BarrierOfGaia.desc: "授予盖亚屏障，当受到伤害时，屏障会分裂成许多向敌人发射的发射物。 每个碎片可以造成 {earthShardPrefab} 或 {plantyShardPrefab} 。"
-Amlos.Combat.ActiveSkill.BarrierOfGaia.name: "地母的呵护"
-Amlos.Combat.ActiveSkill.Brick.desc: "从天花板召唤一块砖石砸向指定区域，造成{prefab}。"
-Amlos.Combat.ActiveSkill.Brick.name: "碎石陨"
-Amlos.Combat.ActiveSkill.Bubbles.desc: "向指定方向发射一片静止的泡沫。\n泡沫存在一段时间，对接触的敌人造成{attack1}，墙体不会阻挡泡沫。"
-Amlos.Combat.ActiveSkill.Bubbles.name: "泡球"
-Amlos.Combat.ActiveSkill.BurningBlade.desc: "将爪击替换为烈火剑，造成{attack}"
-Amlos.Combat.ActiveSkill.BurningBlade.name: "燃烧爪剑"
-Amlos.Combat.ActiveSkill.ChargeTest.desc: "充电测试描述"
-Amlos.Combat.ActiveSkill.ChargeTest.name: "充电测试"
-Amlos.Combat.ActiveSkill.CrushingClaw.desc: "造成粉碎爪效果，在{duration}秒内增加物理伤害。"
-Amlos.Combat.ActiveSkill.CrushingClaw.name: "碎岩利爪"
-Amlos.Combat.ActiveSkill.DarkBeam.desc: "从玩家向鼠标方向发射一束黑暗射线。光线造成 {prefab}，射速极快但准度欠佳。"
-Amlos.Combat.ActiveSkill.DarkBeam.name: "暗黑射线"
-Amlos.Combat.ActiveSkill.DarkChain.desc: "暗锁描述。"
-Amlos.Combat.ActiveSkill.DarkChain.name: "黑曜枷锁"
-Amlos.Combat.ActiveSkill.DarkFlare.desc: "召唤一个纯暗能量球朝光标移动，在击中或经过{bigExplodePrefab}距离后爆炸。\n直接碰撞会产生额外的 {smallExplodePrefab}。\n"
-Amlos.Combat.ActiveSkill.DarkFlare.name: "黑暗耀斑"
-Amlos.Combat.ActiveSkill.DarkRadiation.desc: "生成一片黑暗区域，向指定方向缓慢移动。\n黑暗区域对其中的敌人造成伤害 {effectBaseDamage}+(Level*{effectBaseDamage}){prefab}。"
-Amlos.Combat.ActiveSkill.DarkRadiation.name: "影莲华"
-Amlos.Combat.ActiveSkill.DustCloud.desc: "发射尘云球，接触到尘云球的敌方获得{effectDuration}秒的尘缚效果，受到{attack1}伤害。\n（当受到的非基础元素的伤害时，造成基础伤害的25%的土元素伤害）"
-Amlos.Combat.ActiveSkill.DustCloud.name: "尘云"
-Amlos.Combat.ActiveSkill.DustStorm.desc: "粉尘风暴描述"
-Amlos.Combat.ActiveSkill.DustStorm.name: "乱尘埋骨"
-Amlos.Combat.ActiveSkill.Earthball.desc: "召唤一个围绕轨道运行的岩石在接触敌人时会造成{prefab}."
-Amlos.Combat.ActiveSkill.Earthball.name: "岩弹"
-Amlos.Combat.ActiveSkill.EarthenClaymore.desc: "用土属性阔剑取代利爪攻击，造成大范围的{attack} 。"
-Amlos.Combat.ActiveSkill.EarthenClaymore.name: "裂岩大剑"
-Amlos.Combat.ActiveSkill.EarthSpike.desc: "召唤一波前进的尖刺，造成 {prefab} 并击飞敌人，并且还可以对落在尖刺上的敌人造成伤害。"
-Amlos.Combat.ActiveSkill.EarthSpike.name: "地颚之牙"
-Amlos.Combat.ActiveSkill.EraserBall.desc: "灭迹球描述。"
-Amlos.Combat.ActiveSkill.EraserBall.name: "灭迹球"
-Amlos.Combat.ActiveSkill.Eruption.desc: "向上方散射5颗火球下落，每颗火球对命中的目标造成{projectile}。\n命中后火球对半径{explosion.Radius}米内的造成{explosion}"
-Amlos.Combat.ActiveSkill.Eruption.name: "熔炎爆 "
-Amlos.Combat.ActiveSkill.Fireball.desc: "发射一颗追踪火球，对命中的目标造成{fireball}.\n命中后火球造成爆炸，对半径5米内的所有目标造成{explosion}."
-Amlos.Combat.ActiveSkill.Fireball.name: "火球术"
-Amlos.Combat.ActiveSkill.FireBreath.desc: "喷火，对前方5米内范围目标每{breath.DealDamageTime}秒造成{breath}，持续{activation}秒。"
-Amlos.Combat.ActiveSkill.FireBreath.name: "龙息"
-Amlos.Combat.ActiveSkill.FirePillars.desc: "在前方地面召唤火柱，对范围目标每{pillar.DealDamageTime}秒造成{pillar}，持续{activation}秒。\n"
-Amlos.Combat.ActiveSkill.FirePillars.name: "火柱"
-Amlos.Combat.ActiveSkill.FlameMine.desc: "在当前位置放置陷阱，当陷阱被目标触碰或存在 {autoExplodeTime} 秒后触发，对半径10米内的所有目标造成 {explosionPrefab} 点火元素伤害。"
-Amlos.Combat.ActiveSkill.FlameMine.name: "红莲怒"
-Amlos.Combat.ActiveSkill.FlareDetonator.desc: "FlareDetonatorDesc."
-Amlos.Combat.ActiveSkill.FlareDetonator.name: "浓缩熔岩"
-Amlos.Combat.ActiveSkill.FlowerPower.desc: "向指定方向发射一连串花朵，每朵花朵造成 {prefab} 点伤害。"
-Amlos.Combat.ActiveSkill.FlowerPower.name: "花之语"
-Amlos.Combat.ActiveSkill.FlowofWater.desc: "替换爪击为3段水属性连击。"
-Amlos.Combat.ActiveSkill.FlowofWater.name: "水之道"
-Amlos.Combat.ActiveSkill.GravBomb.desc: "GravBombDesc."
-Amlos.Combat.ActiveSkill.GravBomb.name: "GravBomb"
-Amlos.Combat.ActiveSkill.GustMissile.desc: "向鼠标方向发射低速风弹，但速度会逐渐增加，速度越快造成的伤害越大。\n风弹最低伤害：{prefab}。"
-Amlos.Combat.ActiveSkill.GustMissile.name: "蓄势疾风"
-Amlos.Combat.ActiveSkill.HeatWave.desc: "释放持续扩散的热浪，10秒内每秒对范围内所有目标造成 {prefab} 。\n初始范围为半径5米，最大扩散至半径10米。"
-Amlos.Combat.ActiveSkill.HeatWave.name: "焰光轮"
-Amlos.Combat.ActiveSkill.HellfireCrash.desc: "将自己包裹在地狱之火中并向光标冲锋直至发生碰撞，造成{attack} 并爆炸{explosion}。"
-Amlos.Combat.ActiveSkill.HellfireCrash.name: "狱炎车"
-Amlos.Combat.ActiveSkill.HolyLight.desc: "创建一束宽广的光线，每秒对其中的敌人造成 {holyLightPrefab} 伤害。\n持续很长时间。"
-Amlos.Combat.ActiveSkill.HolyLight.name: "审判之光"
-Amlos.Combat.ActiveSkill.IcicleBoulder.desc: "以抛物线射出巨型冰块，落地点为鼠标正下方。	\n冰块落地或接触路径上的第一个敌方时爆炸，造成{projectile}\n爆炸造成半径{explosion.Radius}米的圆形范围{explosion}。"
-Amlos.Combat.ActiveSkill.IcicleBoulder.name: "霜冰陨 "
-Amlos.Combat.ActiveSkill.LakeOfFire.desc: "LakeOfFireDesc."
-Amlos.Combat.ActiveSkill.LakeOfFire.name: "岩浆之湖"
-Amlos.Combat.ActiveSkill.LibrarysDraft.desc: "发射多枚弹体，在选定的目标点上造成 {prefab} 的致命打击。"
-Amlos.Combat.ActiveSkill.LibrarysDraft.name: "漫舞纷飞"
-Amlos.Combat.ActiveSkill.LightBarrier.desc: "LightBarrierDesc."
-Amlos.Combat.ActiveSkill.LightBarrier.name: "LightBarrier"
-Amlos.Combat.ActiveSkill.LightGuardian.desc: "召唤一名光明守护者跟随玩家一段时间。\n它会向第一个进入其射程的敌人发射射弹，造成{projectilePrefab}，直到该敌人死亡。"
-Amlos.Combat.ActiveSkill.LightGuardian.name: "光辉庇护"
-Amlos.Combat.ActiveSkill.LightSalvation.desc: "LightSalvationDesc."
-Amlos.Combat.ActiveSkill.LightSalvation.name: "LightSalvation"
-Amlos.Combat.ActiveSkill.LunarSlash.desc: "在一段时间内用月斩取代利爪攻击，发射月射弹。月射弹接触光线时会缩小，击中后对实体造成 {attack} 与 {slashQuantity} 次{attackCombo} 的爆炸。"
-Amlos.Combat.ActiveSkill.LunarSlash.name: "月华赐福"
-Amlos.Combat.ActiveSkill.MagicChessPiece.desc: "MagicChessPieceDesc."
-Amlos.Combat.ActiveSkill.MagicChessPiece.name: "MagicChessPiece"
-Amlos.Combat.ActiveSkill.Meteor.desc: "让流星雨从天而降。\n击中敌方后造成大量伤害，但是无法直接瞄准敌方。"
-Amlos.Combat.ActiveSkill.Meteor.name: "坠陨"
-Amlos.Combat.ActiveSkill.MultiGust.desc: "MultiGustDesc."
-Amlos.Combat.ActiveSkill.MultiGust.name: "MultiGust"
-Amlos.Combat.ActiveSkill.None.desc: "什么都没有。"
-Amlos.Combat.ActiveSkill.None.name: "无"
-Amlos.Combat.ActiveSkill.PurifyHeart.desc: "召唤一大股水柱攻击敌人，造成{purifyHeartWave}。"
-Amlos.Combat.ActiveSkill.PurifyHeart.name: "净化之心"
-Amlos.Combat.ActiveSkill.RazorTempest.desc: "释放大型剃刀，瞄准最近的敌人并造成 {mainTempest}，这些剃刀会定期发射小型剃刀，造成 {smallRazors}。"
-Amlos.Combat.ActiveSkill.RazorTempest.name: "剃刃风暴"
-Amlos.Combat.ActiveSkill.ReleaseThePlague.desc: "ReleaseThePlagueDesc."
-Amlos.Combat.ActiveSkill.ReleaseThePlague.name: "ReleaseThePlague"
-Amlos.Combat.ActiveSkill.ShadowDomain.desc: "创建一个以玩家为中心的区域，该区域会在 {maximumChargeTime} 内增长。 如果玩家移动太快，或者已经过去了足够的时间，该区域就会爆炸并对区域内的所有敌人造成 {ShadowDomainExplosion}。"
-Amlos.Combat.ActiveSkill.ShadowDomain.name: "影域"
-Amlos.Combat.ActiveSkill.ShimmeringBlessing.desc: "授予繁星赐福的效果，根据输出伤害提供最大 {MaxShield} * ({level}+1)  的减伤护甲。"
-Amlos.Combat.ActiveSkill.ShimmeringBlessing.name: "繁星赐福"
-Amlos.Combat.ActiveSkill.SnowStorm.desc: "基于玩家朝向，向左侧或右侧刮出水平移动的暴风雪。\n暴风雪会裹挟其中的敌人前进，并对他们每{snowStormPrefab.DealDamageTime}秒造成{snowStormPrefab}。"
-Amlos.Combat.ActiveSkill.SnowStorm.name: "风雪暴"
-Amlos.Combat.ActiveSkill.SomethingForNothing.desc: "每秒牺牲 5% 当前生命值，伤害增加(50+{level}*50)%，速度增加 50%，持续 {duration} 秒。"
-Amlos.Combat.ActiveSkill.SomethingForNothing.name: "血之契约"
-Amlos.Combat.ActiveSkill.SoulBank.desc: "生成一个花瓶，打破后会掉落 25 个辉石碎片。"
-Amlos.Combat.ActiveSkill.SoulBank.name: "魂之窃"
-Amlos.Combat.ActiveSkill.SoulCharge.desc: "SoulChargeDesc."
-Amlos.Combat.ActiveSkill.SoulCharge.name: "SoulCharge"
-Amlos.Combat.ActiveSkill.SoulTrap.desc: "在当前位置留下一个持续一段时间的灵魂陷阱。\n任何攻击陷阱的敌人都会触发它，在其范围内造成爆炸伤害。"
-Amlos.Combat.ActiveSkill.SoulTrap.name: "魂之伤"
-Amlos.Combat.ActiveSkill.SpaceDistortion.desc: "在 {lifetime} 内创建一个扭曲空间，吸收传入的友方飞弹，转换飞弹并对区域内的敌人造成 {bulletPrefab} 伤害。"
-Amlos.Combat.ActiveSkill.SpaceDistortion.name: "空间扭曲"
-Amlos.Combat.ActiveSkill.SpatialCollapse.desc: "SpatialCollapseDesc."
-Amlos.Combat.ActiveSkill.SpatialCollapse.name: "SpatialCollapse"
-Amlos.Combat.ActiveSkill.SpiritLink.desc: "用一条灵魂锁链拴住敌人，持续 10 秒。在此期间攻击灵魂锁链会对目标造成{damageMultiplier:f_p1}原伤害的灵魂伤害。"
-Amlos.Combat.ActiveSkill.SpiritLink.name: "魂之链"
-Amlos.Combat.ActiveSkill.SpiritWarrior.desc: "SpiritWarriorDesc."
-Amlos.Combat.ActiveSkill.SpiritWarrior.name: "SpiritWarrior"
-Amlos.Combat.ActiveSkill.SuperNova.desc: "释放以玩家为中心的巨大超新星，在该区域造成一开始的爆炸伤害和持续的火焰伤害。"
-Amlos.Combat.ActiveSkill.SuperNova.name: "超新星之怒"
-Amlos.Combat.ActiveSkill.Superposition.desc: "留下残影，格挡 {level} 次攻击。"
-Amlos.Combat.ActiveSkill.Superposition.name: "超能替身"
-Amlos.Combat.ActiveSkill.Tornado.desc: "在特定位置产生碎空旋风斩，聚集小型敌人并造成{prefab}。"
-Amlos.Combat.ActiveSkill.Tornado.name: "碎空旋风斩"
-Amlos.Combat.ActiveSkill.VaccumOrb.desc: "以扇形向前方发射虚幻泡影，在一个区域中造成连续的{prefab}。\n虚幻泡影会摧毁所有接触的飞行物。"
-Amlos.Combat.ActiveSkill.VaccumOrb.name: "虚幻泡影"
-Amlos.Combat.ActiveSkill.Waterball.desc: "发射一个水弹来造成{prefab}。"
-Amlos.Combat.ActiveSkill.Waterball.name: "凝水弹"
-Amlos.Combat.ActiveSkill.WaterGun.desc: "WaterGunDesc."
-Amlos.Combat.ActiveSkill.WaterGun.name: "WaterGun"
-Amlos.Combat.ActiveSkill.WaterWall.desc: "WaterWallDesc."
-Amlos.Combat.ActiveSkill.WaterWall.name: "WaterWall"
-Amlos.Combat.ActiveSkill.WindBarrage.desc: "将爪击替换为迅速的疾风，造成 {prefab} 的同时格挡飞行物。"
-Amlos.Combat.ActiveSkill.WindBarrage.name: "风之幕"
-Amlos.Combat.ActiveSkill.WindBlade.desc: "将爪击替换为横向飞行的风刃。大风刃造成 {windBladeLarge}，小风刃各造成 {windBladeSmall}。"
-Amlos.Combat.ActiveSkill.WindBlade.name: "风刃"
-Amlos.Combat.ActiveSkill.WindCutter.desc: "射击一连串高加速度的跟踪风刃，不能穿透敌方。每个风刃都造成{prefab}。"
-Amlos.Combat.ActiveSkill.WindCutter.name: "急袭风刃"
-Amlos.Combat.ActiveSkill.WindRide.desc: "快速向上移动，同时向下发射{windParticles}个风压，每个风压对敌人造成{prefab}。\n使用此技能可以在一段时间内增加移速。"
-Amlos.Combat.ActiveSkill.WindRide.name: "凭风驭"
-Amlos.Combat.ActiveSkill.WindStorm.desc: "向水平方向发射风刃，每个小型风刃造成{windStorm_Small}，大型风刃造成{windStorm_Large}。"
-Amlos.Combat.ActiveSkill.WindStorm.name: "风暴"
-Amlos.Combat.ActiveSkill.WindWall.desc: "生成水平移动的风墙，击退敌人并阻飞行物。"
-Amlos.Combat.ActiveSkill.WindWall.name: "流风壁"
-Amlos.Combat.ActiveSkill.ZeroRay.desc: "ZeroRayDesc."
-Amlos.Combat.ActiveSkill.ZeroRay.name: "ZeroRay"
-Amlos.Combat.Effect.Burning.desc: "使得实体着火，每{Interval}秒受到{EffectDamage}$Amlos.Element.Fire.name$伤害。当等级高于{BONUS_LEVEL}时，实体每次受伤时受到额外{ExtraDamage}$Amlos.Element.Fire.name$伤害"
-Amlos.Combat.Effect.Burning.name: "灼烧"
-Amlos.Combat.Effect.Charge.desc: "使实体提升少量伤害，降低受到伤害。\n可能还有其他用武之地。"
-Amlos.Combat.Effect.Charge.name: "充能"
-Amlos.Combat.Effect.CountShield.desc: "完全免疫{Level}次伤害。"
-Amlos.Combat.Effect.CountShield.name: "法力盾"
-Amlos.Combat.Effect.Crack.desc: "使得实体受到的物理伤害提升{Level}*{INCREMENT:f_p0}。"
-Amlos.Combat.Effect.Crack.name: "龟裂"
-Amlos.Combat.Effect.DarkIrradiated.desc: "使实体每{Interval:f_f2}秒受到{baseDamage}$Amlos.Element.Dark.name$伤害。\n实体受到的伤害会随着时间增加，每次结算伤害增加{Level}×{BASE_DAMAGE}的伤害。"
-Amlos.Combat.Effect.DarkIrradiated.name: "暗辐"
-Amlos.Combat.Effect.Diffusion.desc: "当实体拥有超过1级的$Amlos.Combat.Effect.Burning.name$效果后，半径{Radius} 格的实体将被赋予（原等级-1）级的$Amlos.Combat.Effect.Burning.name$，持续50%当前$Amlos.Combat.Effect.Burning.name$效果的时间。"
-Amlos.Combat.Effect.Diffusion.name: "扩散"
-Amlos.Combat.Effect.Dusted.desc: "当实体受到非基础元素（$Amlos.Element.Fire.name$, $Amlos.Element.Water.name$, $Amlos.Element.Earth.name$, $Amlos.Element.Wind.name$）伤害时，\n对实体追加原伤害{Level}×{DUST_DAMAGE:f_p0}的$Amlos.Combat.Damage.PhysicalDamage.info:physicalDamage=$$Amlos.Element.Earth.name$伤害"
-Amlos.Combat.Effect.Dusted.name: "尘缚"
-Amlos.Combat.Effect.Eclipse.desc: "使实体受到的伤害增加{Level}×{INCREMENT:f_P1}。若实体为$Amlos.Element.Light.name$生物，额外增加{Level}×{INCREMENT:f_P1}。"
-Amlos.Combat.Effect.Eclipse.name: "暗蚀"
-Amlos.Combat.Effect.Evaporate.desc: "使得实体受到的魔法伤害提升{Level}*{INCREMENT:f_p0}。"
-Amlos.Combat.Effect.Evaporate.name: "蒸发"
-Amlos.Combat.Effect.Frozen.desc: "使实体无法移动，冲刺，跳跃。对Boss无效。"
-Amlos.Combat.Effect.Frozen.name: "冰冻"
-Amlos.Combat.Effect.Immobilize.desc: "使实体完全无法移动，静止在固定位置。对Boss无效。"
-Amlos.Combat.Effect.Immobilize.name: "定身"
-Amlos.Combat.Effect.LavaBurning.desc: "使得实体着火，每0.5秒受到{Level}*{baseDamage}$Amlos.Element.Fire.name$伤害。\n对于$Amlos.Element.Fire.name$生物，每次受到的伤害降低{fireCreatureDamageReduce:f_p0}。\n对于龙族则会缓慢恢复自身生命。"
-Amlos.Combat.Effect.LavaBurning.name: "烈焰燃烧"
-Amlos.Combat.Effect.Poison.desc: "使得实体中毒，每{Interval}秒受到{Level}*{BASE_DAMAGE}$Amlos.Element.Water.name$伤害。剧毒生物免疫。"
-Amlos.Combat.Effect.Poison.name: "中毒"
-Amlos.Combat.Effect.Power.desc: "使实体造成的伤害提升{Level}×{INCREMENT:f_P1}。"
-Amlos.Combat.Effect.Power.name: "力量"
-Amlos.Combat.Effect.Resistance.desc: "使实体受到的伤害降低{level}×{DECREAMENT:f_P1}。"
-Amlos.Combat.Effect.Resistance.name: "抗性"
-Amlos.Combat.Effect.Salvation.desc: "免疫所有负面效果"
-Amlos.Combat.Effect.Salvation.name: "救赎"
-Amlos.Combat.Effect.ShimmeringBlessingStatus.desc: "根据输出伤害提供最大 {MAX_SHIELD} * ({Level}+1) 的减伤护甲。"
-Amlos.Combat.Effect.ShimmeringBlessingStatus.name: "繁星赐福"
-Amlos.Combat.Effect.Slowness.desc: "使实体移动速度降低{Level}\n×{DECREMENT:f_p1}，最低降低到基础速度的10%"
-Amlos.Combat.Effect.Slowness.name: "迟缓"
-Amlos.Combat.Effect.SomeForNoneBurn.desc: "当血量高于{HEALTH_LOWER_BOUND:f_p0}时，每秒失去{DAMAGE_PERCENTAGE:f_p0}当前生命值，自身伤害提高{Level}*{DAMAGE_MODIFIER:f_p0}并获得{SPEED_MODIFIER:f_p0}加速"
-Amlos.Combat.Effect.SomeForNoneBurn.name: "炎魔灼烧"
-Amlos.Combat.Effect.SoulTrace.desc: "暴露实体的灵魂血条。\n每条灵魂血条的总量为实体血量的10%。\n每次受到非$Amlos.Element.Soul.name$伤害时同时扣除等量的该血条。如果该血条耗尽，额外对实体造成相当于实体血量10%的$Amlos.Element.Soul.name$伤害。"
-Amlos.Combat.Effect.SoulTrace.name: "唤魂"
-Amlos.Combat.Effect.Sunflare.desc: "使实体造成的伤害提升{Level}×{INCREMENT:f_P1}。"
-Amlos.Combat.Effect.Sunflare.name: "光耀"
-Amlos.Combat.Effect.Sunken.desc: "使实体每秒钟受到{Level}点$Amlos.Element.Water.name$伤害，效果每秒钟会衰减1级。"
-Amlos.Combat.Effect.Sunken.name: "沉渊"
-Amlos.Combat.Effect.Superposition.desc: "格挡{Level}次攻击。"
-Amlos.Combat.Effect.Superposition.name: "超能替身"
-Amlos.Combat.Effect.Swamp.desc: "使得周围{Radius}格范围内的敌方受到{slownessLevel}级$Amlos.Combat.Effect.Slowness.name$。"
-Amlos.Combat.Effect.Swamp.name: "沼泽"
-Amlos.Combat.Effect.Swiftness.desc: "使实体移动速度提升{Level}\n×{INCREMENT:f_p1}，最高提升到基础速度的200%。"
-Amlos.Combat.Effect.Swiftness.name: "敏捷"
-Amlos.Combat.Effect.Voidness.desc: "实体受到伤害后，有{Level}×{CHANCE_PER_LEVEL:f_p1}的概率将实体传送到离施加者{TELEPORT_DISTANCE}格的距离外。\n如果目标是Boss或者玩家，则造成最高血量{IMMEDIATE_DEATH_REPLACE_PERCENTAGE:f_p1}的伤害。"
-Amlos.Combat.Effect.Voidness.name: "空虚"
-Amlos.Combat.Effect.Vulnerable.desc: "使实体受到的伤害增加{level}×{INCREMENT:f_P1}。"
-Amlos.Combat.Effect.Vulnerable.name: "脆弱"
-Amlos.Combat.Effect.Weakness.desc: "使实体造成的伤害降低{level}×{DECREMENT:f_P1}。"
-Amlos.Combat.Effect.Weakness.name: "虚弱"
-Amlos.Combat.Equipment.AbnormalRuler.desc: "AbnormalRulerDesc."
-Amlos.Combat.Equipment.AbnormalRuler.name: "AbnormalRuler"
-Amlos.Combat.Equipment.DangerSign.desc: "DangerSignDesc."
-Amlos.Combat.Equipment.DangerSign.name: "DangerSign"
-Amlos.Combat.Equipment.HydrogenBottle.desc: "HydrogenBottleDesc."
-Amlos.Combat.Equipment.HydrogenBottle.name: "HydrogenBottle"
-Amlos.Combat.Equipment.LIbrarySkater.desc: "LIbrarySkaterDesc."
-Amlos.Combat.Equipment.LIbrarySkater.name: "LIbrarySkater"
-Amlos.Combat.Equipment.MISSING.desc: "MISSINGDesc."
-Amlos.Combat.Equipment.MISSING.name: "MISSING"
-Amlos.Combat.Equipment.StrengthenMelee.desc: "StrengthenMeleeDesc."
-Amlos.Combat.Equipment.StrengthenMelee.name: "StrengthenMelee"
-Amlos.Combat.Equipment.WarningSign.desc: "WarningSignDesc."
-Amlos.Combat.Equipment.WarningSign.name: "WarningSign"
-Amlos.Combat.PassiveSkill.BurningBlood.desc: "BurningBloodDesc."
-Amlos.Combat.PassiveSkill.BurningBlood.name: "BurningBlood"
-Amlos.Combat.PassiveSkill.EarthProtection.desc: "EarthProtectionDesc."
-Amlos.Combat.PassiveSkill.EarthProtection.name: "EarthProtection"
-Amlos.Combat.PassiveSkill.EnergyConfluence.desc: "EnergyConfluenceDesc."
-Amlos.Combat.PassiveSkill.EnergyConfluence.name: "EnergyConfluence"
-Amlos.Combat.PassiveSkill.FireTouch.desc: "FireTouchDesc."
-Amlos.Combat.PassiveSkill.FireTouch.name: "FireTouch"
-Amlos.Combat.PassiveSkill.GaleCombo.desc: "GaleComboDesc."
-Amlos.Combat.PassiveSkill.GaleCombo.name: "GaleCombo"
-Amlos.Combat.PassiveSkill.GazeFromAbyss.desc: "GazeFromAbyssDesc."
-Amlos.Combat.PassiveSkill.GazeFromAbyss.name: "GazeFromAbyss"
-Amlos.Combat.PassiveSkill.KarisArmor.desc: "KarisArmorDesc."
-Amlos.Combat.PassiveSkill.KarisArmor.name: "KarisArmor"
-Amlos.Combat.PassiveSkill.LightShield.desc: "LightShieldDesc."
-Amlos.Combat.PassiveSkill.LightShield.name: "LightShield"
-Amlos.Combat.PassiveSkill.None.desc: "无"
-Amlos.Combat.PassiveSkill.None.name: "无"
-Amlos.Combat.PassiveSkill.SolarBless.desc: "SolarBlessDesc."
-Amlos.Combat.PassiveSkill.SolarBless.name: "SolarBless"
-Amlos.Combat.PassiveSkill.Starcrack.desc: "StarcrackDesc."
-Amlos.Combat.PassiveSkill.Starcrack.name: "Starcrack"
-Amlos.Combat.PassiveSkill.TranquilLake.desc: "TranquilLakeDesc."
-Amlos.Combat.PassiveSkill.TranquilLake.name: "TranquilLake"
-Amlos.Combat.PassiveSkill.Windblower.desc: "WindblowerDesc."
-Amlos.Combat.PassiveSkill.Windblower.name: "Windblower"
+Amlos:
+  Combat:
+    ActiveSkill:
+      AbsoluteZero:
+        desc: ""
+        name: ""
+      AbyssalDevour:
+        desc: ""
+        name: ""
+      AbyssalRain:
+        desc: ""
+        name: ""
+      AncientWish:
+        desc: ""
+        name: ""
+      AzureAsleep:
+        desc: ""
+        name: ""
+      BarrierOfGaia:
+        desc: ""
+        name: ""
+      Brick:
+        desc: ""
+        name: ""
+      Bubbles:
+        desc: ""
+        name: ""
+      BurningBlade:
+        desc: ""
+        name: ""
+      ChargeTest:
+        desc: ""
+        name: ""
+      CrushingClaw:
+        desc: ""
+        name: ""
+      DarkBeam:
+        desc: ""
+        name: ""
+      DarkChain:
+        desc: ""
+        name: ""
+      DarkFlare:
+        desc: ""
+        name: ""
+      DarkRadiation:
+        desc: ""
+        name: ""
+      DustCloud:
+        desc: ""
+        name: ""
+      DustStorm:
+        desc: ""
+        name: ""
+      Earthball:
+        desc: ""
+        name: ""
+      EarthenClaymore:
+        desc: ""
+        name: ""
+      EarthSpike:
+        desc: ""
+        name: ""
+      EraserBall:
+        desc: ""
+        name: ""
+      Eruption:
+        desc: ""
+        name: ""
+      Fireball:
+        desc: ""
+        name: ""
+      FireBreath:
+        desc: ""
+        name: ""
+      FirePillars:
+        desc: ""
+        name: ""
+      FlameMine:
+        desc: ""
+        name: ""
+      FlareDetonator:
+        desc: ""
+        name: ""
+      FlowerPower:
+        desc: ""
+        name: ""
+      FlowofWater:
+        desc: ""
+        name: ""
+      GravBomb:
+        desc: ""
+        name: ""
+      GustMissile:
+        desc: ""
+        name: ""
+      HeatWave:
+        desc: ""
+        name: ""
+      HellfireCrash:
+        desc: ""
+        name: ""
+      HolyLight:
+        desc: ""
+        name: ""
+      IcicleBoulder:
+        desc: ""
+        name: ""
+      LakeOfFire:
+        desc: ""
+        name: ""
+      LibrarysDraft:
+        desc: ""
+        name: ""
+      LightBarrier:
+        desc: ""
+        name: ""
+      LightGuardian:
+        desc: ""
+        name: ""
+      LightSalvation:
+        desc: ""
+        name: ""
+      LunarSlash:
+        desc: ""
+        name: ""
+      MagicChessPiece:
+        desc: ""
+        name: ""
+      Meteor:
+        desc: ""
+        name: ""
+      MultiGust:
+        desc: ""
+        name: ""
+      None:
+        desc: ""
+        name: ""
+      PurifyHeart:
+        desc: ""
+        name: ""
+      RazorTempest:
+        desc: ""
+        name: ""
+      ReleaseThePlague:
+        desc: ""
+        name: ""
+      ShadowDomain:
+        desc: ""
+        name: ""
+      ShimmeringBlessing:
+        desc: ""
+        name: ""
+      SnowStorm:
+        desc: ""
+        name: ""
+      SomethingForNothing:
+        desc: ""
+        name: ""
+      SoulBank:
+        desc: ""
+        name: ""
+      SoulCharge:
+        desc: ""
+        name: ""
+      SoulTrap:
+        desc: ""
+        name: ""
+      SpaceDistortion:
+        desc: ""
+        name: ""
+      SpatialCollapse:
+        desc: ""
+        name: ""
+      SpiritLink:
+        desc: ""
+        name: ""
+      SpiritWarrior:
+        desc: ""
+        name: ""
+      SuperNova:
+        desc: ""
+        name: ""
+      Superposition:
+        desc: ""
+        name: ""
+      Tornado:
+        desc: ""
+        name: ""
+      VaccumOrb:
+        desc: ""
+        name: ""
+      Waterball:
+        desc: ""
+        name: ""
+      WaterGun:
+        desc: ""
+        name: ""
+      WaterWall:
+        desc: ""
+        name: ""
+      WindBarrage:
+        desc: ""
+        name: ""
+      WindBlade:
+        desc: ""
+        name: ""
+      WindCutter:
+        desc: ""
+        name: ""
+      WindRide:
+        desc: ""
+        name: ""
+      WindStorm:
+        desc: ""
+        name: ""
+      WindWall:
+        desc: ""
+        name: ""
+      ZeroRay:
+        desc: ""
+        name: ""
+    Effect:
+      Burning:
+        desc: ""
+        name: ""
+      Charge:
+        desc: ""
+        name: ""
+      CountShield:
+        desc: ""
+        name: ""
+      Crack:
+        desc: ""
+        name: ""
+      DarkIrradiated:
+        desc: ""
+        name: ""
+      Diffusion:
+        desc: ""
+        name: ""
+      Dusted:
+        desc: ""
+        name: ""
+      Eclipse:
+        desc: ""
+        name: ""
+      Evaporate:
+        desc: ""
+        name: ""
+      Frozen:
+        desc: ""
+        name: ""
+      Immobilize:
+        desc: ""
+        name: ""
+      LavaBurning:
+        desc: ""
+        name: ""
+      Poison:
+        desc: ""
+        name: ""
+      Power:
+        desc: ""
+        name: ""
+      Resistance:
+        desc: ""
+        name: ""
+      Salvation:
+        desc: ""
+        name: ""
+      ShimmeringBlessingStatus:
+        desc: ""
+        name: ""
+      Slowness:
+        desc: ""
+        name: ""
+      SomeForNoneBurn:
+        desc: ""
+        name: ""
+      SoulTrace:
+        desc: ""
+        name: ""
+      Sunflare:
+        desc: ""
+        name: ""
+      Sunken:
+        desc: ""
+        name: ""
+      Superposition:
+        desc: ""
+        name: ""
+      Swamp:
+        desc: ""
+        name: ""
+      Swiftness:
+        desc: ""
+        name: ""
+      Voidness:
+        desc: ""
+        name: ""
+      Vulnerable:
+        desc: ""
+        name: ""
+      Weakness:
+        desc: ""
+        name: ""
+    Equipment:
+      AbnormalRuler:
+        desc: ""
+        name: ""
+      DangerSign:
+        desc: ""
+        name: ""
+      HydrogenBottle:
+        desc: ""
+        name: ""
+      LIbrarySkater:
+        desc: ""
+        name: ""
+      MISSING:
+        desc: ""
+        name: ""
+      StrengthenMelee:
+        desc: ""
+        name: ""
+      WarningSign:
+        desc: ""
+        name: ""
+    PassiveSkill:
+      BurningBlood:
+        desc: ""
+        name: ""
+      EarthProtection:
+        desc: ""
+        name: ""
+      EnergyConfluence:
+        desc: ""
+        name: ""
+      FireTouch:
+        desc: ""
+        name: ""
+      GaleCombo:
+        desc: ""
+        name: ""
+      GazeFromAbyss:
+        desc: ""
+        name: ""
+      KarisArmor:
+        desc: ""
+        name: ""
+      LightShield:
+        desc: ""
+        name: ""
+      None:
+        desc: ""
+        name: ""
+      SolarBless:
+        desc: ""
+        name: ""
+      Starcrack:
+        desc: ""
+        name: ""
+      TranquilLake:
+        desc: ""
+        name: ""
+      Windblower:
+        desc: ""
+        name: ""
