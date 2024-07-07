@@ -1,3 +1,4 @@
+﻿Amlos.Category.name: Name
 Amlos:
   Category.desc: Testing for new model
   Category2:
@@ -24,5 +25,3 @@ Amlos:
       Source:
         msg: "{victim} is fainted because {source} throw a {cause} and hit on {victim}"
         Indirect.msg: "{victim} is fainted when {indirect} is tracing and {source} throw a {cause} hitting on {victim}"
-  Category:
-    name: Name
