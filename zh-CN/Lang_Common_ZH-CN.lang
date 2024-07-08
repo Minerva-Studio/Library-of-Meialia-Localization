@@ -1,86 +1,132 @@
-#Common entries
 Amlos:
-  #Regions
-  Region:
-    EN_US.name: ""
-    ZH_CN.name: ""
-  #Elements
-  Element:
-    Aethion.name: ""
-    Arcane.name: ""
-    Dark.name: ""
-    Earth.name: ""
-    Fire.name: ""
-    Light.name: ""
-    Soul.name: ""
-    Space.name: ""
-    Water.name: ""
-    Wind.name: ""
-  #Rarity
-  Rarity:
-    Common.name:
-    Rare.name:
-    Epic.name:
-    Legendary.name:
-  #Keybinds
+  Combat:
+    AttackDuration:
+      info: "生效/冷却: §G{activation}s§/§R{cooldown}s§"
+    BookPage:
+      BrokenPage:
+        desc: "残缺不全的神奇书页，由于多年风化或破坏性使用，现已无法阅读。"
+        name: "损坏的书页"
+      Hand:
+        Active:
+          name: "主动"
+        First:
+          name: "首"
+        FirstActive:
+          name: "主技能"
+        Last:
+          name: "尾"
+        Passive:
+          name: "被动"
+        Second:
+          name: "第二"
+        SecondActive:
+          name: "副技能"
+      Unidentified:
+        desc: "元素：{isElementDefined}\n稀有度：{isRarityDefined} 位置：{positionList}"
+        name: "未鉴定的{prefix}书页"
+      name: "{handPrefix}页的{Skill}"
+    Damage:
+      MagicalDamage:
+        info: "{magicalDamage} 魔法"
+      PhysicalDamage:
+        info: "{physicalDamage} 物理"
+      TrueDamage:
+        info: "{trueDamage} 真实"
+      info: "{list}{element}伤害"
+    Level:
+      desc: "等级: {level}"
+    Shield:
+      All:
+        desc: "护盾可以吸收 {amount} 的物理和魔法伤害。"
+      AnyType:
+        desc: "护盾可以吸收 {amount} 的任意伤害。"
+      Magical:
+        desc: "护盾可以吸收 {amount} 的魔法伤害。"
+      None:
+        desc: "护盾给你一个酷酷的效果！"
+      Physical:
+        desc: "护盾可以吸收 {amount} 的物理伤害。"
+      Total:
+        desc: "总共: {total}\n物理: {total_physical} 魔法: {total_magical} 真实: {total_true}"
+      True:
+        desc: "护盾可以吸收 {amount} 的真实伤害。"
+      desc: "{selfDesc}\n{totalDesc}"
+      name: "护盾"
+    SkillDuration:
+      info: "生效/冷却: §G{activation:f_f1}s§/§R{cooldown:f_f1}s§"
+    Suffocation:
+      desc: "窒息中，每 {DAMAGE DEAL INTERVAL} 秒会受到 {DAMAGE} 点真实伤害。"
+      name: "窒息"
   Control:
     Input:
       Key:
-        MoveLeft.name:
-        MoveRight.name:
-        MoveUp.name:
-        MoveDown.name:
-        Jump.name:
-        Sprint.name:
-        MeleeAttack.name:
-        Defend.name:
-        Skill1.name:
-        Skill2.name:
-        SkillSwitch.name:
-        Interact.name:
-        Map.name:
-        Bag.name:
-        ESC.name:
-        Debug.name:
-  #Combat
-  Combat:
-    AttackDuration.info: ""
-    Damage.info: ""
-    Damage.MagicalDamage.info: ""
-    Damage.PhysicalDamage.info: ""
-    Damage.TrueDamage.info: ""
-    Shield:
-      name:
-      desc: ""
-      None.desc:
-      Physical.desc:
-      Magical.desc:
-      All.desc:
-      True.desc:
-      AnyType.desc:
-      Total.desc: ""
-    Suffocation:
-      name:
-      desc:
-    Level.desc: ""
-    SkillDuration.info: ""
-    BookPage:
-      name: ""
-      BrokenPage:
-        name: ""
-        desc: ""
-      Unidentified:
-        name: ""
-        desc: ""
-      Hand:
-        First.name:
-        Second.name:
-        Last.name:
-        Passive.name:
-        Active.name:
-        FirstActive.name:
-        SecondActive.name:
-  #Objectives
+        Bag:
+          name: "背包"
+        Debug:
+          name: "调试"
+        Defend:
+          name: "防御"
+        ESC:
+          name: "退出"
+        Interact:
+          name: "交互"
+        Jump:
+          name: "跳跃"
+        Map:
+          name: "地图"
+        MeleeAttack:
+          name: "近战"
+        MoveDown:
+          name: "下移动"
+        MoveLeft:
+          name: "左移动"
+        MoveRight:
+          name: "右移动"
+        MoveUp:
+          name: "上移动"
+        Skill1:
+          name: "技能 1"
+        Skill2:
+          name: "技能 2"
+        SkillSwitch:
+          name: "切换书"
+        Sprint:
+          name: "冲刺"
+  Element:
+    Aethion:
+      name: "§#E1AEA1辉石素§"
+    Arcane:
+      name: "§#8600FF奥术元素§"
+    Dark:
+      name: "§#231756暗元素§"
+    Earth:
+      name: "§#A44000土元素§"
+    Fire:
+      name: "§R火元素§"
+    Light:
+      name: "§Y光元素§"
+    Soul:
+      name: "§#7F7F7F灵魂元素§"
+    Space:
+      name: "§#FF7FFF空间元素§"
+    Water:
+      name: "§B水元素§"
+    Wind:
+      name: "§G风元素§"
   Objectives:
     ConversationWith:
-      info: ""
+      info: "与 {uniqueNPCName} 对话"
+  Rarity:
+    Common:
+      name: "常见"
+    Epic:
+      name: "史诗"
+    Legendary:
+      name: "传奇"
+    Rare:
+      name: "稀有"
+  Region:
+    EN_US:
+      name: "English (United States)"
+    ZH_CN:
+      name: "简体中文"
