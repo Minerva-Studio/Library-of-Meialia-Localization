@@ -1,0 +1,27 @@
+Amlos:
+  Cause:
+    Destined:
+      name: "命运中的东西"
+    Missing:
+      name: "不可描述的东西"
+    None:
+      name: "不存在的东西"
+  Death:
+    Destined:
+      Source:
+        msg: "{victim}命中注定被{source}抓住"
+      msg: "{victim}命中注定被抓住"
+    Generic:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时被自己的命运嘲弄了"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时被{source}抓住了"
+        msg: "{victim}被{source}抓住了"
+      msg: "{victim}被自己的命运嘲弄了"
+    Timeout:
+      msg: "{victim}超时了！"
+    Unity:
+      Source:
+        msg: "{victim}被{source}告知这个世界是Unity引擎虚拟出来的"
+      msg: "{victim}意识到世界是Unity引擎虚拟出来的"

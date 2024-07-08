@@ -1,46 +1,86 @@
-#Common
-Amlos.UI.Common.Back.name: "返回"
-Amlos.UI.Common.Cancel.name: "取消"
-Amlos.UI.Common.Confirm.name: "确定"
-Amlos.UI.Common.Reset.name: "重置"
-Amlos.UI.Common.Off.name: "关"
-Amlos.UI.Common.On.name: "开"
-#Main Menu
-Amlos.UI.MainMenu.Continue.name: 继续
-Amlos.UI.MainMenu.NewGame.name: 新游戏
-Amlos.UI.MainMenu.Settings.name: 设置
-Amlos.UI.MainMenu.Quit.name: 退出
-#Pause Panel
-Amlos.UI.PausePanel.Resume.name: "返回"
-Amlos.UI.PausePanel.Restart.name: "重新开始"
-Amlos.UI.PausePanel.Restart.msg: "重新开始当前关卡？\n你当前的进度<b>不会</b>被保存"
-Amlos.UI.PausePanel.Quit.name: "退出"
-Amlos.UI.PausePanel.Quit.msg: "回到主界面？\n你当前的进度会被保存"
-Amlos.UI.PausePanel.Settings.name: "设置"
-Amlos.UI.PausePanel.title: "暂停"
-#Settings
-Amlos.UI.Setting.Control.title: "控制"
-Amlos.UI.Setting.Control.ResetKeybind.name: "重置键位设置"
-Amlos.UI.Setting.Credit.title: "鸣谢"
-Amlos.UI.Setting.Graphics.title: "图像"
-Amlos.UI.Setting.Graphics.UIScale.name: "界面缩放"
-Amlos.UI.Setting.Graphics.FPS.name: 帧率
-Amlos.UI.Setting.Graphics.Particle.name: 颗粒效果
-Amlos.UI.Setting.Graphics.Resolution.name: "分辨率"
-Amlos.UI.Setting.Graphics.VSync.name: "垂直同步"
-Amlos.UI.Setting.Graphics.FullScreen.name: "全屏"
-Amlos.UI.Setting.Graphics.Light.name: "光照"
-Amlos.UI.Setting.Graphics.Light.BrightnessChange.name: "亮度变化"
-Amlos.UI.Setting.Graphics.Light.ColorChange.name: "颜色变化"
-Amlos.UI.Setting.Language.title: "语言"
-Amlos.UI.Setting.title: "设置"
-Amlos.UI.Setting.Reset.msg: "重置所有设置？"
-Amlos.UI.Setting.Other.title: "其他"
-Amlos.UI.Setting.Other.Reset.name: "重置设置"
-Amlos.UI.Setting.Other.OpenSaveFolder.name: "打开存档文件夹"
-Amlos.UI.Setting.Sound.title: "声音"
-Amlos.UI.Setting.Sound.Global.name: "全局"
-Amlos.UI.Setting.Sound.Effect.name: "音效"
-Amlos.UI.Setting.Sound.Background.name: "背景"
-Amlos.UI.Setting.Sound.Ambient.name: "环境"
-Amlos.UI.Setting.Sound.UI.name: "界面"
+Amlos:
+  UI:
+    Common:
+      Back:
+        name: "返回"
+      Cancel:
+        name: "取消"
+      Confirm:
+        name: "确定"
+      Off:
+        name: "关"
+      On:
+        name: "开"
+      Reset:
+        name: "重置"
+    MainMenu:
+      Continue:
+        name: "继续"
+      NewGame:
+        name: "新游戏"
+      Quit:
+        name: "退出"
+      Settings:
+        name: "设置"
+    PausePanel:
+      Quit:
+        msg: "回到主界面？\n你当前的进度会被保存"
+        name: "退出"
+      Restart:
+        msg: "重新开始当前关卡？\n你当前的进度<b>不会</b>被保存"
+        name: "重新开始"
+      Resume:
+        name: "返回"
+      Settings:
+        name: "设置"
+      title: "暂停"
+    Setting:
+      Control:
+        ResetKeybind:
+          name: "重置键位设置"
+        title: "控制"
+      Credit:
+        title: "鸣谢"
+      Graphics:
+        FPS:
+          name: "帧率"
+        FullScreen:
+          name: "全屏"
+        Light:
+          BrightnessChange:
+            name: "亮度变化"
+          ColorChange:
+            name: "颜色变化"
+          name: "光照"
+        Particle:
+          name: "颗粒效果"
+        Resolution:
+          name: "分辨率"
+        UIScale:
+          name: "界面缩放"
+        VSync:
+          name: "垂直同步"
+        title: "图像"
+      Language:
+        title: "语言"
+      Other:
+        OpenSaveFolder:
+          name: "打开存档文件夹"
+        Reset:
+          name: "重置设置"
+        title: "其他"
+      Reset:
+        msg: "重置所有设置？"
+      Sound:
+        Ambient:
+          name: "环境"
+        Background:
+          name: "背景"
+        Effect:
+          name: "音效"
+        Global:
+          name: "全局"
+        UI:
+          name: "界面"
+        title: "声音"
+      title: "设置"

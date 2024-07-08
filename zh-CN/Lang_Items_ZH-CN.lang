@@ -1,0 +1,22 @@
+Amlos:
+  Item:
+    AethiumShard:
+      desc: ""
+      info: ""
+      name: ""
+    HealingShard:
+      desc: ""
+      info: ""
+      name: ""
+    MagicBook:
+      desc: ""
+      info: ""
+      name: ""
+    MagicPage:
+      desc: ""
+      info: ""
+      name: ""
+    Unknown:
+      desc: ""
+      info: ""
+      name: ""
