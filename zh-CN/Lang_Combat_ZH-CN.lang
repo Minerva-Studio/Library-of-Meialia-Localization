@@ -8,7 +8,7 @@ Amlos:
         desc: "召唤深渊巨口，对最近目标发起吞噬，造成 {attack}。\n对该目标额外叠加{baseIncrement}+{levelBonus}*{level}层沉渊效果。"
         name: "深渊噬"
       AbyssalRain:
-        desc: "在指定区域持续降雨，以鼠标横坐标为中心展开宽3米的雨云。\n雨云高度位于玩家上方5米，持续5秒。\n雨滴造成 {attack}，并加上 {attack.sunkenLevel} 层沉渊效果，并且在雨中每多呆1秒就会多增加1层沉渊效果。"
+        desc: "在指定区域持续降雨，以鼠标横坐标为中心展开宽3米的雨云。\n雨云高度位于玩家上方5米，持续5秒。 雨滴造成 {attack}，并加上 {attack.sunkenLevel} 层沉渊效果，并且在雨中每多呆1秒就会多增加1层沉渊效果。"
         name: "深渊惠泽"
       AncientWish:
         desc: "法师们千百年来探索$Amlos.Element.Arcane.name$留下所有的答案"
@@ -41,7 +41,7 @@ Amlos:
         desc: "DarkChainDesc."
         name: "黑曜枷锁"
       DarkFlare:
-        desc: "召唤一个纯暗能量球朝光标移动，在击中或经过{bigExplodePrefab}距离后爆炸。\n直接碰撞会产生额外的 {smallExplodePrefab}。\n"
+        desc: "召唤一个纯暗能量球朝光标移动，在击中或经过{bigExplodePrefab}距离后爆炸。\n直接碰撞会产生额外的 {smallExplodePrefab}。 "
         name: "黑暗耀斑"
       DarkRadiation:
         desc: "生成一片黑暗区域，向指定方向缓慢移动。\n黑暗区域对其中的敌人造成伤害 {effectBaseDamage}+(Level*{effectBaseDamage}){prefab}。"
@@ -104,7 +104,7 @@ Amlos:
         desc: "创建一束宽广的光线，每秒对其中的敌人造成 {holyLightPrefab} 伤害。\n持续很长时间。"
         name: "审判之光"
       IcicleBoulder:
-        desc: "以抛物线射出巨型冰块，落地点为鼠标正下方。	\n冰块落地或接触路径上的第一个敌方时爆炸，造成{projectile}\n爆炸造成半径{explosion.Radius}米的圆形范围{explosion}。"
+        desc: "以抛物线射出巨型冰块，落地点为鼠标正下方。	\n冰块落地或接触路径上的第一个敌方时爆炸，造成{projectile} 爆炸造成半径{explosion.Radius}米的圆形范围{explosion}。"
         name: "霜冰陨 "
       LakeOfFire:
         desc: "LakeOfFireDesc."
