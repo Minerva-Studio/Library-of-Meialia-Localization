@@ -27,6 +27,8 @@ MonoBehaviour:
   - {fileID: -5047112709815915446, guid: 2ee24634861d1454b9df9a6ea1c8f5f4, type: 3}
   - {fileID: 11400000, guid: 2bd6adb4fc8fc8b4ab21417f77d19de0, type: 2}
   - {fileID: 11400000, guid: 0cfdb5b37d4aa7b4ab666183e38e18ad, type: 2}
+  - {fileID: -5047112709815915446, guid: 6fb4edb0adadd8545a0335ef7b73d441, type: 3}
+  - {fileID: -5047112709815915446, guid: c58eb8501fbcdfc46874c35fa5f7bd4d, type: 3}
   region: ZH_CN
   entries: []
   listDelimiter: "\uFF0C"

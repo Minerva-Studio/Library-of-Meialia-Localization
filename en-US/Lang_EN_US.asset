@@ -27,6 +27,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2007af6982d80204a903356f5866e636, type: 2}
   - {fileID: 11400000, guid: da6a815e1541d4351b12b2081e09e345, type: 2}
   - {fileID: -5047112709815915446, guid: c30dccc8bcfc5434286a8e8d39eb9f6a, type: 3}
+  - {fileID: -5047112709815915446, guid: a8d25addebe0030419e8d774e8f0ac46, type: 3}
+  - {fileID: -5047112709815915446, guid: 8b6e7fb507df6f144a27a9fa0845e92e, type: 3}
   region: EN_US
   entries: []
   listDelimiter: ', '
