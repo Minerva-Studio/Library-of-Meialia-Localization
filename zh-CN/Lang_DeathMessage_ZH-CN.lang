@@ -7,10 +7,66 @@ Amlos:
     None:
       name: "不存在的东西"
   Death:
+    Areal:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时在{cause}里昏迷了"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时在{source}召唤的{cause}里昏迷了"
+        msg: "{victim}在{source}召唤的{cause}里昏迷了"
+      msg: "{victim}在{cause}里昏迷了"
+    Attack:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时被抓住了"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时被{source}抓住了"
+        msg: "{victim}被{source}抓住了"
+      msg: "{victim}被抓住了"
+    Burning:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时好烧！"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时好烧！归功于{source}"
+        msg: "{victim}好烧，感谢{source}！"
+      msg: "{victim}好烧！"
+    BurningHurt:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时由于被烧实在是太脆弱了"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时被{source}在被燃烧后的虚弱之时抓住了"
+        msg: "时{victim}被{source}在被燃烧后的虚弱之时抓住了"
+      msg: "{victim}在被燃烧后过于虚弱"
+    DarkIrradiated:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时被暗辐射灼烧了"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时被{source}的暗辐射灼烧了"
+        msg: "{victim}被{source}的暗辐射灼烧了"
+      msg: "{victim}被暗辐射灼烧了"
     Destined:
       Source:
         msg: "{victim}命中注定被{source}抓住"
       msg: "{victim}命中注定被抓住"
+    Dusted:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时被尘土掩埋了"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时被{source}用尘土掩埋了"
+        msg: "{victim}被{source}用尘土掩埋了"
+      msg: "{victim}被尘土掩埋了"
+    Explosion:
+      Indirect:
+        msg: "{victim}因为{source}的爆炸受了重伤"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时因为{source}的爆炸受了重伤"
+        msg: "{victim}在逃离{indirect}时因为一场爆炸受了重伤"
+      msg: "{victim}因为一场爆炸受了重伤"
     Generic:
       Indirect:
         msg: "{victim}在逃离{indirect}时被自己的命运嘲弄了"
@@ -19,6 +75,38 @@ Amlos:
           msg: "{victim}在逃离{indirect}时被{source}抓住了"
         msg: "{victim}被{source}抓住了"
       msg: "{victim}被自己的命运嘲弄了"
+    LavaBurning:
+      Indirect:
+        msg: "{victim}在尝试逃离{indirect}时躲进了岩浆里"
+      Source:
+        Indirect:
+          msg: "{indirect}告诉{victim}，{victim}不是龙，但 {victim} 不听，而{source} 用熔岩点燃了 {victim}"
+        msg: "{victim}被{source}用岩浆点燃了"
+      msg: "{victim}可能尝试在岩浆里游泳，但{victim}不是龙"
+    Magic:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时被上古魔法{cause}抓住了"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时被{source}的上古魔法{cause}抓住了"
+        msg: "{victim}被{source}的上古魔法{cause}抓住了"
+      msg: "{victim}被上古魔法{cause}抓住了"
+    MeleeAttack:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时被{cause}击败"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时被{source}的{cause}击败"
+        msg: "{victim}被{source}的{cause}击败"
+      msg: "{victim}被{cause}击败"
+    Poison:
+      Indirect:
+        msg: "{victim}在逃离{indirect}时被毒死了"
+      Source:
+        Indirect:
+          msg: "{victim}在逃离{indirect}时被{source}毒死了"
+        msg: "{victim}被{source}毒了"
+      msg: "{victim}被毒了"
     Timeout:
       msg: "{victim}超时了！"
     Unity:
