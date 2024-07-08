@@ -1,179 +1,159 @@
-#Death message of the game
 Amlos:
-  #Causation
   Cause:
     Destined:
-      name:
-    None:
-      name:
+      name: "fate"
     Missing:
-      name:
-  #Death Message
-  ### Source: somebody did this
-  ### Indirect: someone participate in the death event, but not the final causation
-  ## special circumstances
+      name: "indescribable"
+    None:
+      name: "nothing"
   Death:
-    Unity:
-      msg: ""
-      Source:
-        msg: ""
-    Destined:
-      msg: ""
-      Source:
-        msg: ""
-    ## normal attacks
-    ### no damage source specified
-    Generic:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    ### happened when source attack victim directly
-    Attack:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    ### with attacker
-    Projectile:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
     Areal:
-      msg: ""
       Indirect:
-        msg: ""
+        msg: "{victim} is unconscioused in {cause} while running away from {indirect}"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
-    Explosion:
-      msg: ""
+          msg: "{victim} is unconscioused in {cause} spawned by {cause} while running away from {indirect}"
+        msg: "{victim} is unconscioused in {cause} spawned by {cause}"
+      msg: "{victim} is unconscioused in {cause}"
+    Attack:
       Indirect:
-        msg: ""
+        msg: "{victim} is caught while running away from {indirect}"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
-    MeleeAttack:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    Ray:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    Magic:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    ### Suffocation
-    Suffocation:
-      msg: ""
-      Indirect:
-        msg: ""
-    ### Effects
-    #### Burning
+          msg: "{victim} is caught by {source} while running away from {indirect}"
+        msg: "{victim} is caught by {source}"
+      msg: "{victim} is caught"
     Burning:
-      msg: ""
       Indirect:
-        msg: ""
+        msg: "{victim} is so hot after fighting with {indirect}"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
+          msg: "{victim} is so hot after fighting with {indirect}! Thanks to {source}"
+        msg: "{victim} is so hot thanks to {source}!"
+      msg: "{victim} is so hot!"
     BurningHurt:
-      msg: ""
       Indirect:
-        msg: ""
+        msg: "{victim} is too vulnerable after burned and running away from {indirect}"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
-    LavaBurning:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### Poison
-    Poison:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### Dusted
-    Dusted:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### Dark Irradiated
+          msg: "{victim} is caught by {source} when {victim} is too vulnerable after burned and running away from {indirect}"
+        msg: "{victim} is caught by {source} when {victim} is too vulnerable after burned"
+      msg: "{victim} is too vulnerable after burned"
     DarkIrradiated:
-      msg: ""
       Indirect:
-        msg: ""
+        msg: "{victim} is burned by dark irradiation while running away from {indirect}"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
-    #### Sunken
-    Sunken:
-      msg: ""
+          msg: "{victim} is burned by {source}'s' dark irradiation while running away from {indirect}"
+        msg: "{victim} is burned by {source}'s' dark irradiation"
+      msg: "{victim} is burned by dark irradiation"
+    Destined:
+      Source:
+        msg: "{victim} is destined to be caught by {source}"
+      msg: "{victim} is destined to be caught"
+    Dusted:
       Indirect:
-        msg: ""
+        msg: "{vicim} was covered by dust while running away from {indirect}"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
-    #### SoulTrace
+          msg: "{vicim} was covered by dust by {source} while running away from {indirect}"
+        msg: "{victim} was covered by dust by {source}"
+      msg: "{victim} was covered by dust"
+    Explosion:
+      Indirect:
+        msg: "{victim} is severnly injured by {source}'s explosion"
+      Source:
+        Indirect:
+          msg: "{victim} is severnly injured by {source}'s explosion while running away from {indirect}"
+        msg: "{victim} is severnly injured by an explosion while running away from {indirect}"
+      msg: "{victim} is severnly injured by an explosion"
+    Generic:
+      Indirect:
+        msg: "{victim} was fooled by his destiny while running away from {indirect}"
+      Source:
+        Indirect:
+          msg: "{victim} was caught by {source} while running away from {indirect}"
+        msg: "{victim} was caught by {source}"
+      msg: "{victim} was fooled by his destiny"
+    LavaBurning:
+      Indirect:
+        msg: "{victim} tried to hide inside lava while running away from {indirect}"
+      Source:
+        Indirect:
+          msg: "{victim} was told by {indirect} that {victim} is not a dragon, yet {vicim} did not listen and {source} ingite {victim} with lava"
+        msg: "{victim} was ignited by lava by {source}"
+      msg: "{victim} was probably swimming in lava, yet {victim} is not a dragon"
+    Magic:
+      Indirect:
+        msg: "{victim} is caught by ancient magic {cause} while running away from {indirect}"
+      Source:
+        Indirect:
+          msg: "{victim} is caught by ancient magic {cause} casted by {source} while running away from {indirect}"
+        msg: "{victim} is caught by ancient magic {cause} casted by {source}"
+      msg: "{victim} is caught by ancient magic {cause}"
+    MeleeAttack:
+      Indirect:
+        msg: "{victim} is defeated by {cause} while running away from {indirect}"
+      Source:
+        Indirect:
+          msg: "{victim} is defeated by {source}'s {cause} while running away from {indirect}"
+        msg: "{victim} is defeated by {source}'s {cause}"
+      msg: "{victim} is defeated by {cause}"
+    Poison:
+      Indirect:
+        msg: "{victim} smell something poisonous while running away from {indirect}"
+      Source:
+        Indirect:
+          msg: "{victim} was poisoned by {source} while running away from {indirect}"
+        msg: "{victim} was poisoned by {source}"
+      msg: "{victim} was poisoned"
+    Projectile:
+      Indirect:
+        msg: "{victim} is fainted when {indirect} is tracing and {cause} hit on {victim}"
+      Source:
+        Indirect:
+          msg: "{victim} is fainted when {indirect} is tracing and {source} throw a {cause} hitting on {victim}"
+        msg: "{victim} is fainted because {source} throw a {cause} and hit on {victim}"
+      msg: "{victim} is fainted because {victim} was hit by {cause}"
+    Ray:
+      Indirect:
+        msg: "{victim} is penetrated by {cause} while running away from {indirect}"
+      Source:
+        Indirect:
+          msg: "{victim} is penetrated by {source}'s {cause} while running away from {indirect}"
+        msg: "{victim} is penetrated by {source}'s {cause}"
+      msg: "{victim} is penetrated by {cause}"
     SoulTrace:
-      msg: ""
       Indirect:
-        msg: ""
+        msg: "{victim}'s soul was expelled while running away from {indirect}"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
-    #### Voidness
-    Voidness:
-      msg: ""
+          msg: "{victim}'s soul was expelled by {source} while running away from {indirect}"
+        msg: "{victim}'s soul was expelled by {source}"
+      msg: "{victim}'s soul was expelled"
+    Suffocation:
       Indirect:
-        msg: ""
+        msg: "{victim} suffocated while running away from {indirect}"
+      msg: "{victim} suffocated"
+    Sunken:
+      Indirect:
+        msg: "{victim} has sunken while running away from {indirect}"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
-    ### Debug purpose, will not actually show in the game
+          msg: "{victim} has sunken by {source} while running away from {indirect}"
+        msg: "{victim} has sunken by {source}"
+      msg: "{victim} has sunken"
     Timeout:
-      msg: ""
+      msg: "{victim} time out!"
+    Unity:
+      Source:
+        msg: "{victim} was told that this world is simulated by Unity Engine by {source}"
+      msg: "{victim} realized this world is simulated by Unity Engine"
+    Voidness:
+      Indirect:
+        msg: "{victim} escape to the real vacuum from {indirect}"
+      Source:
+        Indirect:
+          msg: "{victim} was exiled to the real vacuum by {source} while running away {indirect}"
+        msg: "{victim} was exiled to the higher dimension by {source}"
+      msg: "{victim} find out what real vacuum is"
