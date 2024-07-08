@@ -309,6 +309,10 @@ Amlos:
       AbnormalRuler:
         desc: "施放技能时，副手魔法书的技能冷却时间减少{sec}秒"
         name: "奇异尺"
+      HydrogenBottle:
+        name: "氢气罐"
+      WarningSign:
+        name: "警告标志"
     PassiveSkill:
       BurningBlood:
         desc: "BurningBloodDesc."
