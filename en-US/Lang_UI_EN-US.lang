@@ -1,60 +1,86 @@
 Amlos:
-  #Common
   UI:
     Common:
-      Back.name: ""
-      Cancel.name: ""
-      Confirm.name: ""
-      Reset.name: ""
-      Off.name: ""
-      On.name: ""
-    #Main Menu
+      Back:
+        name: "Back"
+      Cancel:
+        name: "Cancel"
+      Confirm:
+        name: "Confirm"
+      Off:
+        name: "Off"
+      On:
+        name: "On"
+      Reset:
+        name: "Reset"
     MainMenu:
-      Continue.name:
-      NewGame.name:
-      Settings.name:
-      Quit.name:
-    #Pause Panel
-    PausePanel:
-      Resume.name: ""
-      Settings.name: ""
-      title: ""
-      Restart:
-        name: ""
-        msg: ""
+      Continue:
+        name: "Continue"
+      NewGame:
+        name: "New Game"
       Quit:
-        name: ""
-        msg: ""
-    #Settings
+        name: "Quit"
+      Settings:
+        name: "Settings"
+    PausePanel:
+      Quit:
+        msg: "Back to the main menu?\nYour current progress will be saved"
+        name: "Quit"
+      Restart:
+        msg: "Restart the level?\nYour current progress will NOT be saved"
+        name: "Restart"
+      Resume:
+        name: "Resume"
+      Settings:
+        name: "Settings"
+      title: "Pause"
     Setting:
-      title: ""
       Control:
-        title: ""
-        ResetKeybind.name: ""
+        ResetKeybind:
+          name: "Reset keybinds"
+        title: "Control"
       Credit:
-        title: ""
+        title: "Credits"
       Graphics:
-        title: ""
-        UIScale.name: ""
-        FPS.name:
-        Particle.name:
-        Resolution.name: ""
-        VSync.name: ""
-        FullScreen.name: ""
+        FPS:
+          name: "Frame Rate"
+        FullScreen:
+          name: "Full Screen"
         Light:
-          name: ""
-          BrightnessChange.name: ""
-          ColorChange.name: ""
-      Language.title: ""
-      Reset.msg: ""
+          BrightnessChange:
+            name: "Brightness Change"
+          ColorChange:
+            name: "Color Change"
+          name: "Light"
+        Particle:
+          name: "Particle"
+        Resolution:
+          name: "Resolution"
+        UIScale:
+          name: "UI Scale"
+        VSync:
+          name: "Vertical Sync"
+        title: "Graphic"
+      Language:
+        title: "Language"
       Other:
-        title: ""
-        Reset.name: ""
-        OpenSaveFolder.name: ""
+        OpenSaveFolder:
+          name: "Open Save Folder"
+        Reset:
+          name: "Reset Settings"
+        title: "Other"
+      Reset:
+        msg: "Do you want to reset all settings?"
       Sound:
-        title: ""
-        Global.name: ""
-        Effect.name: ""
-        Background.name: ""
-        Ambient.name: ""
-        UI.name: ""
+        Ambient:
+          name: "Ambient"
+        Background:
+          name: "Background"
+        Effect:
+          name: "Effect"
+        Global:
+          name: "Global"
+        UI:
+          name: "UI"
+        title: "Sound"
+      title: "Settings"
