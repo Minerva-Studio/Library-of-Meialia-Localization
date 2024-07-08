@@ -1,60 +1,86 @@
 Amlos:
-  #Common
   UI:
     Common:
-      Back.name: ""
-      Cancel.name: ""
-      Confirm.name: ""
-      Reset.name: ""
-      Off.name: ""
-      On.name: ""
-    #Main Menu
+      Back:
+        name: "返回"
+      Cancel:
+        name: "取消"
+      Confirm:
+        name: "确定"
+      Off:
+        name: "关"
+      On:
+        name: "开"
+      Reset:
+        name: "重置"
     MainMenu:
-      Continue.name:
-      NewGame.name:
-      Settings.name:
-      Quit.name:
-    #Pause Panel
-    PausePanel:
-      Resume.name: ""
-      Settings.name: ""
-      title: ""
-      Restart:
-        name: ""
-        msg: ""
+      Continue:
+        name: "继续"
+      NewGame:
+        name: "新游戏"
       Quit:
-        name: ""
-        msg: ""
-    #Settings
+        name: "退出"
+      Settings:
+        name: "设置"
+    PausePanel:
+      Quit:
+        msg: "回到主界面？\n你当前的进度会被保存"
+        name: "退出"
+      Restart:
+        msg: "重新开始当前关卡？\n你当前的进度<b>不会</b>被保存"
+        name: "重新开始"
+      Resume:
+        name: "返回"
+      Settings:
+        name: "设置"
+      title: "暂停"
     Setting:
-      title: ""
       Control:
-        title: ""
-        ResetKeybind.name: ""
+        ResetKeybind:
+          name: "重置键位设置"
+        title: "控制"
       Credit:
-        title: ""
+        title: "鸣谢"
       Graphics:
-        title: ""
-        UIScale.name: ""
-        FPS.name:
-        Particle.name:
-        Resolution.name: ""
-        VSync.name: ""
-        FullScreen.name: ""
+        FPS:
+          name: "帧率"
+        FullScreen:
+          name: "全屏"
         Light:
-          name: ""
-          BrightnessChange.name: ""
-          ColorChange.name: ""
-      Language.title: ""
-      Reset.msg: ""
+          BrightnessChange:
+            name: "亮度变化"
+          ColorChange:
+            name: "颜色变化"
+          name: "光照"
+        Particle:
+          name: "颗粒效果"
+        Resolution:
+          name: "分辨率"
+        UIScale:
+          name: "界面缩放"
+        VSync:
+          name: "垂直同步"
+        title: "图像"
+      Language:
+        title: "语言"
       Other:
-        title: ""
-        Reset.name: ""
-        OpenSaveFolder.name: ""
+        OpenSaveFolder:
+          name: "打开存档文件夹"
+        Reset:
+          name: "重置设置"
+        title: "其他"
+      Reset:
+        msg: "重置所有设置？"
       Sound:
-        title: ""
-        Global.name: ""
-        Effect.name: ""
-        Background.name: ""
-        Ambient.name: ""
-        UI.name: ""
+        Ambient:
+          name: "环境"
+        Background:
+          name: "背景"
+        Effect:
+          name: "音效"
+        Global:
+          name: "全局"
+        UI:
+          name: "界面"
+        title: "声音"
+      title: "设置"
