@@ -1,20 +1,31 @@
-﻿#File storing basic Character localization (not the story)
-#Cham
 Amlos:
   Character:
     Cham:
-      name:
       Daily:
-        0.msg:
-        1.msg:
-        2.msg:
-        3.msg:
-        4.msg:
-        5.msg:
-        6.msg:
-        7.msg:
-        8.msg:
-        9.msg:
-        10.msg:
-        11.msg:
-        12.msg:
+        0:
+          msg: "While many human and Pomttacine call me a Sahamusi, I am not."
+        1:
+          msg: "You are neither that red dragon nor that pink dragon, a newcomer?"
+        10:
+          msg: "Why don't you come and see us again tomorrow?"
+        11:
+          msg: "If you don't have money, I don't mind if you pull out a few scales and give them to me."
+        12:
+          msg: "Recycle old books and props."
+        2:
+          msg: "I already gave you at least a 50% discount."
+        3:
+          msg: "I guarantee that the things I sell here are at least half cheaper than the gang of Kitsuru profiteers outside."
+        4:
+          msg: "I can get human technology, but I don't offer a warranty."
+        5:
+          msg: "Do you, young dragon, study the nine-element theory or the aethion theory? I have all the books you want."
+        6:
+          msg: "The librarian did not noticed when you came in, right?"
+        7:
+          msg: "I have been a serious Meialian traveling merchant for more than 50 years."
+        8:
+          msg: "I guarantee that every page here was not ripped from the outside by me."
+        9:
+          msg: "Don't worry about why these things have the Sciences Academy seal on them."
+      name: "Cham"
