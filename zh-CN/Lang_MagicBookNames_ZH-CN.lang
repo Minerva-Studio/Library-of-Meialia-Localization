@@ -3,246 +3,473 @@ Amlos:
     MagicBooks:
       Prefix:
         Common:
-          None.name: ""
-          Someones.name: ""
-          Broken.name: ""
-          Worn.name: ""
-          Ordinary.name: ""
-          Standard.name: ""
-          Simple.name: ""
-          Regular.name: ""
-          Basic.name: ""
-          Routine.name: ""
-          Average.name: ""
-          Common.name: ""
-          Plain.name: ""
-          Usual.name: ""
-          Familiar.name: ""
-        Rare:
-          Lost.name: ""
-          OneChapterof.name: ""
-          Unusual.name: ""
-          Rarefied.name: ""
-          Exceptional.name: ""
-          Unique.name: ""
-          Scarce.name: ""
-          Peculiar.name: ""
-          Special.name: ""
-          Extraordinary.name: ""
-          Rare.name: ""
-          Curious.name: ""
-          Seldom.name: ""
-          Distinct.name: ""
-          Uncommon.name: ""
-          Distinguished.name: ""
+          Average:
+            name: "平均的 "
+          Basic:
+            name: "基础的 "
+          Broken:
+            name: "破损的 "
+          Common:
+            name: "普通的 "
+          Familiar:
+            name: "熟悉的 "
+          None:
+            name: "无"
+          Ordinary:
+            name: "正常的 "
+          Plain:
+            name: "简洁的 "
+          Regular:
+            name: "常规的 "
+          Routine:
+            name: "常规的 "
+          Simple:
+            name: "简单的 "
+          Someones:
+            name: "某人的 "
+          Standard:
+            name: "标准的 "
+          Usual:
+            name: "常用的 "
+          Worn:
+            name: "疯狂的 "
         Epic:
-          Ancient.name: ""
-          TheApprentices.name: ""
-          LostChapterof.name: ""
-          Exclusive.name: ""
-          Exquisite.name: ""
-          Precious.name: ""
-          Valuable.name: ""
-          Invaluable.name: ""
-          Limited.name: ""
-          Elite.name: ""
-          Glorious.name: ""
-          Monumental.name: ""
+          Ancient:
+            name: "远古的 "
+          Elite:
+            name: "精英的 "
+          Exclusive:
+            name: "专属 "
+          Exquisite:
+            name: "精美 "
+          Glorious:
+            name: "壮丽的 "
+          Invaluable:
+            name: "无价 "
+          Limited:
+            name: "限购版 "
+          LostChapterof:
+            name: "遗落章节： "
+          Monumental:
+            name: "不朽的 "
+          Precious:
+            name: "珍贵 "
+          TheApprentices:
+            name: "学徒的 "
+          Valuable:
+            name: "宝贵 "
         Legendary:
-          MasterCais.name: ""
-          GreatAcolytes.name: ""
-          Doctors.name: ""
-          FinaleOf.name: ""
-          Legendary.name: ""
-          Mythical.name: ""
-          Majestic.name: ""
-          Divine.name: ""
-          Fabled.name: ""
-          Supreme.name: ""
-          Transcendent.name: ""
-          Sovereign.name: ""
-          Illustrious.name: ""
-          Prime.name: ""
-          Aethers.name: ""
+          Aethers:
+            name: "以太的 "
+          Divine:
+            name: "超凡入圣级 "
+          Doctors:
+            name: "博士级 "
+          Fabled:
+            name: "传说中的 "
+          FinaleOf:
+            name: "终末级 "
+          GreatAcolytes:
+            name: "伟大式僧的 "
+          Illustrious:
+            name: "杰出的 "
+          Legendary:
+            name: "传奇级 "
+          Majestic:
+            name: "雄伟级 "
+          MasterCais:
+            name: "蔡氏 "
+          Mythical:
+            name: "神话级 "
+          Prime:
+            name: "高端的 "
+          Sovereign:
+            name: "君主的 "
+          Supreme:
+            name: "顶级的 "
+          Transcendent:
+            name: "超凡的 "
+        Rare:
+          Curious:
+            name: "无价的 "
+          Distinct:
+            name: "独特的 "
+          Distinguished:
+            name: "杰出的 "
+          Exceptional:
+            name: "优越的 "
+          Extraordinary:
+            name: "非凡的 "
+          Lost:
+            name: "遗失的 "
+          OneChapterof:
+            name: "其中一章： "
+          Peculiar:
+            name: "怪奇的 "
+          Rare:
+            name: "稀少的"
+          Rarefied:
+            name: "稀有的 "
+          Scarce:
+            name: "罕见的 "
+          Seldom:
+            name: "少数的 "
+          Special:
+            name: "特别的"
+          Uncommon:
+            name: "不同寻常的 "
+          Unique:
+            name: "独一无二的 "
+          Unusual:
+            name: "异常的 "
       Suffix:
         Aethiumian:
-          AethiumianNotes.name: ""
-          NewMagicStudy.name: ""
-          RecordofUnknowns.name: ""
-          GarbledCharacters.name: ""
-        None:
-          PhysicsTextbook.name: ""
-          LinearAlgebra.name: ""
-          KungFuTextbook.name: ""
-          FightingSkill.name: ""
-        Fire:
-          FiresTeach.name: ""
-          EternalFlame.name: ""
-          PyroclasmicGrimoire.name: ""
-          BlazeboundCodex.name: ""
-          Firespell.name: ""
-          CrimsonConjurings.name: ""
-          IgnitionCodex.name: ""
-          PyretideTomes.name: ""
-          VolcanicVerses.name: ""
-          Songof  name: ""
-          CinderwhisperersCompendium.name: ""
-          RitualsofPyromancy.name: ""
-          StudyofSuns.name: ""
-          FireScorcery.name: ""
-          PaintingofEternalFlame.name: ""
-          InfernalIncantations.name: ""
-          GiftsofFireSpirit.name: ""
-          ScorchedScriptures.name: ""
-          FlameweaversCompendium.name: ""
-          BlazebringersQuestList.name: ""
-        Water:
-          WaterMagicTricks.name: ""
-          StudyofWaters.name: ""
-          AquabornGrimoire.name: ""
-          TidecallersCodex.name: ""
-          PearlweaversTome.name: ""
-          RecordofMysticCurrents.name: ""
-          Marinomicon.name: ""
-          SecretsofWaves.name: ""
-          SecretsUndertheSea.name: ""
-          AzureGrimoire.name: ""
-          AquaticSpells.name: ""
-          AquaticRites.name: ""
-          LoreoftheOceanicKingdoms.name: ""
-          LiquidLore.name: ""
-          NotesaboutMaelstrom.name: ""
-          AquaticTestaments.name: ""
-          TeachofPoseidon.name: ""
-          WhisperofWater.name: ""
-          CeruleanConjurings.name: ""
-          CascadeChronicles.name: ""
-        Earth:
-          EarthBook.name: ""
-          GeologicalAlmanac.name: ""
-          TectonicTomes.name: ""
-          VerdanVerses.name: ""
-          PoemsofEarthMagic.name: ""
-          EarthquakeMagic.name: ""
-          EssayofCrystallize.name: ""
-          SoilGrimoire.name: ""
-          HandbookofLithomancer.name: ""
-          CompendiumofClay.name: ""
-          OnyxOaths.name: ""
-          MandateofEarthElement.name: ""
-          Quakebound.name: ""
-          TerraformaCreation.name: ""
-          CrystalMagic.name: ""
-          ChroniclesofEarth.name: ""
-          EarthenEnchantments.name: ""
-          CodexofSandandDust.name: ""
-          Terranomicon.name: ""
-          TomeStoneweaver.name: ""
-        Wind:
-          NovelaboutWind.name: ""
-          TyphoonTomes.name: ""
-          AerovaneVerses.name: ""
-          SongsoftheZephyr.name: ""
-          GustboundGrimoire.name: ""
-          SpellsoftheBreeze.name: ""
-          ArcticWindMagic.name: ""
-          SkydancersCompendium.name: ""
-          Aeroalchemy.name: ""
-          MistralNotes.name: ""
-          SpellsoftheSkyward.name: ""
-          SkyScrolls.name: ""
-          RecordofSky.name: ""
-          ChroniclesoftheClouds.name: ""
-          BookofVacuum.name: ""
-          ZephyrianGrimoire.name: ""
-          CycloneCompendium.name: ""
-          UnleashingWindMagic.name: ""
-          TornadoMagicBook.name: ""
-          StudyofAirPollution.name: ""
-        Light:
-          EssayonLight.name: ""
-          LuminaryGrimoire.name: ""
-          AuroraAlmanac.name: ""
-          RadianceCodex.name: ""
-          CallingofLux.name: ""
-          DaybreakCompendium.name: ""
-          GlowweaversTome.name: ""
-          EtherealIlluminations.name: ""
-          BeaconboundScrolls.name: ""
-          SoleilScriptures.name: ""
-          PrismaticProclamations.name: ""
-          AstralGrimoire.name: ""
-          ShimmeringSecrets.name: ""
-          HaloedHandbook.name: ""
-          DivineDawn.name: ""
-          VesperVerses.name: ""
-          SongsoftheEveningLight.name: ""
-          PhosphorescentPhrases.name: ""
-          SeraphsCompendium.name: ""
-          ArtofLuminance.name: ""
-        Dark:
-          StudyofDarkEnergy.name: ""
-          AbyssalAlmanac.name: ""
-          ShadowboundGrimoire.name: ""
-          ObsidianCodex.name: ""
-          UmbralEnchantments.name: ""
-          SpellsofDarkness.name: ""
-          MaleficManuscripts.name: ""
-          CrimsonCompendium.name: ""
-          SorceryofShadows.name: ""
-          NetherlordsGrimoire.name: ""
-          EclipseChronicles.name: ""
-          DarkMagicIncantations.name: ""
-          SinisterSpells.name: ""
-          NightmareNexus.name: ""
-          InfernalIncantations.name: ""
-          DarkRites.name: ""
-          SorrowsongScroll.name: ""
-          SongsoftheShadow.name: ""
-          RavensCompendium.name: ""
-          PoemofNights.name: ""
-        Space:
-          SpaceTravelLog.name: ""
-          NotesfromtheVoid.name: ""
-          TheoryofRelativity.name: ""
-          VacuumExplosion.name: ""
-          VoidweaverTome.name: ""
-          VoyagersGrimoire.name: ""
-          QuantumQuell.name: ""
-          StudyofSpaceStrom.name: ""
-          VoidVerses.name: ""
-          SongofTimes.name: ""
-          SpellofSpaceSwap.name: ""
-          SpaceandTeleport.name: ""
-          BookofSpaceFreeze.name: ""
-        Soul:
-          SoulSecretDharma.name: ""
-          StudyofCurses.name: ""
-          NecrovoidChronicles.name: ""
-          SoulforgeGrimoire.name: ""
-          VesselofSouls.name: ""
-          EphemeralEssences.name: ""
-          AnimaCompendium.name: ""
-          NexusofSouls.name: ""
-          WraithboundChronicles.name: ""
-          ElysianEchoes.name: ""
-          SongsoftheSoul.name: ""
-          PhantomHandbook.name: ""
-          ResonanceRites.name: ""
-          HarmonyofSouls.name: ""
-          EidolonEmanations.name: ""
-          SoulboundSecrets.name: ""
-          AncestralArchives.name: ""
-          ConduitofSpiritMagic.name: ""
-          SpirtualCall.name: ""
-          ThreadsoftheEthereal.name: ""
+          AethiumianNotes:
+            name: "辉石笔记"
+          GarbledCharacters:
+            name: "#%@#*#%?"
+          NewMagicStudy:
+            name: "新魔法研究"
+          RecordofUnknowns:
+            name: "未知记录"
         Arcane:
-          ArcaneStudyNotes.name: ""
-          ArcaneGrimoire.name: ""
-          StellarGrimoire.name: ""
-          HexagonTechnologyProgram.name: ""
-          EctoplasmicEssence.name: ""
-          SpectralSentience.name: ""
-          AstralVerses.name: ""
-          ArcaneVerses.name: ""
-          Ixiims.name: ""
+          ArcaneGrimoire:
+            name: "奥术魔典"
+          ArcaneStudyNotes:
+            name: "奥术研究笔记"
+          ArcaneVerses:
+            name: "奥术诗句"
+          AstralVerses:
+            name: "星之诗"
+          EctoplasmicEssence:
+            name: "灵质精华"
+          HexagonTechnologyProgram:
+            name: "海克斯康技术计划"
+          Ixiims:
+            name: "依柯西的奥术笔记"
+          SpectralSentience:
+            name: "光谱感知"
+          StellarGrimoire:
+            name: "恒星魔典"
+        Dark:
+          AbyssalAlmanac:
+            name: "深渊年鉴"
+          CrimsonCompendium:
+            name: "猩红概要"
+          DarkMagicIncantations:
+            name: "黑魔法咒语"
+          DarkRites:
+            name: "黑暗仪式"
+          EclipseChronicles:
+            name: "日食编年史"
+          InfernalIncantations:
+            name: "地狱咒语"
+          MaleficManuscripts:
+            name: "凶星手稿"
+          NetherlordsGrimoire:
+            name: "虚空领主的魔典"
+          NightmareNexus:
+            name: "噩梦连结"
+          ObsidianCodex:
+            name: "黑曜石法典"
+          PoemofNights:
+            name: "夜之诗"
+          RavensCompendium:
+            name: "乌鸦概要"
+          ShadowboundGrimoire:
+            name: "影缚魔典"
+          SinisterSpells:
+            name: "险恶咒语"
+          SongsoftheShadow:
+            name: "影之曲"
+          SorceryofShadows:
+            name: "暗影魔法"
+          SorrowsongScroll:
+            name: "悲歌卷轴"
+          SpellsofDarkness:
+            name: "黑暗法术"
+          StudyofDarkEnergy:
+            name: "黑暗能量研究"
+          UmbralEnchantments:
+            name: "暗影结界"
+        Earth:
+          ChroniclesofEarth:
+            name: "地球纪事"
+          CodexofSandandDust:
+            name: "沙尘法典"
+          CompendiumofClay:
+            name: "粘土纲要"
+          CrystalMagic:
+            name: "水晶魔法"
+          EarthBook:
+            name: "大地之书"
+          EarthenEnchantments:
+            name: "土系结界"
+          EarthquakeMagic:
+            name: "地震魔法"
+          EssayofCrystallize:
+            name: "结晶的散文"
+          GeologicalAlmanac:
+            name: "地质年鉴"
+          HandbookofLithomancer:
+            name: "《生命之人手册》"
+          MandateofEarthElement:
+            name: "土元素的使命"
+          OnyxOaths:
+            name: "玛瑙誓言"
+          PoemsofEarthMagic:
+            name: "大地魔法之诗"
+          Quakebound:
+            name: "地震之书"
+          SoilGrimoire:
+            name: "土壤魔典"
+          TectonicTomes:
+            name: "构造宝典"
+          TerraformaCreation:
+            name: "地形创造"
+          Terranomicon:
+            name: "天地之书"
+          TomeStoneweaver:
+            name: "织石者之书"
+          VerdanVerses:
+            name: "翠绿诗句"
+        Fire:
+          BlazeboundCodex:
+            name: "烈焰法典"
+          BlazebringersQuestList:
+            name: "烈焰使者的任务列表"
+          CinderwhisperersCompendium:
+            name: "灰语者纲要"
+          CrimsonConjurings:
+            name: "猩红咒语"
+          EternalFlame:
+            name: "不灭火花"
+          FireScorcery:
+            name: "火之巫术"
+          FiresTeach:
+            name: "火焰教程"
+          Firespell:
+            name: "火之技"
+          FlameweaversCompendium:
+            name: "织焰者纲要"
+          GiftsofFireSpirit:
+            name: "火灵的礼物"
+          IgnitionCodex:
+            name: "点火编码"
+          InfernalIncantations:
+            name: "地狱咒语"
+          PaintingofEternalFlame:
+            name: "永恒火焰的绘画"
+          PyretideTomes:
+            name: "皮拉米登典籍"
+          PyroclasmicGrimoire:
+            name: "火裂魔典"
+          RitualsofPyromancy:
+            name: "火术仪式"
+          ScorchedScriptures:
+            name: "烧焦的经文"
+          Songof  name: "火之歌"
+          StudyofSuns:
+            name: "阳之研"
+          VolcanicVerses:
+            name: "火山诗篇"
+        Light:
+          ArtofLuminance:
+            name: "荧光之画"
+          AstralGrimoire:
+            name: "星界魔典"
+          AuroraAlmanac:
+            name: "极光年鉴"
+          BeaconboundScrolls:
+            name: "信标卷轴"
+          CallingofLux:
+            name: "拉克丝的召唤"
+          DaybreakCompendium:
+            name: "黎明概要"
+          DivineDawn:
+            name: "神圣黎明"
+          EssayonLight:
+            name: "光之文"
+          EtherealIlluminations:
+            name: "飘逸的灯光"
+          GlowweaversTome:
+            name: "织光者之书"
+          HaloedHandbook:
+            name: "光环手册"
+          LuminaryGrimoire:
+            name: "发光体魔典"
+          PhosphorescentPhrases:
+            name: "磷光短语"
+          PrismaticProclamations:
+            name: "棱镜宣言"
+          RadianceCodex:
+            name: "光辉法典"
+          SeraphsCompendium:
+            name: "六翼天使的纲要"
+          ShimmeringSecrets:
+            name: "闪闪发光的秘密"
+          SoleilScriptures:
+            name: "太阳经文"
+          SongsoftheEveningLight:
+            name: "黄昏光之曲"
+          VesperVerses:
+            name: "晚祷诗句"
+        None:
+          FightingSkill:
+            name: "战斗技能"
+          KungFuTextbook:
+            name: "功夫教科书"
+          LinearAlgebra:
+            name: "线性代数"
+          PhysicsTextbook:
+            name: "物理教科书"
+        Soul:
+          AncestralArchives:
+            name: "远祖档案"
+          AnimaCompendium:
+            name: "阿尼玛纲要"
+          ConduitofSpiritMagic:
+            name: "精神魔法导管"
+          EidolonEmanations:
+            name: "幻灵放射"
+          ElysianEchoes:
+            name: "极乐回声"
+          EphemeralEssences:
+            name: "易逝的精华"
+          HarmonyofSouls:
+            name: "灵魂共鸣曲"
+          NecrovoidChronicles:
+            name: "死灵空间编年史"
+          NexusofSouls:
+            name: "灵魂纽带"
+          PhantomHandbook:
+            name: "幻影手册"
+          ResonanceRites:
+            name: "共鸣仪式"
+          SongsoftheSoul:
+            name: "魂之曲"
+          SoulSecretDharma:
+            name: "灵魂秘密药剂"
+          SoulboundSecrets:
+            name: "灵魂密文"
+          SoulforgeGrimoire:
+            name: "魂铸魔典"
+          SpirtualCall:
+            name: "精神召唤"
+          StudyofCurses:
+            name: "诅咒研究"
+          ThreadsoftheEthereal:
+            name: "空灵之线"
+          VesselofSouls:
+            name: "幽灵船"
+          WraithboundChronicles:
+            name: "怨灵编年史"
+        Space:
+          BookofSpaceFreeze:
+            name: "空间冻结书"
+          NotesfromtheVoid:
+            name: "虚空笔记"
+          QuantumQuell:
+            name: "量子压制"
+          SongofTimes:
+            name: "时之曲"
+          SpaceTravelLog:
+            name: "空间旅行日志"
+          SpaceandTeleport:
+            name: "空间与传送"
+          SpellofSpaceSwap:
+            name: "空间交换咒语"
+          StudyofSpaceStrom:
+            name: "空间风暴研究"
+          TheoryofRelativity:
+            name: "相对论"
+          VacuumExplosion:
+            name: "真空爆炸"
+          VoidVerses:
+            name: "虚空之诗"
+          VoidweaverTome:
+            name: "虚空编织者之书"
+          VoyagersGrimoire:
+            name: "航海者魔典"
+        Water:
+          AquabornGrimoire:
+            name: "水生生物魔典"
+          AquaticRites:
+            name: "水之仪式"
+          AquaticSpells:
+            name: "水生法术"
+          AquaticTestaments:
+            name: "水之遗嘱"
+          AzureGrimoire:
+            name: "蔚蓝魔典"
+          CascadeChronicles:
+            name: "级联编年史"
+          CeruleanConjurings:
+            name: "蔚蓝咒语"
+          LiquidLore:
+            name: "流体知识"
+          LoreoftheOceanicKingdoms:
+            name: "海洋王国的传说"
+          Marinomicon:
+            name: "海事之书"
+          NotesaboutMaelstrom:
+            name: "漩涡注释"
+          PearlweaversTome:
+            name: "织珠者之书"
+          RecordofMysticCurrents:
+            name: "神秘潮流记录"
+          SecretsUndertheSea:
+            name: "海底的秘密"
+          SecretsofWaves:
+            name: "潮之秘"
+          StudyofWaters:
+            name: "不同水域的研究"
+          TeachofPoseidon:
+            name: "波塞冬的教导"
+          TidecallersCodex:
+            name: "唤潮者法典"
+          WaterMagicTricks:
+            name: "水魔术"
+          WhisperofWater:
+            name: "水之低语"
+        Wind:
+          Aeroalchemy:
+            name: "空气炼金术"
+          AerovaneVerses:
+            name: "风向之诗歌"
+          ArcticWindMagic:
+            name: "北极风魔法"
+          BookofVacuum:
+            name: "真空之书"
+          ChroniclesoftheClouds:
+            name: "云之编年史"
+          CycloneCompendium:
+            name: "旋风概要"
+          GustboundGrimoire:
+            name: "古风魔典"
+          MistralNotes:
+            name: "彩色笔记"
+          NovelaboutWind:
+            name: "风之叙事"
+          RecordofSky:
+            name: "天空记录"
+          SkyScrolls:
+            name: "天空卷轴"
+          SkydancersCompendium:
+            name: "空舞者纲要"
+          SongsoftheZephyr:
+            name: "和风之歌"
+          SpellsoftheBreeze:
+            name: "微风之咒"
+          SpellsoftheSkyward:
+            name: "天空之咒"
+          StudyofAirPollution:
+            name: "空气污染研究"
+          TornadoMagicBook:
+            name: "龙卷风魔术书"
+          TyphoonTomes:
+            name: "台风之书"
+          UnleashingWindMagic:
+            name: "释放风系魔法"
+          ZephyrianGrimoire:
+            name: "西风魔典"
