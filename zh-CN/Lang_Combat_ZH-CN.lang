@@ -52,30 +52,30 @@ Amlos:
       DustStorm:
         desc: "DustStormDesc."
         name: "乱尘埋骨"
+      EarthSpike:
+        desc: "召唤一波前进的尖刺，造成 {prefab} 并击飞敌人，并且还可以对落在尖刺上的敌人造成伤害。"
+        name: "地颚之牙"
       Earthball:
         desc: "召唤一个围绕轨道运行的岩石在接触敌人时会造成{prefab}."
         name: "岩弹"
       EarthenClaymore:
         desc: "用土属性阔剑取代利爪攻击，造成大范围的{attack} 。"
         name: "裂岩大剑"
-      EarthSpike:
-        desc: "召唤一波前进的尖刺，造成 {prefab} 并击飞敌人，并且还可以对落在尖刺上的敌人造成伤害。"
-        name: "地颚之牙"
       EraserBall:
         desc: "EraserBallDesc."
         name: "EraserBall"
       Eruption:
         desc: "向上方散射5颗火球下落，每颗火球对命中的目标造成{projectile}。\n命中后火球对半径{explosion.Radius}米内的造成{explosion}"
         name: "熔炎爆 "
-      Fireball:
-        desc: "发射一颗追踪火球，对命中的目标造成{fireball}.\n命中后火球造成爆炸，对半径5米内的所有目标造成{explosion}."
-        name: "火球术"
       FireBreath:
         desc: "喷火，对前方5米内范围目标每{breath.DealDamageTime}秒造成{breath}，持续{activation}秒。"
         name: "龙息"
       FirePillars:
         desc: "在前方地面召唤火柱，对范围目标每{pillar.DealDamageTime}秒造成{pillar}，持续{activation}秒。\n"
         name: "火柱"
+      Fireball:
+        desc: "发射一颗追踪火球，对命中的目标造成{fireball}.\n命中后火球造成爆炸，对半径5米内的所有目标造成{explosion}."
+        name: "火球术"
       FlameMine:
         desc: "在当前位置放置陷阱，当陷阱被目标触碰或存在 {autoExplodeTime} 秒后触发，对半径10米内的所有目标造成 {explosionPrefab} 点火元素伤害。"
         name: "红莲怒"
@@ -190,15 +190,15 @@ Amlos:
       VaccumOrb:
         desc: "以扇形向前方发射虚幻泡影，在一个区域中造成连续的{prefab}。\n虚幻泡影会摧毁所有接触的飞行物。"
         name: "虚幻泡影"
-      Waterball:
-        desc: "发射一个水弹来造成{prefab}。"
-        name: "凝水弹"
       WaterGun:
         desc: "WaterGunDesc."
         name: "WaterGun"
       WaterWall:
         desc: "WaterWallDesc."
         name: "WaterWall"
+      Waterball:
+        desc: "发射一个水弹来造成{prefab}。"
+        name: "凝水弹"
       WindBarrage:
         desc: "将爪击替换为迅速的疾风，造成 {prefab} 的同时格挡飞行物。"
         name: "风之幕"
