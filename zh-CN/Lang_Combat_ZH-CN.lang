@@ -63,7 +63,7 @@ Amlos:
         name: "裂岩大剑"
       EraserBall:
         desc: "EraserBallDesc."
-        name: "EraserBall"
+        name: "灭迹球"
       Eruption:
         desc: "向上方散射5颗火球下落，每颗火球对命中的目标造成{projectile}。\n命中后火球对半径{explosion.Radius}米内的造成{explosion}"
         name: "熔炎爆 "
@@ -277,7 +277,7 @@ Amlos:
         name: "迟缓"
       SomeForNoneBurn:
         desc: "当血量高于{HEALTH_LOWER_BOUND:f_p0}时，每秒失去{DAMAGE_PERCENTAGE:f_p0}当前生命值，自身伤害提高{Level}*{DAMAGE_MODIFIER:f_p0}并获得{SPEED_MODIFIER:f_p0}加速"
-        name: "炎魔灼烧"
+        name: "炎魔灼烧（血之契约）"
       SoulTrace:
         desc: "暴露实体的灵魂血条。\n每条灵魂血条的总量为实体血量的10%。\n每次受到非$Amlos.Element.Soul.name$伤害时同时扣除等量的该血条。如果该血条耗尽，额外对实体造成相当于实体血量10%的$Amlos.Element.Soul.name$伤害。"
         name: "唤魂"
@@ -309,8 +309,15 @@ Amlos:
       AbnormalRuler:
         desc: "施放技能时，副手魔法书的技能冷却时间减少{sec}秒"
         name: "奇异尺"
+      DangerSign:
+        name: "危险标识"
       HydrogenBottle:
         name: "氢气罐"
+      LIbrarySkater:
+        name: "图书馆滑板"
+      MISSING:
+        desc: "MISSINGDesc."
+        name: "MISSING"
       WarningSign:
         name: "警告标志"
     PassiveSkill:
