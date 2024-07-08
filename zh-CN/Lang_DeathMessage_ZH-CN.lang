@@ -1,179 +1,27 @@
-#Death message of the game
 Amlos:
-  #Causation
   Cause:
     Destined:
-      name:
-    None:
-      name:
+      name: "命运中的东西"
     Missing:
-      name:
-  #Death Message
-  ### Source: somebody did this
-  ### Indirect: someone participate in the death event, but not the final causation
-  ## special circumstances
+      name: "不可描述的东西"
+    None:
+      name: "不存在的东西"
   Death:
-    Unity:
-      msg: ""
-      Source:
-        msg: ""
     Destined:
-      msg: ""
       Source:
-        msg: ""
-    ## normal attacks
-    ### no damage source specified
+        msg: "{victim}命中注定被{source}抓住"
+      msg: "{victim}命中注定被抓住"
     Generic:
-      msg: ""
       Indirect:
-        msg: ""
+        msg: "{victim}在逃离{indirect}时被自己的命运嘲弄了"
       Source:
-        msg: ""
         Indirect:
-          msg: ""
-    ### happened when source attack victim directly
-    Attack:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    ### with attacker
-    Projectile:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    Areal:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    Explosion:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    MeleeAttack:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    Ray:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    Magic:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    ### Suffocation
-    Suffocation:
-      msg: ""
-      Indirect:
-        msg: ""
-    ### Effects
-    #### Burning
-    Burning:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    BurningHurt:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    LavaBurning:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### Poison
-    Poison:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### Dusted
-    Dusted:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### Dark Irradiated
-    DarkIrradiated:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### Sunken
-    Sunken:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### SoulTrace
-    SoulTrace:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    #### Voidness
-    Voidness:
-      msg: ""
-      Indirect:
-        msg: ""
-      Source:
-        msg: ""
-        Indirect:
-          msg: ""
-    ### Debug purpose, will not actually show in the game
+          msg: "{victim}在逃离{indirect}时被{source}抓住了"
+        msg: "{victim}被{source}抓住了"
+      msg: "{victim}被自己的命运嘲弄了"
     Timeout:
-      msg: ""
+      msg: "{victim}超时了！"
+    Unity:
+      Source:
+        msg: "{victim}被{source}告知这个世界是Unity引擎虚拟出来的"
+      msg: "{victim}意识到世界是Unity引擎虚拟出来的"
