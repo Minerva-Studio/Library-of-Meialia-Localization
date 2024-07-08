@@ -21,8 +21,10 @@ Amlos:
         name: "Barrier Of Gaia"
       Brick:
         desc: "Drops a large brick from the ceiling onto an area, dealing {prefab}.\nPowerful, but moves slowly and may miss enemies."
+        name: "Brick"
       Bubbles:
         desc: "Shoots a spread of bubbles that deal {attack1} to enemies and can go through walls.\n"
+        name: "Bubbles"
       BurningBlade:
         desc: "Replaces Claw attack with Burning Blade for {activation}s, dealing {attack}."
         name: "Burning Blade"
@@ -64,6 +66,7 @@ Amlos:
         name: "Eraser Ball"
       Eruption:
         desc: "Summon 5 fire ball, deal {projectile}, creating a explosion of radius {explosion.Radius}m deal {explosion} to enemies"
+        name: "Eruption"
       FireBreath:
         desc: "Breath fire, deal {breath} to enemies every {breath.DealDamageTime}s, activate for {activation}s."
         name: "Fire Breath"
@@ -72,6 +75,7 @@ Amlos:
         name: "Fire Pillars"
       Fireball:
         desc: "Spout a tracking fireball that deal with {fireball}, creating a explosion with {explosion} and radius {explosion.Radius}."
+        name: "Fireball"
       FlameMine:
         desc: "Creates a mine at current location, exploding for {explosionPrefab} on contact or after {autoExplodeTime}s in a radius 10. "
         name: "Flame Mine"
@@ -85,6 +89,7 @@ Amlos:
         desc: "Replaces Claw attack with a 3 hit-combo water attack."
         name: "Flow of Water"
       GravBomb:
+        desc: "GravBombDesc."
         name: "Gravity Bomb"
       GustMissile:
         desc: "Creates wind projectiles from the player towards the mouse.\nThe missiles start slow but become fast. The faster they are, the more damage they do. Minimum {prefab}"
@@ -124,11 +129,13 @@ Amlos:
         name: "Magic Chess Piece"
       Meteor:
         desc: "Rain down meteors from the heavens.\nVery strong, but the meteors cannot be aimed."
+        name: "Meteor"
       MultiGust:
         desc: "Gives 1 §YCharge§ level unless at {chargeToExecute} §YCharge§. For every §YCharge§ level, shoots 4 homing gust projectiles every {shootDelay} seconds that deals {attack} and alternates between shooting out of the player's cardinals and intercardinals."
         name: "Multi Gust"
       None:
         desc: "None."
+        name: "None"
       PurifyHeart:
         desc: "Summon a large column of water to attack the enemy, dealing {purifyHeartWave}."
         name: "Purifying Heart"
@@ -136,6 +143,7 @@ Amlos:
         desc: "Unleash Large Razors that homes on the nearest enemy and deals {mainTempest},\nthese Razors emit small razors that deals {smallRazors} periodically"
         name: "Razor Tempest"
       ReleaseThePlague:
+        desc: "ReleaseThePlagueDesc."
         name: "Release The Plague"
       ShadowDomain:
         desc: "Creates a zone centered around the player that grows over {maximumChargeTime} seconds. If the player moves too quickly, or passed {activation}, the zone explodes and deals {ShadowDomainExplosion} to all enemies in the area."
@@ -178,6 +186,7 @@ Amlos:
         name: "Super Position"
       Tornado:
         desc: "Generates a tornado at a certain location, gathering small enemies and dealing {prefab}. "
+        name: "Tornado"
       VaccumOrb:
         desc: "Shoots vacuum orbs to the front in a sector shape, dealing continuous {prefab} in an area.\nVacuum orbs will destroy all contacting projectiles"
         name: "Vacuum Orb"
@@ -214,43 +223,113 @@ Amlos:
     Effect:
       Burning:
         desc: "Causes the entity to catch fire and take {EffectDamage}$Amlos.Element.Fire.name$ damage every {Interval} seconds. When level is higher than {BONUS_LEVEL}, the entity takes an additional {ExtraDamage}$Amlos.Element.Fire.name$ damage each time it is wounded."
+        name: "Burning"
       Charge:
         desc: "Your §YCharge§ level. Some skills give §YCharge§ and require a level of §YCharge§ to attack."
+        name: "Charge"
       CountShield:
         desc: "Reduces any incoming damage to zero and reduces this level 1. Removed at level 0."
         name: "Count Shield"
       Crack:
         desc: "Increases incoming physical damage by {INCREMENT}."
+        name: "Crack"
       DarkIrradiated:
         desc: "Periodically take dark damage. The longer the effect lasts, the higher the damage will be."
         name: "Dark Irradiated"
       Diffusion:
         desc: "Spreads the burning effect on self to nearby allied entities, with reduced level and duration."
+        name: "Diffusion"
       Dusted:
         desc: "Take additional earth damage whenever host takes earth, water, wind, or fire damage."
+        name: "Dusted"
       Eclipse:
         desc: "Increases damage taken, if host is a light element creature then damage is further increased."
+        name: "Eclipse"
+      Evaporate:
+        desc: "EvaporateDesc."
+        name: "Evaporate"
       Frozen:
         desc: "Makes the entity unable to move, sprint, or jump. Invalid for Boss."
+        name: "Frozen"
+      Immobilize:
+        desc: "ImmobilizeDesc."
+        name: "Immobilize"
       LavaBurning:
+        desc: "LavaBurningDesc."
         name: "Lava Burning"
+      Poison:
+        desc: "PoisonDesc."
+        name: "Poison"
+      Power:
+        desc: "PowerDesc."
+        name: "Power"
+      Resistance:
+        desc: "ResistanceDesc."
+        name: "Resistance"
+      Salvation:
+        desc: "SalvationDesc."
+        name: "Salvation"
       ShimmeringBlessingStatus:
+        desc: "ShimmeringBlessingStatusDesc."
         name: "Shimmering Blessing"
       Slowness:
         desc: "Reduces the entity's movement speed by {Level}\n×{DECREMENT:f_p1}, the minimum is reduced to 10% of the base speed."
+        name: "Slowness"
       SomeForNoneBurn:
+        desc: "SomeForNoneBurnDesc."
         name: "Burn (Some For None)"
       SoulTrace:
+        desc: "SoulTraceDesc."
         name: "Soultrace"
+      Sunflare:
+        desc: "SunflareDesc."
+        name: "Sunflare"
+      Sunken:
+        desc: "SunkenDesc."
+        name: "Sunken"
       Superposition:
         desc: "Leaves behind afterimages, blocks 1+{level} hit(s)."
+        name: "Superposition"
+      Swamp:
+        desc: "SwampDesc."
+        name: "Swamp"
+      Swiftness:
+        desc: "SwiftnessDesc."
+        name: "Swiftness"
+      Voidness:
+        desc: "VoidnessDesc."
+        name: "Voidness"
+      Vulnerable:
+        desc: "VulnerableDesc."
+        name: "Vulnerable"
+      Weakness:
+        desc: "WeaknessDesc."
+        name: "Weakness"
+    Equipment:
+      AbnormalRuler:
+        name: "Abnormal Ruler"
+      DangerSign:
+        name: "Danger Sign"
+      HydrogenBottle:
+        name: "Hydrogen Bottle"
+      LIbrarySkater:
+        name: "LIbrary Skater"
+      MISSING:
+        name: "MISSING"
+      WarningSign:
+        name: "Warning Sign"
     PassiveSkill:
       BurningBlood:
         desc: "Significantly increase damage based on the percentage of health lost.\nUsing skills costs percent health and gets a shield based on percent lost health Blood skills cost more health and generate stronger shields. They last to the end of a battle. Each Melee attack adds 1 Haemo count to enemies Each Haemo count increases damage this enemy received."
         name: "Burning Blood"
       EarthProtection:
+        desc: "EarthProtectionDesc."
         name: "Earth Protection"
+      EnergyConfluence:
+        desc: "EnergyConfluenceDesc."
+        name: "Energy Confluence"
       FireTouch:
+        desc: "FireTouchDesc."
         name: "Fire Touch"
       GaleCombo:
         desc: "When enemies take damage from wind attacks, they will be vulnerable to other attacks.\nThe vulnerable period is short. Wind attacks deal slightly more damage, attacks from other elements deal far more damage."
@@ -258,6 +337,23 @@ Amlos:
       GazeFromAbyss:
         desc: "When active skills deal damage, add 1 Sunken level to target."
         name: "Gaze From Abyss"
+      KarisArmor:
+        desc: "KarisArmorDesc."
+        name: "Karis Armor"
+      LightShield:
+        desc: "LightShieldDesc."
+        name: "Light Shield"
+      None:
+        name: "None"
+      SolarBless:
+        desc: "SolarBlessDesc."
+        name: "Solar Bless"
+      Starcrack:
+        desc: "StarcrackDesc."
+        name: "Starcrack"
       TranquilLake:
         desc: "You get a lake barrier which can take 1 attack, then it breaks and enters 30s CD.\nThe lake barrier makes you immune to negative effects, increases your damage by 50%. With the lake barrier, you recover 1% max health per second in battle. Upon breaking, the lake barrier deals 1 water damage and 5s Freeze to circle r=3m."
         name: "Tranquil Lake"
+      Windblower:
+        desc: "WindblowerDesc."
+        name: "Windblower"
