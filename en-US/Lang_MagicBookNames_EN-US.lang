@@ -3,246 +3,473 @@ Amlos:
     MagicBooks:
       Prefix:
         Common:
-          None.name: ""
-          Someones.name: ""
-          Broken.name: ""
-          Worn.name: ""
-          Ordinary.name: ""
-          Standard.name: ""
-          Simple.name: ""
-          Regular.name: ""
-          Basic.name: ""
-          Routine.name: ""
-          Average.name: ""
-          Common.name: ""
-          Plain.name: ""
-          Usual.name: ""
-          Familiar.name: ""
-        Rare:
-          Lost.name: ""
-          OneChapterof.name: ""
-          Unusual.name: ""
-          Rarefied.name: ""
-          Exceptional.name: ""
-          Unique.name: ""
-          Scarce.name: ""
-          Peculiar.name: ""
-          Special.name: ""
-          Extraordinary.name: ""
-          Rare.name: ""
-          Curious.name: ""
-          Seldom.name: ""
-          Distinct.name: ""
-          Uncommon.name: ""
-          Distinguished.name: ""
+          Average:
+            name: "Average "
+          Basic:
+            name: "Basic "
+          Broken:
+            name: "Broken "
+          Common:
+            name: "Common "
+          Familiar:
+            name: "Familiar "
+          None:
+            name: "None"
+          Ordinary:
+            name: "Ordinary "
+          Plain:
+            name: "Plain "
+          Regular:
+            name: "Regular "
+          Routine:
+            name: "Routine "
+          Simple:
+            name: "Simple "
+          Someones:
+            name: "Someone's "
+          Standard:
+            name: "Standard "
+          Usual:
+            name: "Usual "
+          Worn:
+            name: "Worn "
         Epic:
-          Ancient.name: ""
-          TheApprentices.name: ""
-          LostChapterof.name: ""
-          Exclusive.name: ""
-          Exquisite.name: ""
-          Precious.name: ""
-          Valuable.name: ""
-          Invaluable.name: ""
-          Limited.name: ""
-          Elite.name: ""
-          Glorious.name: ""
-          Monumental.name: ""
+          Ancient:
+            name: "Ancient "
+          Elite:
+            name: "Elite "
+          Exclusive:
+            name: "Exclusive "
+          Exquisite:
+            name: "Exquisite "
+          Glorious:
+            name: "Glorious "
+          Invaluable:
+            name: "Invaluable "
+          Limited:
+            name: "Limited "
+          LostChapterof:
+            name: "Lost Chapter of "
+          Monumental:
+            name: "Monumental "
+          Precious:
+            name: "Precious "
+          TheApprentices:
+            name: "The Apprentice's "
+          Valuable:
+            name: "Valuable "
         Legendary:
-          MasterCais.name: ""
-          GreatAcolytes.name: ""
-          Doctors.name: ""
-          FinaleOf.name: ""
-          Legendary.name: ""
-          Mythical.name: ""
-          Majestic.name: ""
-          Divine.name: ""
-          Fabled.name: ""
-          Supreme.name: ""
-          Transcendent.name: ""
-          Sovereign.name: ""
-          Illustrious.name: ""
-          Prime.name: ""
-          Aethers.name: ""
+          Aethers:
+            name: "Aether's "
+          Divine:
+            name: "Divine "
+          Doctors:
+            name: "Doctor's "
+          Fabled:
+            name: "Fabled "
+          FinaleOf:
+            name: "Finale of "
+          GreatAcolytes:
+            name: "Great Acolyte's "
+          Illustrious:
+            name: "Illustrious "
+          Legendary:
+            name: "Legendary "
+          Majestic:
+            name: "Majestic "
+          MasterCais:
+            name: "Master Cai's "
+          Mythical:
+            name: "Mythical "
+          Prime:
+            name: "Prime "
+          Sovereign:
+            name: "Sovereign "
+          Supreme:
+            name: "Supreme "
+          Transcendent:
+            name: "Transcendent "
+        Rare:
+          Curious:
+            name: "Curious "
+          Distinct:
+            name: "Distinct "
+          Distinguished:
+            name: "Distinguished "
+          Exceptional:
+            name: "Exceptional "
+          Extraordinary:
+            name: "Extraordinary "
+          Lost:
+            name: "Lost "
+          OneChapterof:
+            name: "One Chapter of "
+          Peculiar:
+            name: "Peculiar "
+          Rare:
+            name: "Rare"
+          Rarefied:
+            name: "Rarefied "
+          Scarce:
+            name: "Scarce "
+          Seldom:
+            name: "Seldom "
+          Special:
+            name: "Special"
+          Uncommon:
+            name: "Uncommon "
+          Unique:
+            name: "Unique "
+          Unusual:
+            name: "Unusual "
       Suffix:
         Aethiumian:
-          AethiumianNotes.name: ""
-          NewMagicStudy.name: ""
-          RecordofUnknowns.name: ""
-          GarbledCharacters.name: ""
-        None:
-          PhysicsTextbook.name: ""
-          LinearAlgebra.name: ""
-          KungFuTextbook.name: ""
-          FightingSkill.name: ""
-        Fire:
-          FiresTeach.name: ""
-          EternalFlame.name: ""
-          PyroclasmicGrimoire.name: ""
-          BlazeboundCodex.name: ""
-          Firespell.name: ""
-          CrimsonConjurings.name: ""
-          IgnitionCodex.name: ""
-          PyretideTomes.name: ""
-          VolcanicVerses.name: ""
-          Songof  name: ""
-          CinderwhisperersCompendium.name: ""
-          RitualsofPyromancy.name: ""
-          StudyofSuns.name: ""
-          FireScorcery.name: ""
-          PaintingofEternalFlame.name: ""
-          InfernalIncantations.name: ""
-          GiftsofFireSpirit.name: ""
-          ScorchedScriptures.name: ""
-          FlameweaversCompendium.name: ""
-          BlazebringersQuestList.name: ""
-        Water:
-          WaterMagicTricks.name: ""
-          StudyofWaters.name: ""
-          AquabornGrimoire.name: ""
-          TidecallersCodex.name: ""
-          PearlweaversTome.name: ""
-          RecordofMysticCurrents.name: ""
-          Marinomicon.name: ""
-          SecretsofWaves.name: ""
-          SecretsUndertheSea.name: ""
-          AzureGrimoire.name: ""
-          AquaticSpells.name: ""
-          AquaticRites.name: ""
-          LoreoftheOceanicKingdoms.name: ""
-          LiquidLore.name: ""
-          NotesaboutMaelstrom.name: ""
-          AquaticTestaments.name: ""
-          TeachofPoseidon.name: ""
-          WhisperofWater.name: ""
-          CeruleanConjurings.name: ""
-          CascadeChronicles.name: ""
-        Earth:
-          EarthBook.name: ""
-          GeologicalAlmanac.name: ""
-          TectonicTomes.name: ""
-          VerdanVerses.name: ""
-          PoemsofEarthMagic.name: ""
-          EarthquakeMagic.name: ""
-          EssayofCrystallize.name: ""
-          SoilGrimoire.name: ""
-          HandbookofLithomancer.name: ""
-          CompendiumofClay.name: ""
-          OnyxOaths.name: ""
-          MandateofEarthElement.name: ""
-          Quakebound.name: ""
-          TerraformaCreation.name: ""
-          CrystalMagic.name: ""
-          ChroniclesofEarth.name: ""
-          EarthenEnchantments.name: ""
-          CodexofSandandDust.name: ""
-          Terranomicon.name: ""
-          TomeStoneweaver.name: ""
-        Wind:
-          NovelaboutWind.name: ""
-          TyphoonTomes.name: ""
-          AerovaneVerses.name: ""
-          SongsoftheZephyr.name: ""
-          GustboundGrimoire.name: ""
-          SpellsoftheBreeze.name: ""
-          ArcticWindMagic.name: ""
-          SkydancersCompendium.name: ""
-          Aeroalchemy.name: ""
-          MistralNotes.name: ""
-          SpellsoftheSkyward.name: ""
-          SkyScrolls.name: ""
-          RecordofSky.name: ""
-          ChroniclesoftheClouds.name: ""
-          BookofVacuum.name: ""
-          ZephyrianGrimoire.name: ""
-          CycloneCompendium.name: ""
-          UnleashingWindMagic.name: ""
-          TornadoMagicBook.name: ""
-          StudyofAirPollution.name: ""
-        Light:
-          EssayonLight.name: ""
-          LuminaryGrimoire.name: ""
-          AuroraAlmanac.name: ""
-          RadianceCodex.name: ""
-          CallingofLux.name: ""
-          DaybreakCompendium.name: ""
-          GlowweaversTome.name: ""
-          EtherealIlluminations.name: ""
-          BeaconboundScrolls.name: ""
-          SoleilScriptures.name: ""
-          PrismaticProclamations.name: ""
-          AstralGrimoire.name: ""
-          ShimmeringSecrets.name: ""
-          HaloedHandbook.name: ""
-          DivineDawn.name: ""
-          VesperVerses.name: ""
-          SongsoftheEveningLight.name: ""
-          PhosphorescentPhrases.name: ""
-          SeraphsCompendium.name: ""
-          ArtofLuminance.name: ""
-        Dark:
-          StudyofDarkEnergy.name: ""
-          AbyssalAlmanac.name: ""
-          ShadowboundGrimoire.name: ""
-          ObsidianCodex.name: ""
-          UmbralEnchantments.name: ""
-          SpellsofDarkness.name: ""
-          MaleficManuscripts.name: ""
-          CrimsonCompendium.name: ""
-          SorceryofShadows.name: ""
-          NetherlordsGrimoire.name: ""
-          EclipseChronicles.name: ""
-          DarkMagicIncantations.name: ""
-          SinisterSpells.name: ""
-          NightmareNexus.name: ""
-          InfernalIncantations.name: ""
-          DarkRites.name: ""
-          SorrowsongScroll.name: ""
-          SongsoftheShadow.name: ""
-          RavensCompendium.name: ""
-          PoemofNights.name: ""
-        Space:
-          SpaceTravelLog.name: ""
-          NotesfromtheVoid.name: ""
-          TheoryofRelativity.name: ""
-          VacuumExplosion.name: ""
-          VoidweaverTome.name: ""
-          VoyagersGrimoire.name: ""
-          QuantumQuell.name: ""
-          StudyofSpaceStrom.name: ""
-          VoidVerses.name: ""
-          SongofTimes.name: ""
-          SpellofSpaceSwap.name: ""
-          SpaceandTeleport.name: ""
-          BookofSpaceFreeze.name: ""
-        Soul:
-          SoulSecretDharma.name: ""
-          StudyofCurses.name: ""
-          NecrovoidChronicles.name: ""
-          SoulforgeGrimoire.name: ""
-          VesselofSouls.name: ""
-          EphemeralEssences.name: ""
-          AnimaCompendium.name: ""
-          NexusofSouls.name: ""
-          WraithboundChronicles.name: ""
-          ElysianEchoes.name: ""
-          SongsoftheSoul.name: ""
-          PhantomHandbook.name: ""
-          ResonanceRites.name: ""
-          HarmonyofSouls.name: ""
-          EidolonEmanations.name: ""
-          SoulboundSecrets.name: ""
-          AncestralArchives.name: ""
-          ConduitofSpiritMagic.name: ""
-          SpirtualCall.name: ""
-          ThreadsoftheEthereal.name: ""
+          AethiumianNotes:
+            name: "Aethiumian Notes"
+          GarbledCharacters:
+            name: "#%@#*#%?"
+          NewMagicStudy:
+            name: "New Magic Study"
+          RecordofUnknowns:
+            name: "Record of Unknowns"
         Arcane:
-          ArcaneStudyNotes.name: ""
-          ArcaneGrimoire.name: ""
-          StellarGrimoire.name: ""
-          HexagonTechnologyProgram.name: ""
-          EctoplasmicEssence.name: ""
-          SpectralSentience.name: ""
-          AstralVerses.name: ""
-          ArcaneVerses.name: ""
-          Ixiims.name: ""
+          ArcaneGrimoire:
+            name: "Arcane Grimoire"
+          ArcaneStudyNotes:
+            name: "Arcane Study Notes"
+          ArcaneVerses:
+            name: "Arcane Verses"
+          AstralVerses:
+            name: "Astral Verses"
+          EctoplasmicEssence:
+            name: "Ectoplasmic Essence"
+          HexagonTechnologyProgram:
+            name: "Hexagon Technology Program"
+          Ixiims:
+            name: "Arcane Notes from Ixiim"
+          SpectralSentience:
+            name: "Spectral Sentience"
+          StellarGrimoire:
+            name: "Stellar Grimoire"
+        Dark:
+          AbyssalAlmanac:
+            name: "Abyssal Almanac"
+          CrimsonCompendium:
+            name: "Crimson Compendium"
+          DarkMagicIncantations:
+            name: "Dark Magic Incantations"
+          DarkRites:
+            name: "Dark Rites"
+          EclipseChronicles:
+            name: "Eclipse Chronicles"
+          InfernalIncantations:
+            name: "Infernal Incantations"
+          MaleficManuscripts:
+            name: "Malefic Manuscripts"
+          NetherlordsGrimoire:
+            name: "Netherlord's Grimoire"
+          NightmareNexus:
+            name: "Nightmare Nexus"
+          ObsidianCodex:
+            name: "Obsidian Codex"
+          PoemofNights:
+            name: "Poem of Nights"
+          RavensCompendium:
+            name: "Raven's Compendium"
+          ShadowboundGrimoire:
+            name: "Shadowbound Grimoire"
+          SinisterSpells:
+            name: "Sinister Spells"
+          SongsoftheShadow:
+            name: "Songs of the Shadow"
+          SorceryofShadows:
+            name: "Sorcery of Shadows"
+          SorrowsongScroll:
+            name: "Sorrowsong Scroll"
+          SpellsofDarkness:
+            name: "Spells of Darkness"
+          StudyofDarkEnergy:
+            name: "Study of Dark Energy"
+          UmbralEnchantments:
+            name: "Umbral Enchantments"
+        Earth:
+          ChroniclesofEarth:
+            name: "Chronicles of Earth"
+          CodexofSandandDust:
+            name: "Codex of Sand and Dust"
+          CompendiumofClay:
+            name: "Compendium of Clay"
+          CrystalMagic:
+            name: "Crystal Magic"
+          EarthBook:
+            name: "Earth Book"
+          EarthenEnchantments:
+            name: "Earthen Enchantments"
+          EarthquakeMagic:
+            name: "Earthquake Magic"
+          EssayofCrystallize:
+            name: "Essay of Crystallize"
+          GeologicalAlmanac:
+            name: "Geological Almanac"
+          HandbookofLithomancer:
+            name: "Handbook of Lithomancer"
+          MandateofEarthElement:
+            name: "Mandate of Earth Element"
+          OnyxOaths:
+            name: "Onyx Oaths"
+          PoemsofEarthMagic:
+            name: "Poems of Earth Magic"
+          Quakebound:
+            name: "Quakebound Tomes"
+          SoilGrimoire:
+            name: "Soil Grimoire"
+          TectonicTomes:
+            name: "Tectonic Tomes"
+          TerraformaCreation:
+            name: "Terraforma Creation"
+          Terranomicon:
+            name: "Terranomicon"
+          TomeStoneweaver:
+            name: "Tome Stoneweaver"
+          VerdanVerses:
+            name: "Verdant Verses"
+        Fire:
+          BlazeboundCodex:
+            name: "Blazebound Codex"
+          BlazebringersQuestList:
+            name: "Blazebringer's Quest List"
+          CinderwhisperersCompendium:
+            name: "Cinderwhisperer's Compendium"
+          CrimsonConjurings:
+            name: "Crimson Conjurings"
+          EternalFlame:
+            name: "Eternal Flame"
+          FireScorcery:
+            name: "Fire Sorcery"
+          FiresTeach:
+            name: "Fire's Teach"
+          Firespell:
+            name: "Firespell"
+          FlameweaversCompendium:
+            name: "Flameweaver's Compendium"
+          GiftsofFireSpirit:
+            name: "Gifts of Fire Spirit"
+          IgnitionCodex:
+            name: "Ignition Codex"
+          InfernalIncantations:
+            name: "Infernal Incantations"
+          PaintingofEternalFlame:
+            name: "Painting of Eternal Flame"
+          PyretideTomes:
+            name: "Pyretide Tomes"
+          PyroclasmicGrimoire:
+            name: "Pyroclasmic Grimoire"
+          RitualsofPyromancy:
+            name: "Rituals of Pyromancy"
+          ScorchedScriptures:
+            name: "Scorched Scriptures"
+          Songof  name: "Song of Fire"
+          StudyofSuns:
+            name: "Study of Suns"
+          VolcanicVerses:
+            name: "Volcanic Verses"
+        Light:
+          ArtofLuminance:
+            name: "Art of Luminance"
+          AstralGrimoire:
+            name: "Astral Grimoire"
+          AuroraAlmanac:
+            name: "Aurora Almanac"
+          BeaconboundScrolls:
+            name: "Beaconbound Scrolls"
+          CallingofLux:
+            name: "Calling of Lux"
+          DaybreakCompendium:
+            name: "Daybreak Compendium"
+          DivineDawn:
+            name: "Divine Dawn"
+          EssayonLight:
+            name: "Essay on Light"
+          EtherealIlluminations:
+            name: "Ethereal Illuminations"
+          GlowweaversTome:
+            name: "Glowweaver's Tome"
+          HaloedHandbook:
+            name: "Haloed Handbook"
+          LuminaryGrimoire:
+            name: "Luminary Grimoire"
+          PhosphorescentPhrases:
+            name: "Phosphorescent Phrases"
+          PrismaticProclamations:
+            name: "Prismatic Proclamations"
+          RadianceCodex:
+            name: "Radiance Codex"
+          SeraphsCompendium:
+            name: "Seraph's Compendium"
+          ShimmeringSecrets:
+            name: "Shimmering Secrets"
+          SoleilScriptures:
+            name: "Soleil Scriptures"
+          SongsoftheEveningLight:
+            name: "Songs of the Evening Light"
+          VesperVerses:
+            name: "Vesper Verses"
+        None:
+          FightingSkill:
+            name: "Fighting Skill"
+          KungFuTextbook:
+            name: "Kung Fu Textbook"
+          LinearAlgebra:
+            name: "Linear Algebra"
+          PhysicsTextbook:
+            name: "Physics Textbook"
+        Soul:
+          AncestralArchives:
+            name: "Ancestral Archives"
+          AnimaCompendium:
+            name: "Anima Compendium"
+          ConduitofSpiritMagic:
+            name: "Conduit of Spirit Magic"
+          EidolonEmanations:
+            name: "Eidolon Emanations"
+          ElysianEchoes:
+            name: "Elysian Echoes"
+          EphemeralEssences:
+            name: "Ephemeral Essences"
+          HarmonyofSouls:
+            name: "Harmony of Souls"
+          NecrovoidChronicles:
+            name: "Necrovoid Chronicles"
+          NexusofSouls:
+            name: "Nexus of Souls"
+          PhantomHandbook:
+            name: "Phantom Handbook"
+          ResonanceRites:
+            name: "Resonance Rites"
+          SongsoftheSoul:
+            name: "Songs of the Soul"
+          SoulSecretDharma:
+            name: "Soul Secret Dharma"
+          SoulboundSecrets:
+            name: "Soulbound Secrets"
+          SoulforgeGrimoire:
+            name: "Soulforge Grimoire"
+          SpirtualCall:
+            name: "Spiritual Call"
+          StudyofCurses:
+            name: "Study of Curses"
+          ThreadsoftheEthereal:
+            name: "Threads of the Ethereal"
+          VesselofSouls:
+            name: "Vessel of Souls"
+          WraithboundChronicles:
+            name: "Wraithbound Chronicles"
+        Space:
+          BookofSpaceFreeze:
+            name: "Book of Space Freeze"
+          NotesfromtheVoid:
+            name: "Notes from the Void"
+          QuantumQuell:
+            name: "Quantum Quell"
+          SongofTimes:
+            name: "Song of Times"
+          SpaceTravelLog:
+            name: "Space Travel Log"
+          SpaceandTeleport:
+            name: "Space and Teleport"
+          SpellofSpaceSwap:
+            name: "Spell of Space Swap"
+          StudyofSpaceStrom:
+            name: "Study of Space Strom"
+          TheoryofRelativity:
+            name: "Theory of Relativity"
+          VacuumExplosion:
+            name: "Vacuum Explosion"
+          VoidVerses:
+            name: "Void Verses"
+          VoidweaverTome:
+            name: "Voidweaver Tome"
+          VoyagersGrimoire:
+            name: "Voyagers Grimoire"
+        Water:
+          AquabornGrimoire:
+            name: "Aquaborn Grimoire"
+          AquaticRites:
+            name: "Aquatic Rites"
+          AquaticSpells:
+            name: "Aquatic Spells"
+          AquaticTestaments:
+            name: "Aquatic Testaments"
+          AzureGrimoire:
+            name: "Azure Grimoire"
+          CascadeChronicles:
+            name: "Cascade Chronicles"
+          CeruleanConjurings:
+            name: "Cerulean Conjurings"
+          LiquidLore:
+            name: "Liquid Lore"
+          LoreoftheOceanicKingdoms:
+            name: "Lore of the Oceanic Kingdoms"
+          Marinomicon:
+            name: "Marinomicon"
+          NotesaboutMaelstrom:
+            name: "Notes about Maelstrom"
+          PearlweaversTome:
+            name: "Pearlweaver's Tome"
+          RecordofMysticCurrents:
+            name: "Record of Mystic Currents"
+          SecretsUndertheSea:
+            name: "Secrets Under the Sea"
+          SecretsofWaves:
+            name: "Secrets of Waves"
+          StudyofWaters:
+            name: "Study of Waters"
+          TeachofPoseidon:
+            name: "Teach of Poseidon"
+          TidecallersCodex:
+            name: "Tidecaller's Codex"
+          WaterMagicTricks:
+            name: "Water Magic Tricks"
+          WhisperofWater:
+            name: "Whisper of Water"
+        Wind:
+          Aeroalchemy:
+            name: "Aeroalchemy"
+          AerovaneVerses:
+            name: "Aerovane Verses"
+          ArcticWindMagic:
+            name: "Arctic Wind Magic"
+          BookofVacuum:
+            name: "Book of Vacuum"
+          ChroniclesoftheClouds:
+            name: "Chronicles of the Clouds"
+          CycloneCompendium:
+            name: "Cyclone Compendium"
+          GustboundGrimoire:
+            name: "Gustbound Grimoire"
+          MistralNotes:
+            name: "Mistral Notes"
+          NovelaboutWind:
+            name: "Novel about Wind"
+          RecordofSky:
+            name: "Record of Sky"
+          SkyScrolls:
+            name: "Sky Scrolls"
+          SkydancersCompendium:
+            name: "Skydancer's Compendium"
+          SongsoftheZephyr:
+            name: "Songs of the Zephyr"
+          SpellsoftheBreeze:
+            name: "Spells of the Breeze"
+          SpellsoftheSkyward:
+            name: "Spells of the Skyward"
+          StudyofAirPollution:
+            name: "Study of Air Pollution"
+          TornadoMagicBook:
+            name: "Tornado Magic Book"
+          TyphoonTomes:
+            name: "Typhoon Tomes"
+          UnleashingWindMagic:
+            name: "Unleashing Wind Magic"
+          ZephyrianGrimoire:
+            name: "Zephyrian Grimoire"
