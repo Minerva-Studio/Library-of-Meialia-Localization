@@ -1,7 +1,23 @@
 Amlos:
   Entity:
+    AbsoluteZeroExplode:
+      name: "absolute zero explode"
+    AbyssalDevour:
+      name: "abyssal devour"
+    AbyssalRain:
+      name: "abyssal rain"
+    AmirSword:
+      name: "amir sword"
+    AmlosClaw:
+      name: "claw"
+    AmlosTail:
+      name: "tail"
+    BlueLight:
+      name: "blue light"
     BookWorm:
       name: "Book Worm"
+    Brick:
+      name: "brick"
     Dustevil:
       name: "Dustevil"
     Hemisphrog:
