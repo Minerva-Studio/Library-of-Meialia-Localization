@@ -1,5 +1,11 @@
 Amlos:
   Character:
+    Kitsuru:
+      FirstName:
+        Sakura:
+          name: "樱"
+        Yuki:
+          name: "雪"
     Meialian:
       LastName:
         Palden:
