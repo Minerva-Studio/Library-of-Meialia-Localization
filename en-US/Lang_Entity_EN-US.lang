@@ -2,12 +2,8 @@ Amlos:
   Entity:
     BookWorm:
       name: "Book Worm"
-    Brick:
-      name: "brick"
     Dustevil:
       name: "Dustevil"
-    Generic:
-      name: "explosion"
     Hemisphrog:
       name: "Hemisphrog"
     Laveel:
