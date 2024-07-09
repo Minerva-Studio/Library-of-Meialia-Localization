@@ -146,6 +146,10 @@ Amlos:
       name: "埃米尔的次爪"
     TheGuardian:
       name: "巨石守卫"
+    Tornado:
+      name: "龙卷风"
+    VaccumOrb:
+      name: "真空球"
     WaterWall:
       name: "水墙"
     Waterball:
