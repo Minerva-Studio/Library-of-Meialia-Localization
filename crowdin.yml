@@ -1,3 +1,4 @@
 files:
   - source: Base/*.yml
     translation: '%file_name%_%locale%.lang'
+    update_option: 'update_without_changes'
