@@ -18,17 +18,197 @@ Amlos:
       name: "Book Worm"
     Brick:
       name: "brick"
+    Bubble:
+      name: "bubble"
+    BurningBlade:
+      name: "burning blade"
+    CannonRay:
+      name: "cannon ray"
+    DarkBeam:
+      name: "dark beam"
+    DarkFlareBigExplode:
+      name: "dark flare big explosion"
+    DarkFlareProjectile:
+      name: "dark flare projectile"
+    DarkFlareSmallExplode:
+      name: "dark flare small explosion"
+    DarkRadiation:
+      name: "dark radiation"
+    Darkchain:
+      name: "dark chain"
+    DesertFlower:
+      name: "desert flower"
+    DustCloud:
+      name: "dust cloud"
+    DustStorm:
+      name: "dust storm"
     Dustevil:
       name: "Dustevil"
+    EarthShard:
+      name: "earth shard"
+    EarthSpike:
+      name: "earth spike"
+    Earthball:
+      name: "earthball"
+    Earthball_Pulengs:
+      name: "earthball pulengs"
+    EarthenClaymore:
+      name: "earthen claymore"
+    EraserBall:
+      name: "eraser ball"
+    Eruption:
+      name: "eruption"
+    FireBreath:
+      name: "fire breath"
+    FirePillarSeed:
+      name: "fire pillar seed"
+    FirePillars:
+      name: "fire pillars"
+    Fireball:
+      name: "fireball"
+    FlameMineExplosion:
+      name: "flame mine explosion"
+    FlareDetonation:
+      name: "flare detonation"
+    FlowOfWater:
+      name: "flow of water"
+    FlowerPower:
+      name: "flower power"
+    GaiaGuardian:
+      name: "gaia guardian"
+    Gasoleaf:
+      name: "gasoleaf"
+    Generic:
+      name: "explosion"
+    GenericRay:
+      name: "ray"
+    GravBomb:
+      name: "grav bomb"
+    GravBombProj:
+      name: "grav bomb proj"
+    Ground_Spike:
+      name: "ground spike"
+    GustMissile:
+      name: "gust missile"
+    HeatWave:
+      name: "heat wave"
+    HellfireCrashBodyHit:
+      name: "hellfire crash body hit"
+    HellfireCrashExplosion:
+      name: "hellfire crash explosion"
     Hemisphrog:
       name: "Hemisphrog"
+    HolyLight:
+      name: "holy light"
+    IceWave:
+      name: "ice wave"
+    IcicleBoulder:
+      name: "icicle boulder"
+    LavaLake:
+      name: "lava lake"
+    LavaLake_Ball:
+      name: "lava lake ball"
     Laveel:
       name: "Laveel"
+    LibraryDraft:
+      name: "library draft"
+    LightBarrierExplosion:
+      name: "light barrier explosion"
+    LightGuardianProjectile:
+      name: "light guardian projectile"
     Lightball:
       name: "Lightball"
+    LunarSlash:
+      name: "lunar slash"
+    LunarSlashCombo:
+      name: "lunar slash combo"
+    MamaRhombear:
+      name: "Mama Rhombear"
+    Meteor:
+      name: "meteor"
+    Meteor_Landing:
+      name: "meteor landing"
+    MultiGust:
+      name: "multi gust"
+    Plague:
+      name: "plague"
+    PlantyShard:
+      name: "planty shard"
+    Player:
+      name: "Amlos"
+    RazorTempestMain:
+      name: "razor tempest main"
+    RazorTempestMini:
+      name: "razor tempest mini"
+    RedBeam:
+      name: "red beam"
+    RedLight:
+      name: "red light"
     Rhombear:
       name: "Rhombear"
+    Rook:
+      name: "rook"
+    Sahamusi_SpearSoldier:
+      name: "Sahamusi spearSoldier"
+    ShadowDomainExplosion:
+      name: "shadow domain explosion"
+    SmallEarthball:
+      name: "small earthball"
+    SnowStorm:
+      name: "snow storm"
+    SomeForNoneExplosion:
+      name: "some for none explosion"
+    SoulCharge:
+      name: "soul charge"
+    SoulTrapExplosion:
+      name: "soul trap explosion"
+    SpaceDistortion:
+      name: "space distortion"
+    SpatialCollapseExplosion:
+      name: "spatial collapse explosion"
+    SpiritWarriorProjectile:
+      name: "spirit warrior projectile"
+    StoneBurst:
+      name: "stone burst"
+    StoneEye:
+      name: "Stone Eye"
+    Supernova:
+      name: "supernova"
+    Supernova_Heavy:
+      name: "supernova heavy"
+    Supernova_Helium:
+      name: "supernova helium"
+    Supernova_Hydrogen:
+      name: "supernova hydrogen"
     TheAmir:
       name: "The Amir"
     TheGuardian:
       name: "The Guardian"
+    TheGuardianStoneball:
+      name: "the guardian stoneball"
+    TheGuardianStoneball_Summoning:
+      name: "the guardian stoneball summoning"
+    Tornado:
+      name: "tornado"
+    VaccumOrb:
+      name: "vaccum orb"
+    WaterGunShot:
+      name: "water gun shot"
+    WaterWall:
+      name: "water wall"
+    Waterball:
+      name: "water ball"
+    WindBarrage:
+      name: "wind barrage"
+    WindBlade_Large:
+      name: "large wind blade"
+    WindBlade_Small:
+      name: "small wind blade"
+    WindCutter:
+      name: "wind cutter"
+    WindWall:
+      name: "wind wall"
+    Wind_Ride:
+      name: "wind ride"
+    ZeroRay:
+      name: "zero ray"
