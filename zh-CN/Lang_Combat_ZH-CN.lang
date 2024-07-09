@@ -2,7 +2,7 @@ Amlos:
   Combat:
     ActiveSkill:
       AbsoluteZero:
-        desc: "召唤一个领域，在其中的敌人收到持续伤害，呆得越久伤害越高。"
+        desc: "召唤一个领域，在其中的敌人收到持续伤害，待得越久伤害越高。"
         name: "绝对零度"
       AbyssalDevour:
         desc: "召唤深渊巨口，对最近目标发起吞噬，造成 {attack}。\n对该目标额外叠加{baseIncrement}+{levelBonus}*{level}层沉渊效果。"
@@ -28,9 +28,6 @@ Amlos:
       BurningBlade:
         desc: "将爪击替换为烈火剑，造成{attack}"
         name: "燃烧爪剑"
-      ChargeTest:
-        desc: "ChargeTestDesc."
-        name: "ChargeTest"
       CrushingClaw:
         desc: "造成粉碎爪效果，在{duration}秒内增加物理伤害。"
         name: "碎岩利爪"
@@ -38,7 +35,6 @@ Amlos:
         desc: "从玩家向鼠标方向发射一束黑暗射线。光线造成 {prefab}，射速极快但准度欠佳。"
         name: "暗黑射线"
       DarkChain:
-        desc: "DarkChainDesc."
         name: "黑曜枷锁"
       DarkFlare:
         desc: "召唤一个纯暗能量球朝光标移动，在击中或经过{bigExplodePrefab}距离后爆炸。\n直接碰撞会产生额外的 {smallExplodePrefab}。 "
@@ -50,7 +46,6 @@ Amlos:
         desc: "发射尘云球，接触到尘云球的敌方获得{effectDuration}秒的尘缚效果，受到{attack1}伤害。\n（当受到的非基础元素的伤害时，造成基础伤害的25%的土元素伤害）"
         name: "尘云"
       DustStorm:
-        desc: "DustStormDesc."
         name: "乱尘埋骨"
       EarthSpike:
         desc: "召唤一波前进的尖刺，造成 {prefab} 并击飞敌人，并且还可以对落在尖刺上的敌人造成伤害。"
@@ -62,7 +57,6 @@ Amlos:
         desc: "用土属性阔剑取代利爪攻击，造成大范围的{attack} 。"
         name: "裂岩大剑"
       EraserBall:
-        desc: "EraserBallDesc."
         name: "灭迹球"
       Eruption:
         desc: "向上方散射5颗火球下落，每颗火球对命中的目标造成{projectile}。\n命中后火球对半径{explosion.Radius}米内的造成{explosion}"
@@ -80,7 +74,6 @@ Amlos:
         desc: "在当前位置放置陷阱，当陷阱被目标触碰或存在 {autoExplodeTime} 秒后触发，对半径10米内的所有目标造成 {explosionPrefab} 点火元素伤害。"
         name: "红莲怒"
       FlareDetonator:
-        desc: "FlareDetonatorDesc."
         name: "浓缩熔岩"
       FlowerPower:
         desc: "向指定方向发射一连串花朵，每朵花朵造成 {prefab} 点伤害。"
@@ -88,9 +81,6 @@ Amlos:
       FlowofWater:
         desc: "替换爪击为3段水属性连击。"
         name: "水之道"
-      GravBomb:
-        desc: "GravBombDesc."
-        name: "GravBomb"
       GustMissile:
         desc: "从玩家向鼠标方向发射风弹，风弹开始时速度很慢，但会逐渐增加，速度越快造成的伤害就越大，风弹最少造 {prefab}。"
         name: "蓄势疾风"
@@ -107,31 +97,22 @@ Amlos:
         desc: "以抛物线射出巨型冰块，落地点为鼠标正下方。	\n冰块落地或接触路径上的第一个敌方时爆炸，造成{projectile} 爆炸造成半径{explosion.Radius}米的圆形范围{explosion}。"
         name: "霜冰陨 "
       LakeOfFire:
-        desc: "LakeOfFireDesc."
         name: "岩浆之湖"
       LibrarysDraft:
         desc: "发射多枚弹体，在选定的目标点上造成 {prefab} 的致命打击。"
         name: "漫舞纷飞"
-      LightBarrier:
-        desc: "LightBarrierDesc."
-        name: "LightBarrier"
       LightGuardian:
         desc: "召唤一名光明守护者跟随玩家一段时间。\n它会向第一个进入其射程的敌人发射射弹，造成{projectilePrefab}，直到该敌人死亡。"
         name: "光辉庇护"
-      LightSalvation:
-        desc: "LightSalvationDesc."
-        name: "LightSalvation"
       LunarSlash:
         desc: "在一段时间内用月斩取代利爪攻击，发射月射弹。月射弹接触光线时会缩小，击中后对实体造成 {attack} 与 {slashQuantity} 次{attackCombo} 的爆炸。"
         name: "月华赐福"
       MagicChessPiece:
-        desc: "MagicChessPieceDesc."
         name: "MagicChessPiece"
       Meteor:
         desc: "让流星雨从天而降。\n击中敌方后造成大量伤害，但是无法直接瞄准敌方。"
         name: "坠陨"
       MultiGust:
-        desc: "MultiGustDesc."
         name: "MultiGust"
       None:
         desc: "什么都没有。"
@@ -143,7 +124,6 @@ Amlos:
         desc: "释放大型剃刀，瞄准最近的敌人并造成 {mainTempest}，这些剃刀会定期发射小型剃刀，造成 {smallRazors}。"
         name: "剃刃风暴"
       ReleaseThePlague:
-        desc: "ReleaseThePlagueDesc."
         name: "ReleaseThePlague"
       ShadowDomain:
         desc: "创建一个以玩家为中心的区域，该区域会在 {maximumChargeTime} 内增长。 如果玩家移动太快，或者已经过去了足够的时间，该区域就会爆炸并对区域内的所有敌人造成 {ShadowDomainExplosion}。"
@@ -161,7 +141,6 @@ Amlos:
         desc: "生成一个花瓶，打破后会掉落 25 个辉石碎片。"
         name: "魂之窃"
       SoulCharge:
-        desc: "SoulChargeDesc."
         name: "SoulCharge"
       SoulTrap:
         desc: "在当前位置留下一个持续一段时间的灵魂陷阱。\n任何攻击陷阱的敌人都会触发它，在其范围内造成爆炸伤害。"
@@ -170,13 +149,11 @@ Amlos:
         desc: "在 {lifetime} 内创建一个扭曲空间，吸收传入的友方飞弹，转换飞弹并对区域内的敌人造成 {bulletPrefab} 伤害。"
         name: "空间扭曲"
       SpatialCollapse:
-        desc: "SpatialCollapseDesc."
         name: "SpatialCollapse"
       SpiritLink:
         desc: "用一条灵魂锁链拴住敌人，持续 10 秒。在此期间攻击灵魂锁链会对目标造成{damageMultiplier:f_p1}原伤害的灵魂伤害。"
         name: "魂之链"
       SpiritWarrior:
-        desc: "SpiritWarriorDesc."
         name: "SpiritWarrior"
       SuperNova:
         desc: "释放以玩家为中心的巨大超新星，在该区域造成一开始的爆炸伤害和持续的火焰伤害。"
@@ -191,10 +168,8 @@ Amlos:
         desc: "以扇形向前方发射虚幻泡影，在一个区域中造成连续的{prefab}。\n虚幻泡影会摧毁所有接触的飞行物。"
         name: "虚幻泡影"
       WaterGun:
-        desc: "WaterGunDesc."
         name: "WaterGun"
       WaterWall:
-        desc: "WaterWallDesc."
         name: "WaterWall"
       Waterball:
         desc: "发射一个水弹来造成{prefab}。"
@@ -218,7 +193,6 @@ Amlos:
         desc: "生成水平移动的风墙，击退敌人并阻飞行物。"
         name: "流风壁"
       ZeroRay:
-        desc: "ZeroRayDesc."
         name: "ZeroRay"
     Effect:
       Burning:
@@ -322,41 +296,29 @@ Amlos:
         name: "警告标志"
     PassiveSkill:
       BurningBlood:
-        desc: "BurningBloodDesc."
         name: "BurningBlood"
       EarthProtection:
-        desc: "EarthProtectionDesc."
         name: "EarthProtection"
       EnergyConfluence:
-        desc: "EnergyConfluenceDesc."
         name: "EnergyConfluence"
       FireTouch:
-        desc: "FireTouchDesc."
         name: "FireTouch"
       GaleCombo:
-        desc: "GaleComboDesc."
         name: "GaleCombo"
       GazeFromAbyss:
-        desc: "GazeFromAbyssDesc."
         name: "GazeFromAbyss"
       KarisArmor:
-        desc: "KarisArmorDesc."
         name: "KarisArmor"
       LightShield:
-        desc: "LightShieldDesc."
         name: "LightShield"
       None:
         desc: "无"
         name: "无"
       SolarBless:
-        desc: "SolarBlessDesc."
         name: "SolarBless"
       Starcrack:
-        desc: "StarcrackDesc."
         name: "Starcrack"
       TranquilLake:
-        desc: "TranquilLakeDesc."
         name: "TranquilLake"
       Windblower:
-        desc: "WindblowerDesc."
         name: "Windblower"
