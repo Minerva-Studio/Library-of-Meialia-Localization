@@ -16,11 +16,7 @@ Amlos:
         msg: "{victim} is unconscioused in {cause} spawned by {cause}"
       msg: "{victim} is unconscioused in {cause}"
     Attack:
-      Indirect:
-        msg: "{victim} is caught while running away from {indirect}"
       Source:
-        Indirect:
-          msg: "{victim} is caught by {source} while running away from {indirect}"
         msg: "{victim} is caught by {source}"
       msg: "{victim} is caught"
     Burning:
