@@ -36,11 +36,11 @@ Amlos:
     Attack:
       msg: "{victim} is caught"
       Indirect:
-        msg: "{victim} is caught by {source}"
+        msg: "{victim} is caught while running away from {indirect}"
       Source:
         msg: "{victim} is caught by {source}"
         Indirect:
-          msg: "{victim} is caught by {source}"
+          msg: "{victim} is caught by {source} while running away from {indirect}"
     ### with attacker
     Projectile:
       msg: "{victim} is fainted because {victim} was hit by {cause}"
