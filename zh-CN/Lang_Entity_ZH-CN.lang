@@ -1,19 +1,95 @@
 Amlos:
   Entity:
+    AbsoluteZeroExplode:
+      name: "绝对零度爆炸"
+    AbyssalDevour:
+      name: "深渊巨口"
+    AbyssalRain:
+      name: "深渊惠泽"
+    AmirSword:
+      name: "埃米尔大剑"
+    AmlosClaw:
+      name: "爪子"
+    AmlosTail:
+      name: "尾巴"
+    BlueLight:
+      name: "蓝光"
     BookWorm:
       name: "书虫"
+    Brick:
+      name: "砖头"
+    Bubble:
+      name: "水泡"
+    BurningBlade:
+      name: "燃烧爪剑"
+    CannonRay:
+      name: "大炮激光"
+    DarkBeam:
+      name: "暗黑射线"
+    DarkFlareBigExplode:
+      name: "纯暗能量球爆炸"
+    DarkFlareProjectile:
+      name: "纯暗能量球"
+    DarkFlareSmallExplode:
+      name: "纯暗能量球爆炸"
+    DarkRadiation:
+      name: "暗辐区"
+    Darkchain:
+      name: "黑曜枷锁"
     DesertFlower:
       name: "沙漠之花"
     Dustevil:
       name: "恶尘风"
+    EarthShard:
+      name: "盖亚守护者碎片"
+    EarthSpike:
+      name: "土刺"
+    Earthball:
+      name: "土球"
+    Earthball_Pulengs:
+      name: "小土球"
+    EarthenClaymore:
+      name: "裂岩大剑"
+    Eruption:
+      name: "喷发岩浆球"
+    FireBreath:
+      name: "火息"
+    FirePillarSeed:
+      name: "火柱种子"
+    FirePillars:
+      name: "火柱"
+    Fireball:
+      name: "火球"
+    FlowOfWater:
+      name: "水之道"
+    FlowerPower:
+      name: "花苦无"
     GaiaGuardian:
       name: "盖亚守护者"
+    Generic:
+      name: "爆炸"
+    GenericRay:
+      name: "激光"
     Hemisphrog:
       name: "球蛙"
+    HolyLight:
+      name: "圣光"
+    LavaLake:
+      name: "岩浆湖区"
+    LibraryDraft:
+      name: "图书馆冷风弹"
     Lightball:
       name: "小灯泡"
     MamaRhombear:
       name: "棱熊之母"
+    Meteor:
+      name: "陨石"
+    Meteor_Landing:
+      name: "陨石爆炸"
+    Plague:
+      name: "瘟疫范围"
+    PlantyShard:
+      name: "长草的盖亚守护者碎片"
     Player:
       name: "阿米罗斯"
     Pulengs_Dark:
@@ -28,12 +104,36 @@ Amlos:
       name: "水系扑棱"
     Pulengs_Wind:
       name: "风系扑棱"
+    RazorTempestMain:
+      name: "剃刃风暴"
+    RazorTempestMini:
+      name: "投影_RazorTempestMini"
+    RedBeam:
+      name: "红激光"
+    RedLight:
+      name: "红光"
     Rhombear:
       name: "棱熊"
+    Rook:
+      name: "车"
     Sahamusi_SpearSoldier:
       name: "撒哈姆蜥长矛兵"
+    SmallEarthball:
+      name: "小土球"
+    SnowStorm:
+      name: "风雪暴"
+    SomeForNoneExplosion:
+      name: "血之契约的爆炸"
+    SpiritWarriorProjectile:
+      name: "灵魂战士"
     StoneEye:
       name: "石之眼"
+    Supernova_Heavy:
+      name: "超新星重元素"
+    Supernova_Helium:
+      name: "超新星氦元素"
+    Supernova_Hydrogen:
+      name: "超新星氢元素"
     TeenageRhombear:
       name: "少年棱熊"
     TheAmir:
@@ -44,3 +144,15 @@ Amlos:
       name: "埃米尔的次爪"
     TheGuardian:
       name: "巨石守卫"
+    WaterWall:
+      name: "水墙"
+    Waterball:
+      name: "水球"
+    WindBlade_Large:
+      name: "大风刃"
+    WindBlade_Small:
+      name: "小风刃"
+    WindCutter:
+      name: "风切刃"
+    WindWall:
+      name: "风墙"
