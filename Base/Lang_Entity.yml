@@ -2,91 +2,87 @@
 Amlos:
   Entity:
     AbsoluteZeroExplode:
-      name: "Explosion_AbsoluteZeroExplode"
+      name: "explosion_AbsoluteZeroExplode"
     AbyssalDevour:
-      name: "Areal_AbyssalDevour"
+      name: "areal_AbyssalDevour"
     AbyssalRain:
-      name: "Areal_AbyssalRain"
-    AmirSpike:
-      name: "Projectile_AmirSpike"
+      name: "areal_AbyssalRain"
+    AmirSword:
+      name: "projectile_AmirSword"
     AmlosClaw:
-      name: "MeleeAttack_AmlosClaw"
+      name: "meleeattack_AmlosClaw"
     AmlosTail:
-      name: "MeleeAttack_AmlosTail"
-    Ball:
-      name: "Projectile_Ball"
-    BarrierExplosion:
-      name: "Explosion_Barrier"
+      name: "meleeattack_AmlosTail"
     BlueLight:
-      name: "Projectile_BlueLight"
+      name: "projectile_BlueLight"
     BookWorm:
       desc: "BookWormDesc."
       info: "BookWormInfo."
       name: "BookWorm"
     Brick:
-      name: "Projectile_Brick"
+      name: "projectile_Brick"
     Bubble:
-      name: "Projectile_Bubble"
+      name: "projectile_Bubble"
     BurningBlade:
-      name: "MeleeAttack_BurningBlade"
+      name: "meleeattack_BurningBlade"
     CannonRay:
-      name: "Attack_CannonRay"
+      name: "attack_CannonRay"
     ContactAttack:
-      name: "Attack_Contact"
+      name: "attack_Contact"
     DarkBeam:
-      name: "Attack_DarkBeam"
+      name: "attack_DarkBeam"
     Darkchain:
-      name: "Projectile_Darkchain"
+      name: "projectile_Darkchain"
     DarkFlareBigExplode:
-      name: "Explosion_DarkFlareBigExplode"
+      name: "explosion_DarkFlareBigExplode"
     DarkFlareProjectile:
-      name: "Projectile_DarkFlare"
+      name: "projectile_DarkFlare"
     DarkFlareSmallExplode:
-      name: "Explosion_DarkFlareSmallExplode"
+      name: "explosion_DarkFlareSmallExplode"
     DarkRadiation:
-      name: "Areal_DarkRadiation"
+      name: "areal_DarkRadiation"
     DesertFlower:
       desc: "DesertFlowerDesc."
       info: "DesertFlowerInfo."
       name: "DesertFlower"
     DustCloud:
-      name: "Areal_DustCloud"
+      name: "areal_DustCloud"
     Dustevil:
       desc: "DustevilDesc."
       info: "DustevilInfo."
       name: "Dustevil"
     DustStorm:
-      name: "Areal_DustStorm"
+      name: "areal_DustStorm"
     Earthball:
-      name: "Projectile_Earthball"
+      name: "projectile_Earthball"
     Earthball_Pulengs:
-      name: "Projectile_Earthball_Pulengs"
+      name: "projectile_Earthball_Pulengs"
     EarthenClaymore:
-      name: "MeleeAttack_EarthenClaymore"
+      name: "meleeattack_EarthenClaymore"
     EarthShard:
-      name: "Projectile_EarthShard"
+      name: "projectile_EarthShard"
     EarthSpike:
-      name: "Areal_EarthSpike"
-    EraserBallPrefab:
-      name: "Projectile_EraserBallPrefab"
+      name: "areal_EarthSpike"
+    EraserBall:
+      name: "projectile_EraserBall"
     Eruption:
-      name: "Projectile_Eruption"
+      name: "projectile_Eruption"
     Fireball:
-      name: "Projectile_Fireball"
+      name: "projectile_Fireball"
     FireBreath:
-      name: "Areal_FireBreath"
+      name: "areal_FireBreath"
     FirePillars:
-      name: "Areal_FirePillars"
+      name: "areal_FirePillars"
     FirePillarSeed:
-      name: "Projectile_FirePillarSeed"
+      name: "projectile_FirePillarSeed"
     FlameMineExplosion:
-      name: "Explosion_FlameMine"
+      name: "explosion_FlameMine"
     FlareDetonation:
-      name: "Areal_FlareDetonation"
+      name: "areal_FlareDetonation"
     FlowerPower:
-      name: "Projectile_FlowerPower"
+      name: "projectile_FlowerPower"
     FlowOfWater:
-      name: "MeleeAttack_FlowOfWater"
+      name: "meleeattack_FlowOfWater"
     GaiaGuardian:
       desc: "GaiaGuardianDesc."
       info: "GaiaGuardianInfo."
@@ -96,67 +92,69 @@ Amlos:
       info: "GasoleafInfo."
       name: "Gasoleaf"
     Generic:
-      name: "Explosion_Generic"
+      name: "explosion_Generic"
+    GenericRay:
+      name: "attack_GenericRay"
     GravBomb:
-      name: "Areal_GravBomb"
+      name: "areal_GravBomb"
     GravBombProj:
-      name: "Projectile_GravBombProj"
+      name: "projectile_GravBombProj"
     Ground_Spike:
-      name: "Attack_Ground_Spike"
+      name: "attack_Ground_Spike"
     GustMissile:
-      name: "Projectile_GustMissile"
+      name: "projectile_GustMissile"
     HeatWave:
-      name: "Areal_HeatWave"
+      name: "areal_HeatWave"
     HellfireCrashBodyHit:
-      name: "MeleeAttack_HellfireCrashBodyHit"
+      name: "meleeattack_HellfireCrashBodyHit"
     HellfireCrashExplosion:
-      name: "Explosion_HellfireCrash"
+      name: "explosion_HellfireCrash"
     Hemisphrog:
       desc: "HemisphrogDesc."
       info: "HemisphrogInfo."
       name: "Hemisphrog"
     HolyLight:
-      name: "Areal_HolyLight"
+      name: "areal_HolyLight"
     IceWave:
-      name: "Projectile_IceWave"
+      name: "projectile_IceWave"
     IcicleBoulder:
-      name: "Projectile_IcicleBoulder"
+      name: "projectile_IcicleBoulder"
     LavaLake:
-      name: "Areal_LavaLake"
+      name: "areal_LavaLake"
+    LavaLake_Ball:
+      name: "projectile_LavaLake_Ball"
     Laveel:
       desc: "LaveelDesc."
       info: "LaveelInfo."
       name: "Laveel"
     LibraryDraft:
-      name: "Projectile_LibraryDraft"
-    Light_Guardian:
-      name: "Projectile_Light_Guardian"
+      name: "projectile_LibraryDraft"
     Lightball:
       desc: "LightballDesc."
       info: "LightballInfo."
       name: "Lightball"
+    LightBarrierExplosion:
+      name: "explosion_LightBarrier"
+    LightGuardianProjectile:
+      name: "projectile_LightGuardian"
     LunarSlash:
-      name: "Projectile_LunarSlash"
+      name: "projectile_LunarSlash"
     LunarSlashCombo:
-      name: "Explosion_LunarSlashCombo"
+      name: "explosion_LunarSlashCombo"
     MamaRhombear:
       desc: "MamaRhombearDesc."
       info: "MamaRhombearInfo."
       name: "MamaRhombear"
-    MamasRhombear:
-      desc: "MamasRhombearDesc."
-      info: "MamasRhombearInfo."
-      name: "MamasRhombear"
     Meteor:
-      name: "Projectile_Meteor"
+      name: "projectile_Meteor"
     Meteor_Landing:
-      name: "Explosion_Meteor_Landing"
+      name: "explosion_Meteor_Landing"
     MultiGust:
-      name: "Projectile_MultiGust"
+      name: "projectile_MultiGust"
     Plague:
-      name: "Areal_Plague"
+      name: "areal_Plague"
     PlantyShard:
-      name: "Projectile_PlantyShard"
+      name: "projectile_PlantyShard"
     Player:
       name: "Amlos"
     Pulengs_Dark:
@@ -184,41 +182,39 @@ Amlos:
       info: "Pulengs_WindInfo."
       name: "Pulengs_Wind"
     PurifyHeartWave:
-      name: "Areal_PurifyHeartWave"
-    Ray:
-      name: "Attack_Ray"
+      name: "areal_PurifyHeartWave"
     RazorTempestMain:
-      name: "Areal_RazorTempestMain"
+      name: "areal_RazorTempestMain"
     RazorTempestMini:
-      name: "Projectile_RazorTempestMini"
+      name: "projectile_RazorTempestMini"
     RedBeam:
-      name: "Attack_RedBeam"
+      name: "attack_RedBeam"
     RedLight:
-      name: "Projectile_RedLight"
+      name: "projectile_RedLight"
     Rhombear:
       desc: "RhombearDesc."
       info: "RhombearInfo."
       name: "Rhombear"
     Rook:
-      name: "Projectile_Rook"
+      name: "projectile_Rook"
     Sahamusi_SpearSoldier:
       desc: "Sahamusi_SpearSoldierDesc."
       info: "Sahamusi_SpearSoldierInfo."
       name: "Sahamusi_SpearSoldier"
     ShadowDomainExplosion:
-      name: "Explosion_ShadowDomain"
+      name: "explosion_ShadowDomain"
     SmallEarthball:
-      name: "Projectile_SmallEarthball"
+      name: "projectile_SmallEarthball"
     SnowStorm:
-      name: "Areal_SnowStorm"
+      name: "areal_SnowStorm"
     SomeForNoneExplosion:
-      name: "Explosion_SomeForNone"
+      name: "explosion_SomeForNone"
     SoulBankEntity:
       desc: "SoulBankEntityDesc."
       info: "SoulBankEntityInfo."
       name: "SoulBankEntity"
     SoulCharge:
-      name: "Areal_SoulCharge"
+      name: "areal_SoulCharge"
     SoulChargeEntity:
       desc: "SoulChargeEntityDesc."
       info: "SoulChargeEntityInfo."
@@ -228,31 +224,31 @@ Amlos:
       info: "SoulTrapActivatorInfo."
       name: "SoulTrapActivator"
     SoulTrapExplosion:
-      name: "Explosion_SoulTrap"
+      name: "explosion_SoulTrap"
     SpaceDistortion:
-      name: "Projectile_SpaceDistortion"
+      name: "projectile_SpaceDistortion"
     SpatialCollapseExplosion:
-      name: "Explosion_SpatialCollapse"
+      name: "explosion_SpatialCollapse"
     SpiritLinkEntity:
       desc: "SpiritLinkEntityDesc."
       info: "SpiritLinkEntityInfo."
       name: "SpiritLinkEntity"
     SpiritWarriorProjectile:
-      name: "Projectile_SpiritWarrior"
+      name: "projectile_SpiritWarrior"
     StoneBurst:
-      name: "MeleeAttack_StoneBurst"
+      name: "meleeattack_StoneBurst"
     StoneEye:
       desc: "StoneEyeDesc."
       info: "StoneEyeInfo."
       name: "StoneEye"
-    Supernova_Areal:
-      name: "Areal_Supernova_"
+    Supernova:
+      name: "areal_Supernova"
     Supernova_Heavy:
-      name: "Projectile_Supernova_Heavy"
+      name: "projectile_Supernova_Heavy"
     Supernova_Helium:
-      name: "Projectile_Supernova_Helium"
+      name: "projectile_Supernova_Helium"
     Supernova_Hydrogen:
-      name: "Projectile_Supernova_Hydrogen"
+      name: "projectile_Supernova_Hydrogen"
     TeenageRhombear:
       desc: "TeenageRhombearDesc."
       info: "TeenageRhombearInfo."
@@ -273,35 +269,33 @@ Amlos:
       desc: "TheGuardianDesc."
       info: "TheGuardianInfo."
       name: "TheGuardian"
-    TheGuardianContactAttack:
-      name: "Attack_TheGuardianContact"
     TheGuardianStoneball:
-      name: "Projectile_TheGuardianStoneball"
+      name: "projectile_TheGuardianStoneball"
     TheGuardianStoneball_Summoning:
-      name: "MeleeAttack_TheGuardianStoneball_Summoning"
+      name: "meleeattack_TheGuardianStoneball_Summoning"
     Tornado:
-      name: "Areal_Tornado"
+      name: "areal_Tornado"
     VaccumOrb:
-      name: "Areal_VaccumOrb"
+      name: "areal_VaccumOrb"
     Waterball:
-      name: "Projectile_Waterball"
+      name: "projectile_Waterball"
     WaterGunShot:
-      name: "Explosion_WaterGunShot"
+      name: "explosion_WaterGunShot"
     WaterWall:
-      name: "Projectile_WaterWall"
+      name: "projectile_WaterWall"
     Wind_Ride:
-      name: "Projectile_Wind_Ride"
+      name: "projectile_Wind_Ride"
     WindBarrage:
-      name: "MeleeAttack_WindBarrage"
+      name: "meleeattack_WindBarrage"
     WindBlade_Large:
-      name: "Projectile_WindBlade_Large"
+      name: "projectile_WindBlade_Large"
     WindBlade_Small:
-      name: "Projectile_WindBlade_Small"
+      name: "projectile_WindBlade_Small"
     WindCutter:
-      name: "Projectile_WindCutter"
+      name: "projectile_WindCutter"
     WindWall:
-      name: "Areal_WindWall"
+      name: "areal_WindWall"
     ZeroRay:
-      name: "Projectile_ZeroRay"
+      name: "projectile_ZeroRay"
     ZeroRayProjectile:
-      name: "Projectile_ZeroRay"
+      name: "projectile_ZeroRay"

@@ -55,17 +55,17 @@ Amlos:
       Indirect:
         msg: "{victim} is unconscioused in {cause} while running away from {indirect}"
       Source:
-        msg: "{victim} is unconscioused in {cause} spawned by {cause}"
+        msg: "{victim} is unconscioused in {cause} spawned by {source}"
         Indirect:
-          msg: "{victim} is unconscioused in {cause} spawned by {cause} while running away from {indirect}"
+          msg: "{victim} is unconscioused in {cause} spawned by {source} while running away from {indirect}"
     Explosion:
-      msg: "{victim} is severnly injured by an explosion"
+      msg: "{victim} is severely injured by an explosion"
       Indirect:
-        msg: "{victim} is severnly injured by {source}'s explosion"
+        msg: "{victim} is severely injured by {source}'s explosion"
       Source:
-        msg: "{victim} is severnly injured by an explosion while running away from {indirect}"
+        msg: "{victim} is severely injured by an explosion while running away from {indirect}"
         Indirect:
-          msg: "{victim} is severnly injured by {source}'s explosion while running away from {indirect}"
+          msg: "{victim} is severely injured by {source}'s explosion while running away from {indirect}"
     MeleeAttack:
       msg: "{victim} is defeated by {cause}"
       Indirect:
@@ -120,7 +120,7 @@ Amlos:
       Source:
         msg: "{victim} was ignited by lava by {source}"
         Indirect:
-          msg: "{victim} was told by {indirect} that {victim} is not a dragon, yet {vicim} did not listen and {source} ingite {victim} with lava"
+          msg: "{victim} was told by {indirect} that {victim} is not a dragon, yet {victim} did not listen and {source} ingite {victim} with lava"
     #### Poison
     Poison:
       msg: "{victim} was poisoned"
@@ -134,11 +134,11 @@ Amlos:
     Dusted:
       msg: "{victim} was covered by dust"
       Indirect:
-        msg: "{vicim} was covered by dust while running away from {indirect}"
+        msg: "{victim} was covered by dust while running away from {indirect}"
       Source:
         msg: "{victim} was covered by dust by {source}"
         Indirect:
-          msg: "{vicim} was covered by dust by {source} while running away from {indirect}"
+          msg: "{victim} was covered by dust by {source} while running away from {indirect}"
     #### Dark Irradiated
     DarkIrradiated:
       msg: "{victim} is burned by dark irradiation"
