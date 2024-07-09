@@ -8,6 +8,8 @@ Amlos:
       name: "深渊惠泽"
     AmlosTail:
       name: "尾巴"
+    BlueLight:
+      name: "蓝光"
     BookWorm:
       name: "书虫"
     Brick:
@@ -28,16 +30,22 @@ Amlos:
       name: "纯暗能量球爆炸"
     DarkRadiation:
       name: "暗辐区"
+    Darkchain:
+      name: "黑曜枷锁"
     DesertFlower:
       name: "沙漠之花"
     Dustevil:
       name: "恶尘风"
+    EarthShard:
+      name: "盖亚守护者碎片"
     EarthSpike:
       name: "土刺"
     Earthball:
       name: "土球"
     Earthball_Pulengs:
       name: "小土球"
+    EarthenClaymore:
+      name: "裂岩大剑"
     Eruption:
       name: "喷发岩浆球"
     FireBreath:
@@ -48,6 +56,10 @@ Amlos:
       name: "火柱"
     Fireball:
       name: "火球"
+    FlowOfWater:
+      name: "水之道"
+    FlowerPower:
+      name: "花苦无"
     GaiaGuardian:
       name: "盖亚守护者"
     Generic:
@@ -64,8 +76,16 @@ Amlos:
       name: "球蛙"
     HolyLight:
       name: "圣光"
+    LavaLake:
+      name: "岩浆湖区"
+    LibraryDraft:
+      name: "图书馆冷风弹"
     Lightball:
       name: "小灯泡"
+    LunarSlash:
+      name: "月华刃"
+    LunarSlashCombo:
+      name: "月华刃爆炸"
     MamaRhombear:
       name: "棱熊之母"
     Meteor:
@@ -74,6 +94,8 @@ Amlos:
       name: "陨石爆炸"
     Plague:
       name: "瘟疫范围"
+    PlantyShard:
+      name: "长草的盖亚守护者碎片"
     Player:
       name: "阿米罗斯"
     Pulengs_Dark:
@@ -88,6 +110,10 @@ Amlos:
       name: "水系扑棱"
     Pulengs_Wind:
       name: "风系扑棱"
+    RazorTempestMain:
+      name: "剃刃风暴"
+    RazorTempestMini:
+      name: "小剃刃"
     RedBeam:
       name: "红激光"
     RedLight:
@@ -104,6 +130,8 @@ Amlos:
       name: "风雪暴"
     SomeForNoneExplosion:
       name: "血之契约的爆炸"
+    SpiritWarriorProjectile:
+      name: "灵魂战士"
     StoneEye:
       name: "石之眼"
     Supernova_Heavy:
@@ -142,3 +170,5 @@ Amlos:
       name: "风墙"
     AmirSword:
       name: 埃米尔大剑
+    LightGuardianProjectile:
+      name: 光辉庇护弹
