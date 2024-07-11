@@ -4,7 +4,7 @@ Amlos:
       info: "Activate/CD: §G{activation}s§/§R{cooldown}s§"
     BookPage:
       BrokenPage:
-        desc: "A broken magic page, are now unreadable due to years of weathering or destructive uses."
+        desc: "A broken magic page, now unreadable due to years of weathering or destructive uses."
         name: "Broken Page"
       Hand:
         Active:
@@ -55,7 +55,7 @@ Amlos:
     SkillDuration:
       info: "Activate/CD: §G{activation:f_f1}s§/§R{cooldown:f_f1}s§"
     Suffocation:
-      desc: "Soffocating, taking {DAMAGE} of true damage every {DAMAGE_DEAL_INTERVAL}s"
+      desc: "Suffocating, taking {DAMAGE} of true damage every {DAMAGE_DEAL_INTERVAL}s"
       name: "Suffocate"
   Control:
     Input:
