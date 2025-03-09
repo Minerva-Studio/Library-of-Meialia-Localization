@@ -2,7 +2,7 @@ Amlos:
   Combat:
     ActiveSkill:
       AbsoluteZero:
-        desc: "Create a zone that instantly removes heat, periodically dealing AOE damage when in the zone."
+        desc: "Create a zone that instantly eradicates all heat, periodically dealing AOE damage to enemies in the zone."
         name: "Absolute Zero"
       AbyssalDevour:
         desc: "Summons an abyssal hole. Selects the closest target to devour. \nDeals {attack} to the enemy closest to mouse position. Adds {baseIncrement}+{levelBonus}*{level} additional Sunken counts to this target."
@@ -23,10 +23,10 @@ Amlos:
         desc: "Drops a large brick from the ceiling onto an area, dealing {prefab}.\nPowerful, but moves slowly and may miss enemies."
         name: "Brick"
       Bubbles:
-        desc: "Shoots a spread of bubbles that deal {attack1} to enemies and can go through walls.\n"
+        desc: "Shoots a spread of bubbles that deal {attack1} to enemies. Can go through walls."
         name: "Bubbles"
       BurningBlade:
-        desc: "Replaces Claw attack with Burning Blade for {activation}s, dealing {attack}."
+        desc: "Replaces standard Claw attack with a Burning Blade for {activation}s, dealing {attack}."
         name: "Burning Blade"
       ChargeTest:
         desc: "A debug skill used to test charge skills. Always gives a level of charge, and has an extremely low recharge time."
@@ -59,7 +59,7 @@ Amlos:
         desc: "Summon an orbiting Earthen sphere that does {prefab} damage when contacting enemies."
         name: "Earth Ball"
       EarthenClaymore:
-        desc: "Replaces Claw attack with swings of the mighty Earthen Claymore, \ndealing {attack} sweeping across a large area."
+        desc: "Replaces standard Claw attack with swings of the mighty Earthen Claymore, \ndealing {attack} sweeping across a large area."
         name: "Earthen Claymore"
       EraserBall:
         desc: "Gives 5 §YCharge§ level unless at {chargeToExecute} §YCharge§. Shoots an eraser ball projectile, dealing {eraserBall} with a speed of {baseSpeed}. Every additional §YCharge§ increases the effect of gravity by {gravityScaleScaling} and decreasing speed to {scalingSpeedBetweenOneAndZero} of original and decreasing damage to {scalingDamageBetweenOneAndZero} of original."
@@ -74,7 +74,7 @@ Amlos:
         desc: "Summon fire pillars, Deal {pillar} every {pillar.DealDamageTime}s for {activation}s.\n"
         name: "Fire Pillars"
       Fireball:
-        desc: "Spout a tracking fireball that deal with {fireball}, creating a explosion with {explosion} and radius {explosion.Radius}."
+        desc: "Conjure a tracking fireball that deals with {fireball}, creating an explosion with {explosion} and radius {explosion.Radius}."
         name: "Fireball"
       FlameMine:
         desc: "Creates a mine at current location, exploding for {explosionPrefab} on contact or after {autoExplodeTime}s in a radius 10. "
@@ -92,7 +92,7 @@ Amlos:
         desc: "GravBombDesc."
         name: "Gravity Bomb"
       GustMissile:
-        desc: "Creates wind projectiles from the player towards the mouse.\nThe missiles start slow but become fast. The faster they are, the more damage they do. Minimum {prefab}"
+        desc: "Creates wind projectiles from the player towards the mouse.\nThe missiles start slow but increase in speed over time. The faster they are, the more damage they do. Minimum {prefab}"
         name: "Gust Missile"
       HeatWave:
         desc: "Create an outward expanding ring of heat from Radius 5 to Radius 10 over 10s, dealing {prefab} in the area."
@@ -101,7 +101,7 @@ Amlos:
         desc: "Clad yourself in hellfire and charge toward cursor until colision, dealing {attack} and exploding for {explosion}."
         name: "Hellfire Crash"
       HolyLight:
-        desc: "Create a wide ray of light that deals {holyLightPrefab} per second to enemies within.\nLasts for a long time. "
+        desc: "Create a wide ray of light that deals {holyLightPrefab} per second to all enemies within.\nLasts for a long time."
         name: "Holy Light"
       IcicleBoulder:
         desc: "Shoot a heavy ice boulder in a projectile, landing at the ground under mouse position.\nThe ice boulder explodes when hitting the ground or the first enemy on its route and deals {projectile} to the enemy The explosion affects a circle of radius {explosion.Radius}m and {explosion}."
